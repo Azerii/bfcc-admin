@@ -1,13 +1,257 @@
-body {
+@font-face {
+  font-family: "Circular Std Black";
+  src: url("./assets/fonts/CircularStd-Black.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("./assets/fonts/CircularStd-Book.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std Medium";
+  src: url("./assets/fonts/CircularStd-Medium.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std Bold";
+  src: url("./assets/fonts/CircularStd-Bold.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary: #003399;
+  --secondary: #4655c2;
+  --tint: #ccd6eb;
+  --success: #219653;
+  --warning: #ffcc00;
+  --danger: #a10000;
+  --text: #1a1a1a;
+  --grey_1: #8d9091;
+  --grey_2: #aaaaaa;
+  --grey_3: #cccccc;
+  --grey_4: #fafafa;
+  --white: #ffffff;
+  --font_black: "Circular Std Black";
+  --font_regular: "Circular Std Book";
+  --font_medium: "Circular Std Medium";
+  --font_bold: "Circular Std Bold";
+  --filter_primary: brightness(0%) saturate(100%) invert(9%) sepia(82%)
+    saturate(7439%) hue-rotate(219deg) brightness(79%) contrast(101%);
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+body {
+  color: var(--text);
+  margin: 0;
+  font-family: var(--font_regular), -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 16px;
+  letter-spacing: 0em;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input:focus,
+button:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+select {
+  font-family: var(--font_regular);
+  appearance: none;
+}
+
+textarea {
+  font-family: var(--font_regular);
+  resize: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+label {
+  font-family: var(--font_regular);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Heading */
+
+h1 {
+  font-family: var(--font_black);
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--grey_1);
+}
+
+h2 {
+  font-family: var(--font_bold);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--grey_1);
+}
+
+h3 {
+  font-family: var(--font_bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+h4 {
+  font-family: var(--font_bold);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+h5 {
+  font-family: var(--font_medium);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+h6 {
+  font-family: var(--font_medium);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Title */
+
+.title-1 {
+  font-family: var(--font_regular);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.title-2 {
+  font-family: var(--font_black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.title-3 {
+  font-family: var(--font_bold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Paragragh */
+
+p {
+  font-family: var(--font_regular);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 }
