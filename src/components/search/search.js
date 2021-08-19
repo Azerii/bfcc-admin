@@ -1,7 +1,6 @@
 import React,{useState} from 'react';
 import styled from 'styled-components';
-import search_img from '../../assets/images/Search-search.svg'
-import cancel from '../../assets/images/cancel.svg'
+import {search_img,cancel} from '../../assets'
 const Wrapper = styled.div`
 .search_contain{
     font-family:var(--font_black);

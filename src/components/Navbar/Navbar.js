@@ -1,9 +1,7 @@
 import React from 'react';
 import styled  from 'styled-components';
 import Search from '../search/search'
-import logo from '../../assets/images/logo.svg'
-import notification from '../../assets/images/notification.svg'
-import avatar from '../../assets/images/avatar.svg'
+import {logo,notification,avatar} from '../../assets'
 const Wrapper = styled.div`
 display:flex;
 height:72px;
