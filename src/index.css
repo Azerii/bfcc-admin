@@ -32,7 +32,9 @@
 
 :root {
   --primary: #003399;
+  --primary_dark:#002266;
   --secondary: #4655c2;
+  --navy: #001A4D;
   --tint: #ccd6eb;
   --success: #219653;
   --warning: #ffcc00;
