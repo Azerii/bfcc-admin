@@ -32,12 +32,15 @@
 
 :root {
   --primary: #003399;
+  --primary_dark: #002266;
+  --navy: #001a4d;
   --secondary: #4655c2;
   --tint: #ccd6eb;
   --success: #219653;
   --warning: #ffcc00;
   --danger: #a10000;
   --text: #1a1a1a;
+  --border: #efefef;
   --grey_1: #8d9091;
   --grey_2: #aaaaaa;
   --grey_3: #cccccc;
@@ -49,6 +52,8 @@
   --font_bold: "Circular Std Bold";
   --filter_primary: brightness(0%) saturate(100%) invert(9%) sepia(82%)
     saturate(7439%) hue-rotate(219deg) brightness(79%) contrast(101%);
+  --filter_text: brightness(0%) saturate(100%) invert(0%) sepia(5%)
+    saturate(5377%) hue-rotate(70deg) brightness(80%) contrast(80%);
 }
 
 * {
@@ -84,6 +89,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+main {
+  padding: 4.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2.4rem;
+}
+
+input {
+  color: inherit;
 }
 
 input:focus {
