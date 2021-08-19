@@ -1,38 +1,52 @@
-import React from 'react';
+import React,{useState} from 'react';
 import styled from 'styled-components';
 import search_img from '../../assets/images/Search-search.svg'
+import cancel from '../../assets/images/cancel.svg'
 const Wrapper = styled.div`
 .search_contain{
+    font-family:var(--font_black);
     display:flex;
     align-items:center;
-    width: 258px;
-    height: 40px;
-    // background:red;
-    border: 1px solid #efefef;
-    border-radius:4px;
     input{
         background:transparent;
+        width: 258px;
+        height: 40px;
         border:none;
-        width:100%;
-        margin-right:12.5px;
+        padding-left:43px;
+        padding-right:1rem;
         font-size:14px;
+        border: 1px solid #efefef;
+        border-radius:4px;
+        margin:0;
         ::placeholder{
             color:var(--grey_1);
+        }
+        :focus{
+            border-color:#003399;
         }
 
     }
     img{
-        margin-left:12.5px;
-        margin-right:10.17px;
+        height:16px;
+        width:20px;
+    }
+    .search_img{
+        margin-right:-30px;
+    }
+    .cancel{
+        margin-left:-30px;
     }
 }
 `
-const search = ()=> <>
-<Wrapper>
+const Search = ()=>{ 
+const [useCancel,setCancel] = useState(false)
+
+return(<Wrapper>
     <div className='search_contain'>
-    <img src={search_img} />
-    <input placeholder='Search by name'/>
+        <img className="search_img" src={search_img} alt="search_img" />
+        <input placeholder='Search by name' onClick={()=>setCancel(true)}/> 
+        {useCancel && <img className="cancel" src={cancel} alt="cancel" />}
     </div>
-</Wrapper>
-</>
-export default search
+</Wrapper>)
+}
+export default Search

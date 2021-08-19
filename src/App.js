@@ -1,12 +1,12 @@
 import Layout from "./components/Layout";
-import Search from './components/search/search'
+import Navbar from './components/Navbar/Navbar'
 
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Search/>
+        <Navbar/>
       </Layout>
     </div>
   );
