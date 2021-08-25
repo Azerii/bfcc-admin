@@ -14,6 +14,7 @@ const Wrapper = styled.div`
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  color:${props=>props.disabled ?"var(--grey_2)":"black"};
 }
 
 /* Hide the browser's default radio button */
@@ -32,14 +33,14 @@ const Wrapper = styled.div`
   width: 24px;
   border:1.5px solid var(--grey_3);
 
-  background-color: trasparent;
+  background-color: ${props=>props.disabled?"var(--grey_5)":"trasparent"};
   border-radius: 50%;
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-    background-color: transparent;
-    border:1.5px solid var(--primary)
+  background-color: ${props=>props.disabled?"var(--grey_5)":"trasparent"};
+    border:${props=>props.disabled ?"1.5px solid var(--grey_3)":"1.5px solid var(--primary)"}
 }
 
 /* When the radio button is checked, add a blue background */
@@ -47,9 +48,7 @@ const Wrapper = styled.div`
   background-color: var(--primary);
   border-color:var(--primary)
 }
-.container input:disabled ~ .checkmark:after {
-  background-color:  var(--grey_3);
-}
+
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {
@@ -75,7 +74,7 @@ const Wrapper = styled.div`
 
 
 `
-const RadioButton = (props)=><Wrapper>
+const RadioButton = (props)=><Wrapper {...props}>
 <label class="container">{props.text}
   <input type="radio" name={props.name} disabled={props.disabled} checked={props.checked} name={props.name}/>
   <span class="checkmark"></span>

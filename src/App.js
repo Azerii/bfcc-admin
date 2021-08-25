@@ -11,8 +11,11 @@ function App() {
       <Layout>
         <Navbar/>
         <Checkbox text='Hello'/>
-        <RadioButton name="radio" text="hello" checked/>
-        <RadioButton name="radio" text="disabled"  disabled="disabled"/>
+        <Checkbox text='Hello' disabled/>
+        <RadioButton name="radio" text="apple" checked/>
+        <RadioButton name="radio" text="banana"   />
+        <RadioButton name="radio" text="orange"   />
+        <RadioButton name="radio"  disabled="disabled" text="disabled"/>
         <Pagination/>
       </Layout>
     </div>

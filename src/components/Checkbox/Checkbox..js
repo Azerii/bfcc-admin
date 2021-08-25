@@ -93,7 +93,7 @@ border-color:var(--primary);
   transform: rotate(45deg);
 }
 ` 
-const Checkbox = (props)=><Wrapper>
+const Checkbox = (props)=><Wrapper {...props}>
   <label className="container">
     {props.text}
   <input type="checkbox" disabled={props.disabled} checked={props.checked}  indeterminate={props.indeterminate}/>
