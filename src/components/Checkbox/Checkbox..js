@@ -14,6 +14,7 @@ const Wrapper = styled.div`
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  color:${props=>props.disabled ?"var(--grey_2)": "var(--text)"};
 }
 
 /* Hide the browser's default checkbox */
@@ -40,7 +41,7 @@ const Wrapper = styled.div`
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-border-color:var(--primary);
+border-color:${props=>props.disabled ?"": "var(--primary)"};
 }
 
 /* When the checkbox is checked, add a blue background */
@@ -71,7 +72,7 @@ border-color:var(--primary);
     top: 1px;
     width: 10px;
     height: 10px;
-    border: solid white;
+    border: ${props=>props.disabled ?"none": "solid white"};
     border-width: 0 2px 0 0;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
