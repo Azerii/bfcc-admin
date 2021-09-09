@@ -1,7 +1,7 @@
 import Checkbox from "./components/Checkbox/Checkbox.";
 import Layout from "./components/Layout";
 import Navbar from './components/Navbar/Navbar'
-// import Pagination from './components/pagination/Pagination'
+// import Pagination from './components/Pagination/Pagination'
 import RadioButton from "./components/RadioButton/RadioButton";
 
 
@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Layout>
         <Navbar/>
+        {/* <Pagination/> */}
         <Checkbox text='Check'/>
         <Checkbox text='Unchecked'/>
         <Checkbox text='disabled' disabled/>
