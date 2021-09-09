@@ -7,8 +7,11 @@ display:flex;
 flex-direction:column;
 // justify-content:space-between;
 border-top:1px solid #E5E7EB;
-div + div{
+a + a{
     margin-top:24px;
+}
+.active > div{
+    color:var(--primary);
 }
 padding:24px 0;
 height:auto;
