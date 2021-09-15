@@ -1,7 +1,24 @@
 import React from 'react';
-import classnames from 'classnames';
+// import classnames from 'classnames';
 import { usePagination, DOTS } from './usePagination';
-import './pagination.scss';
+import styled from 'styled-components';
+import {arrow_left_blue,arrow_left_grey,arrow_right_blue,arrow_right_grey} from '../../assets'
+const Wrapper = styled.ul`
+display:flex;
+align-items:center;
+li{
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  color: white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.featured{
+  background-color:var(--primary);
+}
+` 
 const Pagination = props => {
   const {
     onPageChange,
@@ -19,62 +36,95 @@ const Pagination = props => {
     pageSize
   });
 
-  // If there are less than 2 times in pagination range we shall not render the component
   if (currentPage === 0 || paginationRange.length < 2) {
     return null;
   }
-
+const finalPage = Math.ceil(totalCount / pageSize)
   const onNext = () => {
-    onPageChange(currentPage + 1);
+    if(finalPage > currentPage ) onPageChange(currentPage + 1);
   };
 
   const onPrevious = () => {
-    onPageChange(currentPage - 1);
-  };
+    if(currentPage > 1) onPageChange(currentPage - 1);
+  }; 
+  const onFirstPage = ()=>onPageChange(1);
+  const onLastPage = ()=>onPageChange(finalPage)
 
   let lastPage = paginationRange[paginationRange.length - 1];
   return (
-    <ul
-      className={classnames('pagination-container', { [className]: className })}
+    <Wrapper
     >
-       {/* Left navigation arrow */}
-      <li
-        className={classnames('pagination-item', {
-          disabled: currentPage === 1
-        })}
+         <li
+         className='pagination-item' 
+        onClick={onFirstPage}
+      >
+    <img src={currentPage > 1 ?
+       arrow_left_blue
+       : arrow_left_grey
+      } 
+       alt="arrow_left" 
+       />
+    <img src={currentPage > 1 ?
+       arrow_left_blue
+       : arrow_left_grey
+      } 
+       alt="arrow_left" 
+       />
+      </li>
+         <li
+         className='pagination-item' 
         onClick={onPrevious}
       >
-        <div className="arrow left" />
+    <img src={currentPage > 1 ?
+       arrow_left_blue
+       : arrow_left_grey
+      } 
+       alt="arrow_left" 
+       />
       </li>
       {paginationRange.map(pageNumber => {
-         
-        // If the pageItem is a DOT, render the DOTS unicode character
         if (pageNumber === DOTS) {
           return <li className="pagination-item dots">&#8230;</li>;
         }
-		
-        // Render our Page Pills
+        if(pageNumber === currentPage){
+          return <li className="featured">
+            {pageNumber}
+          </li>;
+
+        }
         return (
           <li
-            className={classnames('pagination-item', {
-              selected: pageNumber === currentPage
-            })}
             onClick={() => onPageChange(pageNumber)}
           >
             {pageNumber}
           </li>
         );
       })}
-      {/*  Right Navigation arrow */}
       <li
-        className={classnames('pagination-item', {
-          disabled: currentPage === lastPage
-        })}
         onClick={onNext}
       >
-        <div className="arrow right" />
+        {/* <div className="arrow right" >right</div> */}
+        <img 
+        src={ finalPage > currentPage ?
+          arrow_right_blue
+          :arrow_right_grey} 
+        alt="arrow_right" />
       </li>
-    </ul>
+      <li
+        onClick={onLastPage}
+      >
+        <img 
+        src={ finalPage > currentPage ?
+          arrow_right_blue
+          :arrow_right_grey} 
+        alt="arrow_right" />
+        <img 
+        src={ finalPage > currentPage ?
+          arrow_right_blue
+          :arrow_right_grey} 
+        alt="arrow_right" />
+      </li>
+    </Wrapper>
   );
 };
 
