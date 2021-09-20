@@ -14,6 +14,7 @@ import arrow_right_blue from './images/arrow_right_blue.svg'
 import arrow_right_grey from './images/arrow_right_grey.svg'
 import arrow_left_blue from './images/arrow_left_blue.svg'
 import arrow_left_grey from './images/arrow_left_grey.svg'
+import age_group from './images/age_group.svg'
 export {
     chat_pie,
     age,
@@ -30,5 +31,6 @@ export {
     arrow_left_blue,
     arrow_left_grey,
     arrow_right_blue,
-    arrow_right_grey
+    arrow_right_grey,
+    age_group
 }

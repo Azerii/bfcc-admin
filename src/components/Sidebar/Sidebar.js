@@ -8,10 +8,10 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Wrapper = styled.div`
+  background-color:white;
   width: 250px;
   border-right: 1px solid #e5e7eb;
-  // margin-top:72px;
-  height: calc(100vh);
+    height: calc(100vh - 73px);
   color: var(--text);
   ul {
     padding-top: 23px;

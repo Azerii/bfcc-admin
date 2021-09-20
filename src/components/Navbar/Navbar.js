@@ -26,12 +26,12 @@ img{
     height:19.2px;
 }
 `
-const Navbar = ()=><Wrapper>
+const Navbar = (props)=><Wrapper>
     <img src={logo} alt="logo"/>
-<div className="right">
-<Search/>
-<img src={notification} alt="notification" className="notification"/>
-<img src={avatar} alt="avatar" />
-</div>
+{props.isLogin ? '' : <div className="right">
+    <Search/>   
+    <img src={notification} alt="notification" className="notification"/>
+    <img src={avatar} alt="avatar" />
+</div>}
 </Wrapper>
 export default Navbar
