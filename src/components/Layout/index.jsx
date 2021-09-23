@@ -4,12 +4,18 @@ import styled from "styled-components";
 const Wrapper = styled.div` 
 display:flex;
 main{
-  padding:25px;
   width:calc(100vw - 250px);
   height:calc(100vh - 73px);
   overflow-y:auto;
+  overflow-x: hidden;
 
-  // flex:1;
+  & > h4{
+    padding-left:25px;
+    font-size:24px;
+    margin:56px 0 24px;
+    line-height:1;
+  }
+
 }
 `
 const Layout = ({ children }) => {

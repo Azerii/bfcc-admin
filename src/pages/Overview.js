@@ -1,7 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import Card from '../components/Card';
 import Card2 from '../components/Card2';
+import Card3 from '../components/Card3';
+import MainInnerWrapper from '../components/MainInnerWrapper';
 const arr = [
     {name:'Subject per age group'},
     {name:'Subject name'},
@@ -12,30 +15,21 @@ const arr = [
     {name:'Physics',number:'3'},
     {name:'Biology',number:'3'},
 ]
-const Wrapper = styled.div` 
-.main{
-    display:flex;
-    justify-content:space-between;
-    // flex-wrap:wrap;
-}
-& > h4{
-    font-size:24px;
-    margin:56px 0 24px;
-}
-`
+
 const Overview = ()=> {
     return(
-        <Wrapper>
+        <>
             <h4>Overview</h4>
-            <div className="main">
-                <Card/>
-                <Card2 array={arr}/>
-            </div>
-            <div className="main">
-                <Card/>
-                <Card/>
-            </div>
-        </Wrapper>
+                <MainInnerWrapper>
+                    <Card/>
+                    <Card/>
+                    <Card2 array={arr}/>
+                    <Card3 title='Performance per subject'>
+                        <h4>No performance recorded.</h4>
+                        <p>Create test to view test permformance by class. Click <Link to='/'>here</Link></p>
+                    </Card3>
+                </MainInnerWrapper>
+        </>
     )
 }
 export default Overview

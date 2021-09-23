@@ -4,10 +4,10 @@ const Wrapper = styled.div`
 position:relative;
 width:559px;
 height:228px; 
-@media(max-width:1366px){
-    width:520px;
+// @media(max-width:1366px){
+//     width:520px;
     
-}
+// }
 border-radius:16px;
 background-color:white;
 padding:24px;

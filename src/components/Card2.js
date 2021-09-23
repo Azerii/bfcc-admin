@@ -11,7 +11,7 @@ display:flex;
 flex-direction:column;
 
 p{
-font-size:14px;
+font-size:16px;
 display: flex;
 justify-content:space-between;
 }
@@ -20,9 +20,13 @@ p:first-child{
     display:flex;
     justify-content:space-between;
     font-size:18px;
+    font-weight:700;
+}
+p:nth-child(2){
+    font-size:14px;
 }
 p + p{
-    margin-top:10px;
+    margin-top:22px;
 }
 p:first-child + p:nth-child(2){
     margin-top:12px;
