@@ -14,6 +14,8 @@ import Main from "./components/Pagination/Main";
 import Login from "./pages/Login";
 import Modal from "./components/Modal/Modal";
 import Context from "./components/Context/Context";
+import Table from  "./components/Table/Table"
+import SortingTable from "./components/Table/SortingTable"
 
 
 
@@ -34,6 +36,7 @@ function App() {
               <Route exact path="/subjects" component={Subjects} />
               <Route exact path="/test" component={Test} />
               <Route exact path="/question" component={Question} />
+              <Route exact path="/table" component={Table} />
               {/* <Checkbox text='Check'/> */}
               {/* <Checkbox text='Unchecked'/> */}
               {/* <Checkbox text='disabled' disabled/> */}
