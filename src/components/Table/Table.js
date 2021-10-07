@@ -1,18 +1,39 @@
-import React,{useMemo} from 'react'
+import React,{useMemo,useState} from 'react'
 import { useTable,useSortBy,useGlobalFilter,useFilters } from 'react-table'
 import Button  from '../Button/Button'
 import { arrow_left_blue, arrow_right_blue } from "../../assets";
 import MOCK_DATA from './MOCK_DATA.json'
 import { COLUMNS } from './columns'
 import  GlobalFilter  from "./GlobalFilter";
-import './BasicTable.css'
+import './BasicTable.css';
+import styled from 'styled-components';
+import Pagination from '../Pagination/Pagination';
+const Wrapper = styled.div`
+
+.screen{
+  height:80vh;
+  overflow:scroll;
+}
+`
 
 
 const BasicTable = () => {
 
   const columns = useMemo(()=> COLUMNS,[])
   const data = useMemo(()=> MOCK_DATA,[])
+  let PageSize = 10;
 
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const currentTableData = useMemo(() => {
+    const firstPageIndex = (currentPage - 1) * PageSize;
+    const lastPageIndex = firstPageIndex + PageSize;
+    return MOCK_DATA.slice(firstPageIndex, lastPageIndex);
+  }, [currentPage]);
+
+  // console.log(currentTableData)
+
+// console.log(data)
   const {
     getTableProps,
     getTableBodyProps,
@@ -33,8 +54,13 @@ const BasicTable = () => {
   useSortBy
   )
   const {globalFilter} = state
+
+
+
+
   return (
-    <>
+    <Wrapper>
+      <div className='screen'>
     <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter}/>
     <table {...getTableProps()}>
       <thead>
@@ -90,7 +116,15 @@ const BasicTable = () => {
         )}
       </tfoot>
     </table>
-    </>
+    </div>
+    <Pagination
+        className="pagination-bar"
+        currentPage={currentPage}
+        totalCount={MOCK_DATA.length}
+        pageSize={PageSize}
+        onPageChange={page => setCurrentPage(page)}
+        />
+    </Wrapper>
   )
 }
 export default BasicTable;
