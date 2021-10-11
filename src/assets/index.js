@@ -15,6 +15,7 @@ import arrow_right_grey from './images/arrow_right_grey.svg'
 import arrow_left_blue from './images/arrow_left_blue.svg'
 import arrow_left_grey from './images/arrow_left_grey.svg'
 import age_group from './images/age_group.svg'
+import arrow_down from './images/arrow_down.svg'
 export {
     chat_pie,
     age,
@@ -28,6 +29,7 @@ export {
     avatar,
     search_img,
     cancel,
+    arrow_down,
     arrow_left_blue,
     arrow_left_grey,
     arrow_right_blue,

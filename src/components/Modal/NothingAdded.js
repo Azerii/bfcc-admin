@@ -41,7 +41,7 @@ function NothingAdded({text,onClick,link}) {
            <Link to={link}>
                <Button
               text="Add question"
-              width="296px"
+              width="144px"
               onClick={onClick}
               />
               </Link> 
