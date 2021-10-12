@@ -4,7 +4,7 @@ import Layout from "./components/Layout";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Agegroup from "./pages/Agegroup";
 import Overview from "./pages/Overview";
-import Question from "./pages/Question";
+import Question from "./pages/Question/Question";
 import Reports from "./pages/Reports";
 import Subjects from "./pages/Subjects";
 import Test from "./pages/Test";
@@ -14,6 +14,7 @@ import Main from "./components/Pagination/Main";
 import Login from "./pages/Login";
 import Modal from "./components/Modal/Modal";
 import Context from "./components/Context/Context";
+import QuestionStages from "./pages/Question/QuestionStages";
 
 
 
@@ -27,6 +28,7 @@ function App() {
           <Switch>
             <Route exact path="/login" component={Login} />
             <Route exact path="/modal" component={Modal} />
+            <Route exact path="/add-question" component={QuestionStages} />
             <Layout>
               <Route exact path="/" component={Overview} />
               <Route exact path="/reports" component={Reports} />

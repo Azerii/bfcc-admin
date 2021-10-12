@@ -76,7 +76,6 @@ const Login = () => {
           Forgot password? <Link to="/login">Retrieve it here</Link>
         </p>
       </div>
-      d = document.createElemnt d.textContent =
     </Wrapper>
   );
 };
