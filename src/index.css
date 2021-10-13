@@ -7,6 +7,11 @@
   font-display: swap;
 }
 :root {
+  --primary: #003399;
+  --primary_dark: #002266;
+  --navy: #001a4d;
+  --secondary: #4655c2;
+  --tint: #ccd6eb;
   --primary_lighter: #9f9fff;
   --primary_light: #7379ec;
   --primary_main: #003399;
@@ -37,8 +42,11 @@
   --warning: #ffcc00;
   --danger: #a10000;
   --text: #1a1a1a;
-  --grey_1: #333333;
-  --grey_2: #efefef;
+  --border: #efefef;
+  --grey_1: #8d9091;
+  --grey_2: #aaaaaa;
+/*   --grey_1: #333333; */
+/*   --grey_2: #efefef; */
   --grey_3: #cccccc;
   --grey_4: #aaaaaa;
   --grey_5: #8d9091;
@@ -46,6 +54,8 @@
   --font_regular: "Sassoon Infant Std";
   --filter_primary: brightness(0%) saturate(100%) invert(9%) sepia(82%)
     saturate(7439%) hue-rotate(219deg) brightness(79%) contrast(101%);
+  --filter_text: brightness(0%) saturate(100%) invert(0%) sepia(5%)
+    saturate(5377%) hue-rotate(70deg) brightness(80%) contrast(80%);
   --filter_primary_dark: brightness(0%) saturate(100%) invert(7%) sepia(59%)
     saturate(7208%) hue-rotate(214deg) brightness(92%) contrast(106%);
   --filter_text: brightness(0%) saturate(100) invert(0%) sepia(3%)
@@ -88,12 +98,21 @@ code {
 }
 
 main {
+  padding: 4.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2.4rem;
+}
+
+input {
+  color: inherit;
+}
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 1.2rem;
   grid-gap: 2.4rem;
 }
-
 input:focus {
   outline: none;
 }
