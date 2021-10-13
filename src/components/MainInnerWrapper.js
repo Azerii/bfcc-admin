@@ -5,7 +5,7 @@ overflow:auto;
 .slide{
     padding:0 0 0 24px ;
     display:flex;
-    width:1190px;
+    width:1200px;
     // justify-content:space-around;
     & > div {
         margin-right:24px;
