@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Navbar from "../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
+import Form from "../components/Form/Form";
+import Button from "../components/Button/Button"
 
 const Wrapper = styled.div`
   .container {
@@ -24,27 +26,17 @@ const Wrapper = styled.div`
       width: 360px;
       margin: auto;
       margin-top: 48.5px;
+      
+      & > div + div , button{
+        margin-top:2rem;
+      }
     }
-    input {
-      height: 48px;
-      border-radius: 4px;
-      border: 1px solid var(--primary);
-      padding: 16px;
-    }
-    input:nth-child(2) {
-      margin: 24px 0 48px;
-    }
-    input:last-child {
-      /* background-color: var(--primary); */
-      margin-buttom: 24px;
-      color: white;
-      border:none;
-    }
+   
     a {
       color: var(--primary);
     }
   }
-`;
+`
 const Login = () => {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
@@ -55,22 +47,22 @@ const Login = () => {
         <h3>Sign in</h3>
         <p>Enter email address and password to sign in.</p>
         <form action="/">
-          <input
+          <Form
+            name="My form"
+            placeholder="Email address"
             type="text"
-            placeholder="jackson.graham@gmail.com"
-            value={userName}
-            onChange={(event) => setUserName(event.target.value)}
+            fieldStyle="shortText"
           />
-          <input
+          <Form
+            name="Password"
+            placeholder="Password"
             type="password"
-            value={password}
-            onChange={(event) => setPassword(event.target.value)}
+            inputType='password'
+            fieldStyle="password"
           />
-          <input
-            type="submit"
-            value="Login"
-            style={(password === '' || userName==='') ? { background: "#e5e5e5" } : { background: "var(--primary)" }}
-          />
+        <Link to='/'>
+          <Button text='Login' width='100%' height='48px' />
+        </Link>
         </form>
         <p>
           Forgot password? <Link to="/login">Retrieve it here</Link>
