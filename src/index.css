@@ -48,8 +48,13 @@
 /*   --grey_1: #333333; */
 /*   --grey_2: #efefef; */
   --grey_3: #cccccc;
-  --grey_4: #aaaaaa;
-  --grey_5: #8d9091;
+
+  --grey_4: #fafafa;
+  --grey_5:#BDBDBD;
+
+/*   --grey_4: #aaaaaa; */
+/*   --grey_5: #8d9091; */
+
   --white: #ffffff;
   --font_regular: "Sassoon Infant Std";
   --filter_primary: brightness(0%) saturate(100%) invert(9%) sepia(82%)
@@ -90,8 +95,8 @@ body {
   font-weight: 450;
   line-height: 16px;
   letter-spacing: 0em;
+  background-color: #e5e5e5;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Sassoon Infant Std",
     monospace;

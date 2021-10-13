@@ -1,5 +1,23 @@
-import Layout from "./Components/Layout";
-import Button from "./Components/Button/Button";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Agegroup from "./pages/Agegroup";
+import Overview from "./pages/Overview";
+import Question from "./pages/Question/Question";
+import Reports from "./pages/Reports";
+import Subjects from "./pages/Subjects";
+import Test from "./pages/Test";
+import Checkbox from "./components/Checkbox/Checkbox.";
+import RadioButton from "./components/RadioButton/RadioButton";
+import Main from "./components/Pagination/Main";
+import Login from "./pages/Login";
+import Modal from "./components/Modal/Modal";
+import Context from "./components/Context/Context";
+import QuestionStages from "./pages/Question/QuestionStages";
+
+// import Layout from "./Components/Layout";
+// import Button from "./Components/Button/Button";
 import ProgressBar from "./Components/ProgressBar";
 import AlertBox from "./Components/AlertBox";
 // import checkCircle from "./assets/icons/checkCircle.png";
@@ -10,8 +28,41 @@ import AlertBox from "./Components/AlertBox";
 // import Close from "./assets/icons/Close.svg";
 // import CloseButton from "./assets/icons/CloseButton.svg";
 
+
 function App() {
+  const [willModalShow, setToggleModal] = useState(false);
   return (
+
+    <Context.Provider value={{ willModalShow, setToggleModal }}>
+      <Router>
+        <div className="App">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+          {willModalShow && <Modal />}
+          <Switch>
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/modal" component={Modal} />
+            <Route exact path="/add-question" component={QuestionStages} />
+            <Layout>
+              <Route exact path="/" component={Overview} />
+              <Route exact path="/reports" component={Reports} />
+              <Route exact path="/agegroup" component={Agegroup} />
+              <Route exact path="/subjects" component={Subjects} />
+              <Route exact path="/test" component={Test} />
+              <Route exact path="/question" component={Question} />
+              {/* <Checkbox text='Check'/> */}
+              {/* <Checkbox text='Unchecked'/> */}
+              {/* <Checkbox text='disabled' disabled/> */}
+              {/* <RadioButton name="radio" text="apple" /> */}
+              {/* <RadioButton name="radio" text="banana"   /> */}
+              {/* <RadioButton name="radio" text="orange"   /> */}
+              {/* <RadioButton name="radio"  disabled="disabled" text="disabled"/> */}
+              {/* <Main/> */}
+            </Layout>
+          </Switch>
+        </div>
+      </Router>
+    </Context.Provider>
+
+              /*
     <div className="App">
       <Layout>
         <Button text="My Button" />
@@ -71,6 +122,9 @@ function App() {
           text="Test created successfully"
           hideBtn
         />
+            */
+              
+            
         {/* <img src={checkCircle} alt="mark" className="icon left" />
           <span className="text">
             {"success alert flash, which never loose the contrast"}
@@ -141,8 +195,9 @@ function App() {
           <VerticalLine className="VerticalLine" />
           <img src={Close} alt="close" className="icon right" />
         </AlertBox> */}
-      </Layout>
-    </div>
+//       </Layout>
+//     </div>
+
   );
 }
 
