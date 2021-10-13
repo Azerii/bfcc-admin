@@ -3,6 +3,9 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 import {
   age,
+
+  arrow_down,
+
   arrow_left_blue,
   arrow_right_blue,
   search_img,
@@ -63,6 +66,34 @@ const Wrapper = styled.div`
     -webkit-appearance: none;
     margin: 0;
   }
+
+
+  select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 18px;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  height:48px;
+  display: grid;
+  /* &  ::-ms-expand {
+  display: none;
+} */
+}
+.selectImg{
+  display:block;
+  position:absolute;
+  margin-top: 21px;
+  margin-left: 328px;
+  height: 6.01px;
+  width: 10.01px;
+}
+
   .errMessage {
     display: ${(props) => (props.showError ? "block" : "none")};
     font-weight: 500;
@@ -118,6 +149,10 @@ const Wrapper = styled.div`
     display: flex;
   }
   .order-1 {
+
+
+    /* position:relative; */
+
   }
 `;
 
@@ -129,11 +164,25 @@ const Form = ({
   value,
   showError,
   required,
-  changeFunc
+
+
+  changeFunc,
+  selectArray,
+  validate
+
 }) => {
   const [showLabel, setShowLabel] = useState(false);
   const [isTouched, setIsTouched] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
+
+
+  const [selected, setSelected] = useState(false);
+  const [selectedValue, setSelectedValue] = useState(selectArray[0]);
+  const handleChange= (e)=>{
+    setSelectedValue( e.target.value );
+    validate()
+  }
+
 
   const validationHandler = () => {
     setIsTouched((prev) => {
@@ -144,7 +193,10 @@ const Form = ({
   const toggleLabel = (e,changeFunc) => {
     if (e.target.value.length > 0) {
       setShowLabel(true);
-    } else {
+
+    }
+     else {
+
       setShowLabel(false);
     }
     return changeFunc(e.target.value)
@@ -161,7 +213,9 @@ const Form = ({
   const isFilter = showLabel ? null : <img src={search_img} alt="filter" />;
 
   return (
-    <Wrapper isValid={showLabel} fieldStyle={fieldStyle} showError={showError}>
+
+    <Wrapper  isValid={showLabel} fieldStyle={fieldStyle} showError={showError}>
+
       {fieldStyle === "shortText" && (
         <>
           <div className="flex order-1">
@@ -236,6 +290,37 @@ const Form = ({
           {showLabel && <label htmlFor={name}>{placeholder}</label>}
         </>
       )}
+
+
+      {fieldStyle === "select" && (
+        <>
+          <div onClick={()=>setSelected(true)} className="flex order-1">
+              <img 
+                className='selectImg'
+                src={arrow_down}
+                alt={arrow_down}
+              />
+            <select 
+            value={selectedValue} 
+            name={name}
+            id={name}
+            onChange={handleChange}
+            >
+              {  selectArray
+                 .map(st=><option  value={st} key={st}>
+                   {st}
+                   </option>)
+                 }
+            </select>
+          </div>
+          <div>
+            <p className="errMessage">Uh oh! There was an error!</p>
+          </div>
+
+          { selectedValue !== selectArray[0]  && <label htmlFor={name}>{placeholder}</label>}
+        </>
+      )}
+
     </Wrapper>
   );
 };

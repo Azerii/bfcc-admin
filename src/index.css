@@ -1,55 +1,70 @@
 @font-face {
-  font-family: "Circular Std Black";
-  src: url("./assets/fonts/CircularStd-Black.woff");
+  font-family: "Sassoon Infant Std";
+  src: url("./fonts/SassoonInfantStd.otf") format("otf"),
+    url("./fonts/SassoonInfantStd.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-
-@font-face {
-  font-family: "Circular Std Book";
-  src: url("./assets/fonts/CircularStd-Book.woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Circular Std Medium";
-  src: url("./assets/fonts/CircularStd-Medium.woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Circular Std Bold";
-  src: url("./assets/fonts/CircularStd-Bold.woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   --primary: #003399;
+  --primary_dark: #002266;
+  --navy: #001a4d;
   --secondary: #4655c2;
   --tint: #ccd6eb;
+  --primary_lighter: #9f9fff;
+  --primary_light: #7379ec;
+  --primary_main: #003399;
+  --primary_dark: #001977;
+  --primary_darker: #000e67;
+  --Accent_lighter: #ffea9f;
+  --Accent_light: #ffe380;
+  --Accent_main: #ffd53f;
+  --Accent_dark: #aa8e2a;
+  --Accent_darker: #806a1f;
+  --Accent_2_lighter: #ffc784;
+  --Accent_2_light: #feb45a;
+  --Accent_2_main: #fe8f08;
+  --Accent_2_dark: #a95f05;
+  --Accent_2_darker: #7f4804;
+  --Accent_3_lighter: #80ebed;
+  --Accent_3_light: #56e5e8;
+  --Accent_3_main: #01d8dc;
+  --Accent_3_dark: #019093;
+  --Accent_3_darker: #016c6e;
+  --Black_black: #666666;
+  --Black_black_2: #404040;
+  --Black_black_3: #1a1a1a;
+  --Black_black_4: #161616;
+  --Black_black_5: #111111;
+  --transparent: transparent;
   --success: #219653;
   --warning: #ffcc00;
   --danger: #a10000;
   --text: #1a1a1a;
+  --border: #efefef;
   --grey_1: #8d9091;
   --grey_2: #aaaaaa;
+/*   --grey_1: #333333; */
+/*   --grey_2: #efefef; */
   --grey_3: #cccccc;
+
   --grey_4: #fafafa;
   --grey_5:#BDBDBD;
+
+/*   --grey_4: #aaaaaa; */
+/*   --grey_5: #8d9091; */
+
   --white: #ffffff;
-  --font_black: "Circular Std Black";
-  --font_regular: "Circular Std Book";
-  --font_medium: "Circular Std Medium";
-  --font_bold: "Circular Std Bold";
+  --font_regular: "Sassoon Infant Std";
   --filter_primary: brightness(0%) saturate(100%) invert(9%) sepia(82%)
     saturate(7439%) hue-rotate(219deg) brightness(79%) contrast(101%);
+  --filter_text: brightness(0%) saturate(100%) invert(0%) sepia(5%)
+    saturate(5377%) hue-rotate(70deg) brightness(80%) contrast(80%);
+  --filter_primary_dark: brightness(0%) saturate(100%) invert(7%) sepia(59%)
+    saturate(7208%) hue-rotate(214deg) brightness(92%) contrast(106%);
+  --filter_text: brightness(0%) saturate(100) invert(0%) sepia(3%)
+    saturate(1462%) hue-rotate(60deg) brightness(84%) contrast(80%);
 }
 
 * {
@@ -75,7 +90,7 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 450;
   line-height: 16px;
@@ -83,15 +98,32 @@ body {
   background-color: #e5e5e5;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Sassoon Infant Std",
     monospace;
 }
 
+main {
+  padding: 4.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2.4rem;
+}
+
+input {
+  color: inherit;
+}
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1.2rem;
+  grid-gap: 2.4rem;
+}
 input:focus {
   outline: none;
 }
 
 button {
+  font-family: var(--font_regular);
   border: none;
   cursor: pointer;
   background-color: transparent;
@@ -133,11 +165,13 @@ input[type="number"] {
 
 label {
   font-family: var(--font_regular);
-  font-size: 12px;
+  font-family: Sassoon Infant Std;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 450;
-  line-height: 15px;
+  font-weight: 400;
+  line-height: 20px;
   letter-spacing: 0em;
+  text-align: left;
 }
 
 ul {
@@ -152,39 +186,27 @@ a {
 /* Heading */
 
 h1 {
-  font-family: var(--font_black);
-  font-size: 72px;
+  font-family: var(--font_regular);
+  font-size: 64px;
   font-style: normal;
-  font-weight: 900;
-  line-height: 80px;
+  font-weight: 700;
+  line-height: 64px;
   letter-spacing: 0em;
-  text-align: left;
   color: var(--grey_1);
 }
 
 h2 {
-  font-family: var(--font_bold);
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 70px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: var(--grey_1);
-}
-
-h3 {
-  font-family: var(--font_bold);
+  font-family: var(--font_regular);
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 48px;
   letter-spacing: 0em;
   text-align: left;
 }
 
-h4 {
-  font-family: var(--font_bold);
+h3 {
+  font-family: var(--font_regular);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -193,22 +215,12 @@ h4 {
   text-align: left;
 }
 
-h5 {
-  font-family: var(--font_medium);
+h4 {
+  font-family: var(--font_regular);
   font-size: 24px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 32px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-h6 {
-  font-family: var(--font_medium);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -217,26 +229,28 @@ h6 {
 
 .title-1 {
   font-family: var(--font_regular);
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 450;
-  line-height: 20px;
+  font-weight: 400;
+  line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
 }
 
 .title-2 {
-  font-family: var(--font_black);
-  font-size: 18px;
+  font-family: var(--font_regular);
+  font-size: 20px;
   font-style: normal;
-  font-weight: 900;
-  line-height: 20px;
+  font-weight: 700;
+  line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
 }
 
-.title-3 {
-  font-family: var(--font_bold);
+/* Paragragh */
+
+.P {
+  font-family: var(--font_regular);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -245,13 +259,21 @@ h6 {
   text-align: left;
 }
 
-/* Paragragh */
-
-p {
+.body_1 {
   font-family: var(--font_regular);
   font-size: 16px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.body_2 {
+  font-family: var(--font_regular);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;

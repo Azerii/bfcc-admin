@@ -24,6 +24,10 @@ const Overview = ()=> {
                     <Card/>
                     <Card/>
                     <Card2 array={arr}/>
+                    <Card3 title='Performance per Age'>
+                        <h4>No performance recorded.</h4>
+                        <p>Create test to view test permformance by class. Click <Link to='/'>here</Link></p>
+                    </Card3>
                     <Card3 title='Performance per subject'>
                         <h4>No performance recorded.</h4>
                         <p>Create test to view test permformance by class. Click <Link to='/'>here</Link></p>
