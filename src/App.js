@@ -15,7 +15,7 @@ import Login from "./pages/Login";
 import Modal from "./components/Modal/Modal";
 import Context from "./components/Context/Context";
 
-import Table from  "./components/Table/Table"
+import Table from  "./components/Table/PaginationTable"
 import SortingTable from "./components/Table/SortingTable"
 
 import QuestionStages from "./pages/Question/QuestionStages";
@@ -23,8 +23,8 @@ import QuestionStages from "./pages/Question/QuestionStages";
 
 // import Layout from "./Components/Layout";
 // import Button from "./Components/Button/Button";
-import ProgressBar from "./Components/ProgressBar";
-import AlertBox from "./Components/AlertBox";
+import ProgressBar from "./components/ProgressBar";
+import AlertBox from "./components/AlertBox";
 // import checkCircle from "./assets/icons/checkCircle.png";
 // import Warning from "./assets/icons/Warning.svg";
 // import Error from "./assets/icons/Error.svg";
@@ -131,15 +131,15 @@ function App() {
             */
               
             
-        {/* <img src={checkCircle} alt="mark" className="icon left" />
+        /* <img src={checkCircle} alt="mark" className="icon left" />
           <span className="text">
             {"success alert flash, which never loose the contrast"}
           </span>
           <TransparentButton text="Button" className="success" />
           <VerticalLine className="VerticalLine" />
-          <img src={Close} alt="close" className="icon right" /> */}
+          <img src={Close} alt="close" className="icon right" /> */
 
-        {/* <AlertBox className="success">
+        /* <AlertBox className="success">
           <img src={checkCircle} alt="mark" className="icon left" />
           <span className="text">
             {"success alert flash, which never loose the contrast"}
@@ -200,7 +200,7 @@ function App() {
           </span>
           <VerticalLine className="VerticalLine" />
           <img src={Close} alt="close" className="icon right" />
-        </AlertBox> */}
+        </AlertBox> */
 //       </Layout>
 //     </div>
 

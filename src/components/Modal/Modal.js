@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom'
 import styled from "styled-components";
 import Button from "../Button/Button";
 import Context from "../Context/Context";
+import Form from "../Form/Form";
 
 const Wrapper = styled.div`
   height: 100vh;
@@ -34,7 +36,7 @@ const Wrapper = styled.div`
     }
     input {
       padding: 16px;
-      border: 1px solid #efefef;
+      /* border: 1px solid #efefef; */
       border-radius: 8px;
       margin-bottom: 24px;
       width: 100%;
@@ -42,8 +44,13 @@ const Wrapper = styled.div`
     button {
       display: inline-block;
       font-weight: 500px;
+      margin-top:24px;
     }
     button:nth-child(4) {
+      margin-left: 96px;
+      margin-right: 24px;
+    }
+    a{
       margin-left: 96px;
       margin-right: 24px;
     }
@@ -58,22 +65,27 @@ const Modal = (props) => {
         <p>
           Adding age group is necessary to create a subjects and test question
         </p>
-        <input
+        <Form
+          fieldStyle = "shortText"
           type="text"
           placeholder="Add group"
           value={age}
+          changeFunc={setAge}
           onChange={(event) => setAge(event.target.value)}
         />
         <Context.Consumer>
           {(context) => (
             <>
+            <Link to='/Table'>
               <Button
                 text="Save"
                 width="120px"
                 borderColor="transparent"
                 color={age === "" ? "var(--grey_1)" : ""}
-                onClick={() => context.setToggleModal(!context.willModalShow)}
+                onClick={() =>context.setToggleModal(!context.willModalShow)
+              }
               />
+              </Link>
               <Button
                 text="Cancel"
                 width="120px"

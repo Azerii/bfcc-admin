@@ -20,7 +20,7 @@ const Wrapper = styled.div`
   border-radius: 1.2rem;
   padding: ${(props) =>
     props.fieldStyle === "longText" ? "0rem 0rem" : "0rem 0rem"};
-
+position:relative;
   input::-webkit-input-placeholder {
     font-size: 16px;
   }
@@ -48,11 +48,12 @@ const Wrapper = styled.div`
     display: block;
     color: var(--primary);
     font-size: 12px;
-    margin-bottom: -16px;
+    margin-bottom: 2px;
     margin-left: 16px;
-    width: fit-content;
-    padding: 8px;
+    padding: 0 5px;
     background-color: white;
+    position: absolute;
+    top: -7px;
   }
   input:focus,
   textarea:focus {
@@ -138,21 +139,29 @@ const Wrapper = styled.div`
     border: none;
     padding: 0 0 0 14.52px;
   }
-
+  
   .flex {
     display: flex;
     border-radius: 8px;
     border: 1px solid var(--primary);
     background-color: white;
+    height:48px;
+    input{
+      border: none;
+      height:100%;
+    }
   }
-  .flex {
+  /* .flex {
     display: flex;
-  }
+  } */
   .order-1 {
 
 
     /* position:relative; */
 
+  }
+  .smallText{
+    font-size:14px;
   }
 `;
 
@@ -177,7 +186,7 @@ const Form = ({
 
 
   const [selected, setSelected] = useState(false);
-  const [selectedValue, setSelectedValue] = useState(selectArray[0]);
+  const [selectedValue, setSelectedValue] = useState(selectArray ? selectArray[0] :'' );
   const handleChange= (e)=>{
     setSelectedValue( e.target.value );
     validate()
@@ -190,7 +199,7 @@ const Form = ({
     });
   };
 
-  const toggleLabel = (e,changeFunc) => {
+  const toggleLabel = (e) => {
     if (e.target.value.length > 0) {
       setShowLabel(true);
 
@@ -226,7 +235,7 @@ const Form = ({
               name={name}
               placeholder={placeholder}
               onBlur={toggleLabel}
-              onChange={(e)=>toggleLabel(e,changeFunc)}
+              onChange={toggleLabel}
               onFocus={validationHandler}
               value={value}
             />

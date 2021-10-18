@@ -8,10 +8,12 @@ import  GlobalFilter  from "./GlobalFilter";
 import './BasicTable.css';
 import styled from 'styled-components';
 import Pagination from '../Pagination/Pagination';
+import ColumnFilter from './ColumnFilter';
+import PaginationTable from './PaginationTable';
 const Wrapper = styled.div`
 
 .screen{
-  height:80vh;
+  height:100vh;
   overflow:scroll;
 }
 `
@@ -21,6 +23,12 @@ const BasicTable = () => {
 
   const columns = useMemo(()=> COLUMNS,[])
   const data = useMemo(()=> MOCK_DATA,[])
+
+  const defaultColumn = useMemo(()=>{
+    return{
+      Filter:ColumnFilter
+    }
+  },[])
   let PageSize = 10;
 
   const [currentPage, setCurrentPage] = useState(1);
@@ -46,8 +54,8 @@ const BasicTable = () => {
     prepareRow
 } = useTable({
     columns,
-    data
-    ,
+    data,
+    defaultColumn
   },
   useFilters,
   useGlobalFilter,
@@ -69,8 +77,8 @@ const BasicTable = () => {
             {headerGroup.headers.map((column) => (
               <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                   {column.render('Header')}
-                {/* <span>{column.isSorted ? (column.isSortedDesc ? <img src={arrow_left_blue} alt={arrow_left_blue}/>: <img src={arrow_right_blue} alt={arrow_right_blue}/>) : '' }</span> */}
-                {/* <div>{column.canFilter ? column.render('Filter') : null}</div> */}
+                <span>{column.isSorted ? (column.isSortedDesc ? <img src={arrow_left_blue} alt={arrow_left_blue}/>: <img src={arrow_right_blue} alt={arrow_right_blue}/>) : '' }</span>
+                <div>{column.canFilter ? column.render('Filter') : null}</div>
                 </th>
               ))}
           </tr>
@@ -84,18 +92,19 @@ const BasicTable = () => {
           return (
             <tr {...row.getRowProps()}>
               {row.cells.map((cell,index) => {
-                // if(index > 1){
-                //   return null
-                // }
-                // if(index === 1){
-                //   return <td {...cell.getCellProps()}>
-                //   <Button text={cell.render('Cell')}/>
-                // </td>
-                // }
-                return <td {...cell.getCellProps()}>
+                if(index > 1){
+                  return null
+                }
+                else if(index === 1){
+                  return <td {...cell.getCellProps()}>
+                  <Button text={cell.render('Cell')}/>
+                </td>
+                }
+                else {return <td {...cell.getCellProps()}>
                 {cell.render('Cell')}
-              </td>
-             })}
+              </td>}
+             }
+             )}
             </tr>
           )
        })}
@@ -116,14 +125,8 @@ const BasicTable = () => {
         )}
       </tfoot>
     </table>
+    
     </div>
-    <Pagination
-        className="pagination-bar"
-        currentPage={currentPage}
-        totalCount={MOCK_DATA.length}
-        pageSize={PageSize}
-        onPageChange={page => setCurrentPage(page)}
-        />
     </Wrapper>
   )
 }
