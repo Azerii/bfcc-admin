@@ -21,6 +21,8 @@ const Wrapper = styled.div`
 align-items:center;
 background:white;
 margin:auto;
+justify-content:center;
+padding-bottom:1rem;
 li{
   width: 32px;
   height: 32px;
@@ -160,7 +162,17 @@ usePagination
        alt="arrow_left" 
        />
       </li>
-      {pageOptions.map(pageNumber => {
+      {pageOptions
+      .filter(num=>{
+        if(pageIndex <= 2){
+          return num <= 3
+        }
+        else if(pageIndex >= pageCount - 2 ){
+          return  num >= pageCount - 4
+        }
+        else return  num >= pageIndex -2 && num <= pageIndex + 2;
+      })
+      .map(pageNumber => {
         // if (pageNumber === DOTS) {
         //   return <li className="pagination-item dots">&#8230;</li>;
         // }
