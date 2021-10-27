@@ -5,7 +5,7 @@ import {
 import ColumnFilter from './ColumnFilter'
 export const COLUMNS = [
   {
-    Header: 'Level',
+    Header: '',
     Footer: 'Level',
     accessor:'id',
     // Filter: ColumnFilter,
