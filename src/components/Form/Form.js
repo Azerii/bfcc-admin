@@ -3,9 +3,7 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 import {
   age,
-
   arrow_down,
-
   arrow_left_blue,
   arrow_right_blue,
   search_img,
@@ -20,7 +18,7 @@ const Wrapper = styled.div`
   border-radius: 1.2rem;
   padding: ${(props) =>
     props.fieldStyle === "longText" ? "0rem 0rem" : "0rem 0rem"};
-position:relative;
+  position: relative;
   input::-webkit-input-placeholder {
     font-size: 16px;
   }
@@ -68,32 +66,31 @@ position:relative;
     margin: 0;
   }
 
-
   select {
-  appearance: none;
-  background-color: transparent;
-  border: none;
-  padding: 0 18px;
-  margin: 0;
-  width: 100%;
-  font-family: inherit;
-  font-size: inherit;
-  cursor: inherit;
-  line-height: inherit;
-  height:48px;
-  display: grid;
-  /* &  ::-ms-expand {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 18px;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    height: 48px;
+    display: grid;
+    /* &  ::-ms-expand {
   display: none;
 } */
-}
-.selectImg{
-  display:block;
-  position:absolute;
-  margin-top: 21px;
-  margin-left: 328px;
-  height: 6.01px;
-  width: 10.01px;
-}
+  }
+  .selectImg {
+    display: block;
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 328px;
+    height: 6.01px;
+    width: 10.01px;
+  }
 
   .errMessage {
     display: ${(props) => (props.showError ? "block" : "none")};
@@ -139,29 +136,26 @@ position:relative;
     border: none;
     padding: 0 0 0 14.52px;
   }
-  
+
   .flex {
     display: flex;
     border-radius: 8px;
     border: 1px solid var(--primary);
     background-color: white;
-    height:48px;
-    input{
+    height: 48px;
+    input {
       border: none;
-      height:100%;
+      height: 100%;
     }
   }
   /* .flex {
     display: flex;
   } */
   .order-1 {
-
-
     /* position:relative; */
-
   }
-  .smallText{
-    font-size:14px;
+  .smallText {
+    font-size: 14px;
   }
 `;
 
@@ -174,24 +168,22 @@ const Form = ({
   showError,
   required,
 
-
   changeFunc,
   selectArray,
-  validate
-
+  validate,
 }) => {
   const [showLabel, setShowLabel] = useState(false);
   const [isTouched, setIsTouched] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
 
-
   const [selected, setSelected] = useState(false);
-  const [selectedValue, setSelectedValue] = useState(selectArray ? selectArray[0] :'' );
-  const handleChange= (e)=>{
-    setSelectedValue( e.target.value );
-    validate()
-  }
-
+  const [selectedValue, setSelectedValue] = useState(
+    selectArray ? selectArray[0] : ""
+  );
+  const handleChange = (e) => {
+    setSelectedValue(e.target.value);
+    validate();
+  };
 
   const validationHandler = () => {
     setIsTouched((prev) => {
@@ -202,13 +194,10 @@ const Form = ({
   const toggleLabel = (e) => {
     if (e.target.value.length > 0) {
       setShowLabel(true);
-
-    }
-     else {
-
+    } else {
       setShowLabel(false);
     }
-    return changeFunc(e.target.value)
+    return changeFunc(e.target.value);
   };
 
   const toggleShow = () => {
@@ -222,15 +211,13 @@ const Form = ({
   const isFilter = showLabel ? null : <img src={search_img} alt="filter" />;
 
   return (
-
-    <Wrapper  isValid={showLabel} fieldStyle={fieldStyle} showError={showError}>
-
+    <Wrapper isValid={showLabel} fieldStyle={fieldStyle} showError={showError}>
       {fieldStyle === "shortText" && (
         <>
           <div className="flex order-1">
             <input
               className="textSmall"
-              type={inputType}
+              type={inputType || "text"}
               id={name}
               name={name}
               placeholder={placeholder}
@@ -252,8 +239,7 @@ const Form = ({
           <div className="flex order-1">
             <input
               className="textSmall"
-              //   type={showPassword ? "text" : inputType}
-              type={inputType}
+              type={inputType || "text"}
               id={name}
               name={name}
               value={value}
@@ -279,7 +265,7 @@ const Form = ({
           <div className="flex order-1">
             <input
               className="textSmall"
-              type={inputType}
+              type={inputType || "text"}
               id={name}
               name={name}
               placeholder={placeholder}
@@ -300,43 +286,39 @@ const Form = ({
         </>
       )}
 
-
       {fieldStyle === "select" && (
         <>
-          <div onClick={()=>setSelected(true)} className="flex order-1">
-              <img 
-                className='selectImg'
-                src={arrow_down}
-                alt={arrow_down}
-              />
-            <select 
-            value={selectedValue} 
-            name={name}
-            id={name}
-            onChange={handleChange}
+          <div onClick={() => setSelected(true)} className="flex order-1">
+            <img className="selectImg" src={arrow_down} alt={arrow_down} />
+            <select
+              value={selectedValue}
+              name={name}
+              id={name}
+              onChange={handleChange}
             >
-              {  selectArray
-                 .map(st=><option  value={st} key={st}>
-                   {st}
-                   </option>)
-                 }
+              {selectArray.map((st) => (
+                <option value={st} key={st}>
+                  {st}
+                </option>
+              ))}
             </select>
           </div>
           <div>
             <p className="errMessage">Uh oh! There was an error!</p>
           </div>
 
-          { selectedValue !== selectArray[0]  && <label htmlFor={name}>{placeholder}</label>}
+          {selectedValue !== selectArray[0] && (
+            <label htmlFor={name}>{placeholder}</label>
+          )}
         </>
       )}
-
     </Wrapper>
   );
 };
 
 Form.propTypes = {
   fieldStyle: PropTypes.string.isRequired,
-  inputType: PropTypes.string.isRequired,
+  inputType: PropTypes.string,
   name: PropTypes.string.isRequired,
   showError: PropTypes.bool,
   placeholder: PropTypes.string.isRequired,

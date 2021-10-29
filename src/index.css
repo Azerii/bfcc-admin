@@ -45,15 +45,15 @@
   --border: #efefef;
   --grey_1: #8d9091;
   --grey_2: #aaaaaa;
-/*   --grey_1: #333333; */
-/*   --grey_2: #efefef; */
+  /*   --grey_1: #333333; */
+  /*   --grey_2: #efefef; */
   --grey_3: #cccccc;
 
   --grey_4: #fafafa;
-  --grey_5:#BDBDBD;
+  --grey_5: #bdbdbd;
 
-/*   --grey_4: #aaaaaa; */
-/*   --grey_5: #8d9091; */
+  /*   --grey_4: #aaaaaa; */
+  /*   --grey_5: #8d9091; */
 
   --white: #ffffff;
   --font_regular: "Sassoon Infant Std";
@@ -95,7 +95,7 @@ body {
   font-weight: 450;
   line-height: 16px;
   letter-spacing: 0em;
-  background-color: #e5e5e5;
+  background-color: #f9fafb;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Sassoon Infant Std",
@@ -113,7 +113,7 @@ input {
   color: inherit;
 }
 
-  /* display: grid;
+/* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 1.2rem;
   grid-gap: 2.4rem;
@@ -277,4 +277,64 @@ h4 {
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+/* Other */
+
+.fullWidth {
+  width: 100%;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.alignEnd {
+  align-items: flex-end;
+}
+
+.alignStart {
+  align-items: flex-start;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifySpaceBetween {
+  justify-content: space-between;
+}
+
+.justifySpaceAround {
+  justify-content: space-around;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.upperCase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 700;
 }

@@ -74,8 +74,6 @@ const Search = styled.div`
     justify-content: space-between;
     color: var(--grey_1);
     background-color: var(--white);
-    cursor: ${(props) =>
-      props.fieldStyle === "dropdown" ? "pointer" : "auto"};
   }
 
   .list {
@@ -92,6 +90,7 @@ const Search = styled.div`
     opacity: 0;
     pointer-events: none;
     transition: all 0.2s ease-out;
+    z-index: 10;
   }
 
   .listItem {

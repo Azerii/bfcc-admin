@@ -12,23 +12,28 @@ const Wrapper = styled.div`
     text-align: center;
     margin: auto;
   }
+
   img {
     margin-top: 103px;
     margin-bottom: 20.5px;
   }
+
   p:nth-child(2) {
     font-size: 24px;
     font-weight: 500;
     color: var(--primary);
     margin-bottom: 10px;
   }
+
   p:nth-child(3) {
     font-size: 16px;
   }
+
   button {
     margin-top: 46.13px;
   }
 `;
+
 function Agegroup(props) {
   return (
     <>

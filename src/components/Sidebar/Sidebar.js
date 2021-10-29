@@ -8,28 +8,29 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Wrapper = styled.div`
-  background-color:white;
+  background-color: white;
   width: 250px;
   border-right: 1px solid #e5e7eb;
-    height: calc(100vh - 73px);
+  height: calc(100vh - 73px);
   color: var(--text);
+
   ul {
     padding-top: 23px;
     margin-left: 51.33px;
     transition: all 0.5s;
   }
+
   ul > li + li {
     margin-top: 23px;
   }
 `;
+
 const LIST_ARRAY = [
   { color: "#C52CEE", text: "English Language" },
   { color: "#F2B05C", text: "Mathematics" },
   { color: "#0CDAC6", text: "Science" },
-  { color: "#52D858", text: "Chemistry" },
-  { color: "#F7716E", text: "Physics" },
-  { color: "#003399", text: "Biology" },
 ];
+
 const Sidebar = () => {
   const [items, setItems] = useState(true);
 
@@ -43,7 +44,7 @@ const Sidebar = () => {
           <SidebarItem text="Reports" image={report} />
         </NavLink>
       </SidebarSection>
-      <SidebarSection>
+      {/* <SidebarSection>
         <NavLink activeClassName="active" to="/agegroup">
           <SidebarItem text="Age group" image={age} />
         </NavLink>
@@ -62,14 +63,14 @@ const Sidebar = () => {
             </ul>
           )}
         </NavLink>
-      </SidebarSection>
+      </SidebarSection> */}
       <SidebarSection>
-        <NavLink activeClassName="active" to="/question">
-            <SidebarItem text="Questions" image={question} />
+        <NavLink activeClassName="active" to="/questions">
+          <SidebarItem text="Questions" image={question} />
         </NavLink>
-        <NavLink activeClassName="active" to="/test">
-            <SidebarItem text="Test" image={test} />
-        </NavLink>
+        {/* <NavLink activeClassName="active" to="/test">
+          <SidebarItem text="Test" image={test} />
+        </NavLink> */}
       </SidebarSection>
     </Wrapper>
   );

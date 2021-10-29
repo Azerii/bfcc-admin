@@ -89,8 +89,6 @@ const Wrapper = styled.div`
   }
 `;
 const QuestionStages = () => {
-  const [userName, setUserName] = useState("");
-  const [password, setPassword] = useState("");
   const [stage, setStage] = useState(1);
   const [isValid, setIsValid] = useState(false);
 
@@ -117,7 +115,6 @@ const QuestionStages = () => {
       }
       return false;
     }
-
   };
   return (
     <Wrapper>
@@ -126,7 +123,6 @@ const QuestionStages = () => {
           onClick={() => {
             stage !== 1 && setStage(stage - 1);
             setIsValid(false);
-            // console.log(stage)
           }}
           text="Cancel"
           width="68.49px"
@@ -139,11 +135,11 @@ const QuestionStages = () => {
             <span>1</span>
             <span>Subject and class</span>
           </p>
-          <p className={stage >= 2 && "featured"}>
+          <p className={stage >= 2 ? "featured" : undefined}>
             <span>2</span>
             <span>Question type</span>
           </p>
-          <p className={stage >= 3 && "featured"}>
+          <p className={stage >= 3 ? "featured" : undefined}>
             <span>3</span>
             <span>Add questions</span>
           </p>
@@ -165,11 +161,8 @@ const QuestionStages = () => {
                   "English Language",
                   "Mathematics",
                   "Science",
-                  "Chemistry",
-                  "Physics",
-                  "Biology",
                 ]}
-                placeholder="Select Subject"
+                placeholder="Subject"
               />
               <Form
                 validate={validate}
@@ -181,8 +174,14 @@ const QuestionStages = () => {
                   "Year 2",
                   "Year 3",
                   "Year 4",
+                  "Year 5",
+                  "Year 6",
+                  "Year 7",
+                  "Year 8",
+                  "Year 9",
+                  "Year 10",
                 ]}
-                placeholder="Select Class"
+                placeholder="Class"
               />
             </form>
           </>

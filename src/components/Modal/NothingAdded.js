@@ -11,7 +11,7 @@ const Wrapper = styled.div`
     display: block;
     text-align: center;
     margin: auto;
-    width:fit-content;
+    width: fit-content;
   }
   img {
     margin-top: 103px;
@@ -30,22 +30,19 @@ const Wrapper = styled.div`
     margin-top: 46.13px;
   }
 `;
-function NothingAdded({text,onClick,link}) {
+
+function NothingAdded({ text, onClick, link }) {
   return (
-      <Wrapper>
-        <img src={age_group } alt={age_group } />
-        <p>There’s nothing here.</p>
-        <p>
-          You haven't added any {text} <br /> at the monent.
-        </p>
-           <Link to={link}>
-               <Button
-              text="Add question"
-              width="144px"
-              onClick={onClick}
-              />
-              </Link> 
-      </Wrapper>
+    <Wrapper>
+      <img src={age_group} alt={age_group} />
+      <p>There’s nothing here.</p>
+      <p>
+        You haven't added any {text} <br /> at the monent.
+      </p>
+      <Link to={link}>
+        <Button text="Add question" width="144px" onClick={onClick} />
+      </Link>
+    </Wrapper>
   );
 }
 export default NothingAdded;
