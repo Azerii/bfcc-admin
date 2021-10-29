@@ -71,7 +71,7 @@ const Modal = (props) => {
           placeholder="Add group"
           value={age}
           changeFunc={setAge}
-          onChange={(event) => setAge(event.target.value)}
+          onChange={setAge}
         />
         <Context.Consumer>
           {(context) => (

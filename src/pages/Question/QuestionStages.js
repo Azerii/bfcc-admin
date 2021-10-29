@@ -91,6 +91,7 @@ const Wrapper = styled.div`
 const QuestionStages = () => {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
+  const [form1, setForm1] = useState("");
   const [stage, setStage] = useState(1);
   const [isValid, setIsValid] = useState(false);
 
@@ -117,7 +118,6 @@ const QuestionStages = () => {
       }
       return false;
     }
-
   };
   return (
     <Wrapper>
@@ -210,8 +210,28 @@ const QuestionStages = () => {
             </form>
           </>
         )}
+        {stage === 3 && (
+          <>
+            <h3>Add questions</h3>
+            <p>
+              To create a question enter question details, select question type
+              and select answer to the question.
+            </p>
+            <form onSubmit={(e) => e.preventDefault()}>
+              <Form
+                validate={validate}
+                name="Question type"
+                fieldStyle="shortText"
+                value={form1}
+                changeFunc={setForm1}
+                onChange={setForm1}
+                placeholder="Question type"
+              />
+            </form>
+          </>
+        )}
         <Button
-          text="Next"
+          text={stage > 2 ? "Upload Question" : "Next"}
           width="360px"
           borderColor="transparent"
           color={isValid ? "var(--primary)" : "var(--grey_1)"}
