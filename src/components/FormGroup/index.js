@@ -27,11 +27,13 @@ const FormGroup = ({
   inputType,
   name,
   placeholder,
-  required = true,
+  required,
   list = [],
   defaultValue,
   disabled,
   readOnly,
+  outline = true,
+  setValue,
 }) => {
   const [showLabel, setShowLabel] = useState(false);
   const [searchVal, setSearchVal] = useState("");
@@ -50,10 +52,6 @@ const FormGroup = ({
     e.target.value?.length
       ? document.querySelector(`#${name}`).classList.add("contentFilled")
       : document.querySelector(`#${name}`).classList.remove("contentFilled");
-
-    // !searchVal.length &&
-    //   listOpen &&
-    //   document.querySelector(`#${name}`).classList.remove("isOpen");
   };
 
   const toggleList = (open) => {
@@ -68,12 +66,13 @@ const FormGroup = ({
     }
   };
 
-  const handleSelect = (e, l) => {
+  const handleSelect = (e, item) => {
     e.preventDefault();
     e.stopPropagation();
-    setSearchVal(l);
+    setSearchVal(item);
     toggleList(false);
     setShowLabel(true);
+    setValue && setValue(item);
     document.querySelector(`#${name}`).classList.add("contentFilled");
   };
 
@@ -89,8 +88,8 @@ const FormGroup = ({
         <TextField
           id={name}
           className={className}
-          fieldStyle={fieldStyle}
           disabled={disabled}
+          outline={outline}
         >
           <input
             className="textSmall"
@@ -100,10 +99,11 @@ const FormGroup = ({
             placeholder={placeholder}
             onBlur={handleBlur}
             onChange={toggleLabel}
-            required={required || false}
+            required={required}
             defaultValue={defaultValue}
             disabled={disabled}
             readOnly={readOnly}
+            autoComplete="off"
           />
           {showLabel && <label htmlFor={name}>{placeholder}</label>}
           {inputType === "password" && (
@@ -120,20 +120,21 @@ const FormGroup = ({
         <Multiline
           id={name}
           className={className}
-          fieldStyle={fieldStyle}
           disabled={disabled}
+          outline={outline}
         >
           <>
             <textarea
               id={name}
               name={name}
               placeholder={placeholder}
-              required={required || false}
+              required={required}
               defaultValue={defaultValue}
               onBlur={handleBlur}
               onChange={toggleLabel}
               disabled={disabled}
               readOnly={readOnly}
+              autoComplete="off"
             />
             {showLabel && <label htmlFor={name}>{placeholder}</label>}
           </>
@@ -143,8 +144,8 @@ const FormGroup = ({
         <Search
           id={name}
           className={className}
-          fieldStyle={fieldStyle}
           disabled={disabled}
+          outline={outline}
         >
           <div className="header">
             <img src={searchIcon} alt="icon" className="icon left" />
@@ -153,11 +154,13 @@ const FormGroup = ({
               id={name}
               name={name}
               value={searchVal}
+              required={required}
               onChange={(e) => setSearchVal(e.target.value)}
               onBlur={handleBlur}
               className="searchInput"
               placeholder={placeholder}
               onFocus={() => toggleList(true)}
+              autoComplete="off"
               readOnly={readOnly}
             />
             {listOpen && (
@@ -190,8 +193,8 @@ const FormGroup = ({
         <Dropdown
           id={name}
           className={className}
-          fieldStyle={fieldStyle}
           disabled={disabled}
+          outline={outline}
         >
           <div
             className="header"
@@ -203,9 +206,12 @@ const FormGroup = ({
               type="text"
               id={name}
               name={name}
+              required={required}
               value={searchVal}
+              onChange={() => {}}
               placeholder={placeholder}
-              readOnly
+              required={required}
+              autoComplete="off"
             />
             <img src={chevronDown} alt="down" className="icon right toggle" />
           </div>
@@ -237,6 +243,7 @@ FormGroup.propTypes = {
   required: PropTypes.bool,
   options: PropTypes.array,
   disabled: PropTypes.bool,
+  outline: PropTypes.bool,
 };
 
 export default FormGroup;

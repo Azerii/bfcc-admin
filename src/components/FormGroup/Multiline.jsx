@@ -6,6 +6,7 @@ const Multiline = styled(TextField)`
 
   textarea {
     height: 9.6rem;
+    padding: 1.6rem 0;
   }
 `;
 

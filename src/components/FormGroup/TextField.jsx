@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 const TextField = styled.div`
   display: flex;
-  flex-direction: column-reverse;
   justify-content: center;
-  background-color: var(--white);
+  background-color: transparent;
   border-radius: 0.4rem;
-  padding: 1.6rem;
+  padding: 0 1.6rem;
   height: 4.8rem;
   border: 1px solid var(--border);
   position: relative;
@@ -17,7 +16,8 @@ const TextField = styled.div`
   }
 
   &.contentFilled {
-    border-color: var(--primary);
+    border-color: ${(props) =>
+      props.outline ? "var(--primary)" : "var(--border)"};
   }
 
   .errorText {

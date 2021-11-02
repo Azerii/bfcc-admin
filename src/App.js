@@ -15,11 +15,10 @@ import Login from "./pages/Login";
 import Modal from "./components/Modal/Modal";
 import Context from "./components/Context/Context";
 
-import Table from  "./components/Table/PaginationTable"
-import SortingTable from "./components/Table/SortingTable"
+import Table from "./components/Table/PaginationTable";
+import SortingTable from "./components/Table/SortingTable";
 
 import QuestionStages from "./pages/Question/QuestionStages";
-
 
 // import Layout from "./Components/Layout";
 // import Button from "./Components/Button/Button";
@@ -33,14 +32,12 @@ import AlertBox from "./components/AlertBox";
 // import Close from "./assets/icons/Close.svg";
 // import CloseButton from "./assets/icons/CloseButton.svg";
 
-
 function App() {
   const [willModalShow, setToggleModal] = useState(false);
   return (
-
     <Context.Provider value={{ willModalShow, setToggleModal }}>
       <Router>
-        <div className="App">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+        <div className="App">
           {willModalShow && <Modal />}
           <Switch>
             <Route exact path="/login" component={Login} />
@@ -52,7 +49,7 @@ function App() {
               <Route exact path="/agegroup" component={Agegroup} />
               <Route exact path="/subjects" component={Subjects} />
               <Route exact path="/test" component={Test} />
-              <Route exact path="/question" component={Question} />
+              <Route path="/questions" component={Question} />
               <Route exact path="/table" component={Table} />
               {/* <Checkbox text='Check'/> */}
               {/* <Checkbox text='Unchecked'/> */}
@@ -68,7 +65,7 @@ function App() {
       </Router>
     </Context.Provider>
 
-              /*
+    /*
     <div className="App">
       <Layout>
         <Button text="My Button" />
@@ -129,9 +126,8 @@ function App() {
           hideBtn
         />
             */
-              
-            
-        /* <img src={checkCircle} alt="mark" className="icon left" />
+
+    /* <img src={checkCircle} alt="mark" className="icon left" />
           <span className="text">
             {"success alert flash, which never loose the contrast"}
           </span>
@@ -139,7 +135,7 @@ function App() {
           <VerticalLine className="VerticalLine" />
           <img src={Close} alt="close" className="icon right" /> */
 
-        /* <AlertBox className="success">
+    /* <AlertBox className="success">
           <img src={checkCircle} alt="mark" className="icon left" />
           <span className="text">
             {"success alert flash, which never loose the contrast"}
@@ -201,9 +197,8 @@ function App() {
           <VerticalLine className="VerticalLine" />
           <img src={Close} alt="close" className="icon right" />
         </AlertBox> */
-//       </Layout>
-//     </div>
-
+    //       </Layout>
+    //     </div>
   );
 }
 

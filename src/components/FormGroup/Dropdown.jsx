@@ -6,6 +6,11 @@ const Dropdown = styled(Search)`
     width: -webkit-fill-available;
   }
 
+  .header,
+  input {
+    cursor: pointer;
+  }
+
   &.isOpen {
     .icon {
       transition: all 0.2s ease-out;
