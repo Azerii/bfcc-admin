@@ -67,7 +67,7 @@ const RadioButton = (props) => (
         disabled={props.disabled}
         onChange={(e) => props.setValue(e.target.value)}
       />
-      <span class="checkmark flexRow alignCenter justifyCenter"></span>
+      <span className="checkmark flexRow alignCenter justifyCenter"></span>
     </label>
   </Wrapper>
 );

@@ -279,6 +279,12 @@ h4 {
   text-align: left;
 }
 
+/* Colors */
+
+.colorDanger {
+  color: var(--danger);
+}
+
 /* Other */
 
 .fullWidth {

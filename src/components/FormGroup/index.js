@@ -33,6 +33,7 @@ const FormGroup = ({
   disabled,
   readOnly,
   outline = true,
+  setValue,
 }) => {
   const [showLabel, setShowLabel] = useState(false);
   const [searchVal, setSearchVal] = useState("");
@@ -51,10 +52,6 @@ const FormGroup = ({
     e.target.value?.length
       ? document.querySelector(`#${name}`).classList.add("contentFilled")
       : document.querySelector(`#${name}`).classList.remove("contentFilled");
-
-    // !searchVal.length &&
-    //   listOpen &&
-    //   document.querySelector(`#${name}`).classList.remove("isOpen");
   };
 
   const toggleList = (open) => {
@@ -69,12 +66,13 @@ const FormGroup = ({
     }
   };
 
-  const handleSelect = (e, l) => {
+  const handleSelect = (e, item) => {
     e.preventDefault();
     e.stopPropagation();
-    setSearchVal(l);
+    setSearchVal(item);
     toggleList(false);
     setShowLabel(true);
+    setValue && setValue(item);
     document.querySelector(`#${name}`).classList.add("contentFilled");
   };
 
@@ -105,6 +103,7 @@ const FormGroup = ({
             defaultValue={defaultValue}
             disabled={disabled}
             readOnly={readOnly}
+            autoComplete="off"
           />
           {showLabel && <label htmlFor={name}>{placeholder}</label>}
           {inputType === "password" && (
@@ -135,6 +134,7 @@ const FormGroup = ({
               onChange={toggleLabel}
               disabled={disabled}
               readOnly={readOnly}
+              autoComplete="off"
             />
             {showLabel && <label htmlFor={name}>{placeholder}</label>}
           </>
@@ -160,6 +160,7 @@ const FormGroup = ({
               className="searchInput"
               placeholder={placeholder}
               onFocus={() => toggleList(true)}
+              autoComplete="off"
               readOnly={readOnly}
             />
             {listOpen && (
@@ -207,8 +208,10 @@ const FormGroup = ({
               name={name}
               required={required}
               value={searchVal}
+              onChange={() => {}}
               placeholder={placeholder}
-              readOnly
+              required={required}
+              autoComplete="off"
             />
             <img src={chevronDown} alt="down" className="icon right toggle" />
           </div>

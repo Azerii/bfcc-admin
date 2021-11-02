@@ -83,7 +83,6 @@ const Search = styled.div`
     position: absolute;
     top: 3rem;
     left: 0;
-    padding: 2.4rem 0;
     background-color: var(--white);
     border-radius: 1rem;
     box-shadow: 0px 25px 35px 0px #00000008;
@@ -99,7 +98,7 @@ const Search = styled.div`
     padding: 0 1.6rem;
     display: flex;
     align-items: center;
-    color: var(--grey_3);
+    color: var(--grey_1);
     transition: all 0.2s ease-out;
 
     &:hover {
