@@ -102,7 +102,7 @@ const TextField = styled.div`
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0em;
-    background-color: var(--white);
+    background-color: ${(props) => props.labelBg ?? "var(--white)"};
   }
 `;
 

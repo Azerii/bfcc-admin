@@ -34,6 +34,7 @@ const FormGroup = ({
   readOnly,
   outline = true,
   setValue,
+  labelBg,
 }) => {
   const [showLabel, setShowLabel] = useState(false);
   const [searchVal, setSearchVal] = useState("");
@@ -45,6 +46,7 @@ const FormGroup = ({
     } else {
       setShowLabel(false);
     }
+    setValue && setValue(e.target.value);
   };
 
   const handleBlur = (e) => {
@@ -90,6 +92,7 @@ const FormGroup = ({
           className={className}
           disabled={disabled}
           outline={outline}
+          labelBg={labelBg}
         >
           <input
             className="textSmall"
@@ -122,6 +125,7 @@ const FormGroup = ({
           className={className}
           disabled={disabled}
           outline={outline}
+          labelBg={labelBg}
         >
           <>
             <textarea
@@ -146,6 +150,7 @@ const FormGroup = ({
           className={className}
           disabled={disabled}
           outline={outline}
+          labelBg={labelBg}
         >
           <div className="header">
             <img src={searchIcon} alt="icon" className="icon left" />
@@ -195,6 +200,7 @@ const FormGroup = ({
           className={className}
           disabled={disabled}
           outline={outline}
+          labelBg={labelBg}
         >
           <div
             className="header"
@@ -208,7 +214,7 @@ const FormGroup = ({
               name={name}
               required={required}
               value={searchVal}
-              onChange={() => {}}
+              onChange={(e) => setSearchVal(e.target.value)}
               placeholder={placeholder}
               required={required}
               autoComplete="off"
@@ -244,6 +250,7 @@ FormGroup.propTypes = {
   options: PropTypes.array,
   disabled: PropTypes.bool,
   outline: PropTypes.bool,
+  labelBg: PropTypes.string,
 };
 
 export default FormGroup;

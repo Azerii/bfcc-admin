@@ -2,18 +2,11 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Loader from "../../components/Loader";
 import NothingAdded from "../../components/Modal/NothingAdded";
-import Spacer from "../../components/Spacer";
-import cancel from "../../assets/icons/cancel.svg";
-import checkBadge from "../../assets/icons/checkBadge.svg";
-import { Route, useHistory } from "react-router";
-import FormGroup from "../../components/FormGroup";
-import RadioButton from "../../components/RadioButton/RadioButton";
-import Button from "../../components/Button/Button";
+import { Route } from "react-router";
 import AddQuestion from "./AddQuestion";
 import { formDataToJSON } from "../../utils";
 
 const Wrapper = styled.div`
-  padding: 5.6rem 2.4rem;
   position: relative;
 
   > h4 {

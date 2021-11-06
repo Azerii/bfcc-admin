@@ -9,9 +9,9 @@ const Wrapper = styled.div`
     height: calc(100vh - 73px);
     overflow-y: auto;
     overflow-x: hidden;
+    padding: 5.6rem 4.8rem;
 
     & > h4 {
-      padding-left: 25px;
       font-size: 24px;
       margin: 56px 0 24px;
       line-height: 1;

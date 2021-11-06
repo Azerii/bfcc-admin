@@ -37,6 +37,7 @@
   --Black_black_3: #1a1a1a;
   --Black_black_4: #161616;
   --Black_black_5: #111111;
+  --background: #f9fafb;
   --transparent: transparent;
   --success: #219653;
   --warning: #ffcc00;
@@ -95,7 +96,7 @@ body {
   font-weight: 450;
   line-height: 16px;
   letter-spacing: 0em;
-  background-color: #f9fafb;
+  background-color: var(--background);
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Sassoon Infant Std",

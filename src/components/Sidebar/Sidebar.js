@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import SidebarItem from "./SidebarItem";
-import Li from "./Li";
-import { chat_pie, age, question, report, subject, test } from "../../assets";
+import { chat_pie, question, report } from "../../assets";
 import SidebarSection from "./SidebarSection";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -25,11 +24,11 @@ const Wrapper = styled.div`
   }
 `;
 
-const LIST_ARRAY = [
-  { color: "#C52CEE", text: "English Language" },
-  { color: "#F2B05C", text: "Mathematics" },
-  { color: "#0CDAC6", text: "Science" },
-];
+// const LIST_ARRAY = [
+//   { color: "#C52CEE", text: "English Language" },
+//   { color: "#F2B05C", text: "Mathematics" },
+//   { color: "#0CDAC6", text: "Science" },
+// ];
 
 const Sidebar = () => {
   const [items, setItems] = useState(true);
@@ -37,10 +36,10 @@ const Sidebar = () => {
   return (
     <Wrapper>
       <SidebarSection>
-        <NavLink activeClassName="active" to="/">
+        <NavLink exact activeClassName="active" to="/">
           <SidebarItem text="Overview" active image={chat_pie} />
         </NavLink>
-        <NavLink activeClassName="active" to="/reports">
+        <NavLink exact activeClassName="active" to="/reports">
           <SidebarItem text="Reports" image={report} />
         </NavLink>
       </SidebarSection>
@@ -65,7 +64,7 @@ const Sidebar = () => {
         </NavLink>
       </SidebarSection> */}
       <SidebarSection>
-        <NavLink activeClassName="active" to="/questions">
+        <NavLink exact activeClassName="active" to="/questions">
           <SidebarItem text="Questions" image={question} />
         </NavLink>
         {/* <NavLink activeClassName="active" to="/test">

@@ -1,27 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
-import Card from '../components/Card';
-const Wrapper = styled.div` 
-.main{
-    display:flex;
-    justify-content:space-between;
-    // flex-wrap:wrap;
-}
-& > h4{
-    font-size:24px;
-    margin:56px 0 24px;
-}
-`
-const Reports = ()=> {
-    return(
-        <Wrapper>
-        <h4>Reports</h4>
-        <div className="main">
-            <Card/>
-            <Card/>
-        </div>
-        
+import React from "react";
+import styled from "styled-components";
+import PaginationTable from "../components/Table/PaginationTable";
+
+const Wrapper = styled.div``;
+
+const Reports = () => {
+  return (
+    <Wrapper>
+      <PaginationTable title="Reports" />
     </Wrapper>
-    )
-}
-export default Reports
+  );
+};
+export default Reports;
