@@ -1,3 +1,6 @@
+import {
+  format
+} from 'date-fns';
 export const MOCK_COLUMNS = [
   {
     Header: "First name",
@@ -17,11 +20,12 @@ export const MOCK_COLUMNS = [
   },
   {
     Header: "Overall score (%)",
-    accessor: "name",
+    accessor: "score",
   },
   {
     Header: "Date & time",
-    accessor: "date",
+    accessor: "date&time",
+    Cell:({value}) => { return format(new Date(value),'dd/mm/yyyy')}
   },
 ];
 

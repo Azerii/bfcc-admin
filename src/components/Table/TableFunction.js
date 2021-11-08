@@ -15,13 +15,8 @@ import {
   arrow_right_blue,
   arrow_right_grey,
 } from "../../assets";
-import MOCK_DATA from "./MOCK_DATA.json";
-import { MOCK_COLUMNS } from "./columns";
-// import GlobalFilter from "./GlobalFilter";
 import styled from "styled-components";
-// import Pagination from "../Pagination/Pagination";
 import ColumnFilter from "./ColumnFilter";
-// import Context from "../../components/Context/Context";
 import FormGroup from "../FormGroup";
 
 const Wrapper = styled.div`
@@ -134,9 +129,10 @@ const PaginationWrapper = styled.div`
   }
 `;
 
-const PaginationTable = ({
-  COLUMNS = MOCK_COLUMNS,
-  DATA = MOCK_DATA,
+const TableFunction = ({
+  COLUMNS,
+  DATA ,
+  children,
   title,
 }) => {
   const columns = useMemo(() => COLUMNS, []);
@@ -181,6 +177,7 @@ const PaginationTable = ({
 
   return (
     <Wrapper>
+        {children}
       <div className="flexRow alignCenter justifySpaceBetween header">
         <h4 className="title">{title}</h4>
         {/* <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter} /> */}
@@ -227,17 +224,12 @@ const PaginationTable = ({
               prepareRow(row);
               return (
                 <tr {...row.getRowProps()}>
-                  {console.log(row.cells[0].value)}
-                  <td width="24">
-                    <Link to={`/${row.cells[0].value}_${row.cells[1].value}`}>
-                    </Link>
-                  </td>
+                    <td width="24">
+                    </td>
                   {row.cells.map((cell, index) => (
                     <td {...cell.getCellProps()}>
-                      <Link to={`/${row.cells[0].value}_${row.cells[1].value}`}>
                         {cell.render("Cell")}
-                      </Link>
-                    </td>
+                      </td>
                   ))}
                 </tr>
                 // <tr {...row.getRowProps()}>
@@ -358,4 +350,4 @@ const PaginationTable = ({
     </Wrapper>
   );
 };
-export default PaginationTable;
+export default TableFunction;
