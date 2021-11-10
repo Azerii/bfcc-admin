@@ -10,14 +10,28 @@ import {REPORT_COLUMNS} from "./components/Table/reportColumns";
 import Context from "./components/Context/Context";
 import TableFunction from "./components/Table/TableFunction";
 import styled from "styled-components";
-const Wrapper  = ({first_name,last_name,mail,school,overal,age,date})=><div>
-  <h4>{first_name,last_name}</h4>
-  <p>Age group:Year {age}</p>
-  <p>Email address:{mail}</p>
-  <p>School name:{school}</p>
-  <p>Overal test score(%):</p>
-  <p>Date & time taken:{date}</p>
-</div>
+
+const  Wrapper = styled.div` 
+background:white;
+padding: 48px;
+h4, * + p{
+  margin-bottom: 24px;
+
+  & > span:first-child{
+    display:inline-block;
+    width:184px;
+    color:var(--grey_1);
+  }
+}
+`
+const Details  = ({first_name,last_name,mail,school,overal,age_group,date})=><Wrapper>
+  <h4>{first_name} {last_name}</h4>
+  <p><span>Age group: </span>  <span>Year {age_group}</span></p>
+  <p><span>Email address:</span> <span>{mail}</span></p>
+  <p><span>School name:</span> <span>{school}</span></p>
+  <p><span>Overal test score(%):</span> <span>{overal}</span></p>
+  <p><span>Date & time taken:</span>   <span>{date}</span></p>
+</Wrapper>
 
 function App() {
   const [willModalShow, setToggleModal] = useState(false);
@@ -41,14 +55,18 @@ function App() {
                     ()=><TableFunction 
                    COLUMNS = {REPORT_COLUMNS}
                    DATA = {MOCK_DATA}
-                   title='hello'
+                  //  title='hello'
                    >
-                     <Wrapper 
+                     {console.log(data.first_name)}
+                     <Details 
                      first_name={data.first_name}
                      last_name={data.last_name} 
-                     age={data.age}
+                     age_group={data.age_group}
+                     mail={data.email}
                      date={data["date of birth"]}
-                     overal={data.age}
+                     overal={data.age_group}
+                     school={data.country}
+                     date={data["date&time"]}
                      />
                    </TableFunction>
                  }

@@ -20,6 +20,7 @@ import ColumnFilter from "./ColumnFilter";
 import FormGroup from "../FormGroup";
 
 const Wrapper = styled.div`
+background:white;
   .header {
     margin-bottom: 3.6rem;
   }
@@ -178,7 +179,7 @@ const TableFunction = ({
   return (
     <Wrapper>
         {children}
-      <div className="flexRow alignCenter justifySpaceBetween header">
+      <div className="flexRow alignCenter wh justifySpaceBetween header">
         <h4 className="title">{title}</h4>
         {/* <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter} /> */}
         <FormGroup
