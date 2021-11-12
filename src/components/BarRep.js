@@ -1,12 +1,23 @@
 import React from "react";
 import styled from "styled-components";
 
+const handleColorType = bar => {
+  switch (bar) {
+    case "bar2":
+      return "40px";
+    case "bar3":
+      return "8px";
+    default:
+      return "20px";
+  }
+};
+
 const Wrapper = styled.div`
   background-color: ${(props) => props.color || "white"};
   color: ${(props) => props.textColor || "white"};
   padding: 0 14px;
   font-size: 16px;
-  height: ${(props) => (props.bar2 ? "40px" : "20px")};
+  height: ${(props) =>handleColorType(props.bar) };
   display: flex;
   align-items: center;
   font-weight: 700;
@@ -15,9 +26,9 @@ const Wrapper = styled.div`
   margin-bottom: 1.2rem;
 `;
 
-const BarRep = ({ text, num, color, textColor, bar2 }) => {
+const BarRep = ({ text, num, color, textColor, bar }) => {
   return (
-    <Wrapper bar2={bar2} num={num} color={color} textColor={textColor}>
+    <Wrapper bar={bar} num={num} color={color} textColor={textColor}>
       {text}
     </Wrapper>
   );

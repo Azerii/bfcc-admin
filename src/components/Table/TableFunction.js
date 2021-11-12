@@ -193,6 +193,7 @@ const TableFunction = ({
       </div>
       <div className="screen">
         <TableWrapper {...getTableProps()}>
+
           <thead>
             {headerGroups.map((headerGroup) => (
               <tr {...headerGroup.getHeaderGroupProps()} className="header">
@@ -200,20 +201,7 @@ const TableFunction = ({
                 {headerGroup.headers.map((column) => (
                   <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                     {column.render("Header")}
-                    {/* <span>
-                      {column.isSorted ? (
-                        column.isSortedDesc ? (
-                          <img src={arrow_left_blue} alt={arrow_left_blue} />
-                        ) : (
-                          <img src={arrow_right_blue} alt={arrow_right_blue} />
-                        )
-                      ) : (
-                        ""
-                      )}
-                    </span>
-                    <div>
-                      {column.canFilter ? column.render("Filter") : null}
-                    </div> */}
+                    
                   </th>
                 ))}
               </tr>
@@ -223,6 +211,7 @@ const TableFunction = ({
           <tbody {...getTableBodyProps()}>
             {page.map((row) => {
               prepareRow(row);
+              {console.log(row)}
               return (
                 <tr {...row.getRowProps()}>
                     <td width="24">
@@ -230,123 +219,18 @@ const TableFunction = ({
                   {row.cells.map((cell, index) => (
                     <td {...cell.getCellProps()}>
                         {cell.render("Cell")}
+                        {/* {console.log(cell)} */}
                       </td>
                   ))}
                 </tr>
-                // <tr {...row.getRowProps()}>
-                //   {row.cells.map((cell, index) => {
-                //     if (index > 1) {
-                //       return null;
-                //     } else if (index === 1) {
-                //       return (
-                //         <td
-                //           style={{
-                //             marginLeft: "auto",
-                //             width: "144px",
-                //             padding: "0",
-                //           }}
-                //           {...cell.getCellProps()}
-                //         >
-                //           <Context.Consumer>
-                //             {(context) => (
-                //               <Button
-                //                 text="Remove"
-                //                 color="#FBFBFB"
-                //                 borderColor="transparent"
-                //                 textColor="#404040"
-                //                 onClick={() =>
-                //                   context.setToggleModal(!context.willModalShow)
-                //                 }
-                //               />
-                //             )}
-                //           </Context.Consumer>
-                //         </td>
-                //       );
-                //     } else {
-                //       return (
-                //         <td {...cell.getCellProps()}>{cell.render("Cell")}</td>
-                //       );
-                //     }
-                //   })}
-                // </tr>
+              
               );
             })}
           </tbody>
         </TableWrapper>
-        <PaginationWrapper className="flexRow alignCenter justifySpaceBetween">
-          <ul className="pagination">
-            <li className="pagination-item wh-bg " onClick={() => gotoPage(0)}>
-              <img
-                src={canPreviousPage ? arrow_left_blue : arrow_left_grey}
-                alt="arrow_left"
-              />
-              <img
-                src={canPreviousPage ? arrow_left_blue : arrow_left_grey}
-                alt="arrow_left"
-              />
-            </li>
-            <li className="pagination-item wh-bg " onClick={previousPage}>
-              <img
-                src={canPreviousPage ? arrow_left_blue : arrow_left_grey}
-                alt="arrow_left"
-              />
-            </li>
-            {pageOptions
-              .filter((num) => {
-                if (pageIndex <= 2) {
-                  return num <= 3;
-                } else if (pageIndex >= pageCount - 2) {
-                  return num >= pageCount - 4;
-                } else return num >= pageIndex - 2 && num <= pageIndex + 2;
-              })
-              .map((pageNumber) => {
-                if (pageNumber === pageIndex) {
-                  return (
-                    <li key={pageNumber} className="featured">
-                      {pageNumber + 1}
-                    </li>
-                  );
-                }
-                return (
-                  <li key={pageNumber} onClick={() => gotoPage(pageNumber)}>
-                    {pageNumber + 1}
-                  </li>
-                );
-              })}
-            <li className=" wh-bg " onClick={nextPage}>
-              {/* <div className="arrow right" >right</div> */}
-              <img
-                src={canNextPage ? arrow_right_blue : arrow_right_grey}
-                alt="arrow_right"
-              />
-            </li>
-            <li className=" wh-bg " onClick={() => gotoPage(pageCount - 1)}>
-              <img
-                src={canNextPage ? arrow_right_blue : arrow_right_grey}
-                alt="arrow_right"
-              />
-              <img
-                src={canNextPage ? arrow_right_blue : arrow_right_grey}
-                alt="arrow_right"
-              />
-            </li>
-          </ul>
-          <div className="findPage">
-            {/* <Form
-              name=""
-              inputType="number"
-              fieldStyle="shortText"
-              value={searchValue}
-              changeFunc={(e) => {
-                setSearchValue(e);
-                gotoPage(e);
-              }}
-            /> */}
-            <p>
-              Displaying {(pageIndex + 1) * 10} of {pageCount * 10} records
-            </p>
-          </div>
-        </PaginationWrapper>
+
+        
+        
       </div>
     </Wrapper>
   );

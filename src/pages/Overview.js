@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   }
 
   .otherData {
-    display: grid;
+    display: grid;x
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 24px;
   }
@@ -97,7 +97,7 @@ const Overview = ({ empty = false }) => {
             <>
               {arr.map((ar, index) => (
                 <BarRep
-                  bar2
+                  bar='bar2'
                   key={index}
                   num={ar.score}
                   text={`${ar.name} (${ar.score}%)`}

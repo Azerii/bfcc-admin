@@ -6,12 +6,12 @@ import Question from "./pages/Question/Question";
 import Reports from "./pages/Reports";
 import Login from "./pages/Login";
 import MOCK_DATA from "./components/Table/MOCK_DATA.json";
-import {REPORT_COLUMNS} from "./components/Table/reportColumns";
+import { REPORT_COLUMNS } from "./components/Table/reportColumns";
 import Context from "./components/Context/Context";
 import TableFunction from "./components/Table/TableFunction";
 import styled from "styled-components";
 
-const  Wrapper = styled.div` 
+const Wrapper = styled.div` 
 background:white;
 padding: 48px;
 h4, * + p{
@@ -24,7 +24,7 @@ h4, * + p{
   }
 }
 `
-const Details  = ({first_name,last_name,mail,school,overal,age_group,date})=><Wrapper>
+const Details = ({ first_name, last_name, mail, school, overal, age_group, date }) => <Wrapper>
   <h4>{first_name} {last_name}</h4>
   <p><span>Age group: </span>  <span>Year {age_group}</span></p>
   <p><span>Email address:</span> <span>{mail}</span></p>
@@ -47,30 +47,42 @@ function App() {
               <Route exact path="/reports" component={Reports} />
               <Route path="/questions" component={Question} />
 
+
               {
+
                 MOCK_DATA.map(
-                  data => <Route
-                   path={`/${data.first_name}_${data.last_name}`} 
-                   render={
-                    ()=><TableFunction 
-                   COLUMNS = {REPORT_COLUMNS}
-                   DATA = {MOCK_DATA}
-                  //  title='hello'
-                   >
-                     {console.log(data.first_name)}
-                     <Details 
-                     first_name={data.first_name}
-                     last_name={data.last_name} 
-                     age_group={data.age_group}
-                     mail={data.email}
-                     date={data["date of birth"]}
-                     overal={data.age_group}
-                     school={data.country}
-                     date={data["date&time"]}
-                     />
-                   </TableFunction>
-                 }
-                     />
+                  (data, index) => {
+                    // setInterval(() => console.log([{}]), 51000)
+                    let arrayOfObjects = Object.entries(MOCK_DATA[index].subject).map(a => {
+                      return {
+                        subject: a[0][0].toLocaleUpperCase() + a[0].substring(1),
+                         score: [a[1]],
+                         total: [a[1]],
+                      }
+                    })
+                    return <Route
+                      path={`/${data.first_name}_${data.last_name}`}
+                      render={
+                        () => <TableFunction
+                          COLUMNS={REPORT_COLUMNS}
+                          DATA={arrayOfObjects}
+
+                        //  title='hello'
+                        >
+                          <Details
+                            first_name={data.first_name}
+                            last_name={data.last_name}
+                            age_group={data.age_group}
+                            mail={data.email}
+                            date={data["date of birth"]}
+                            overal={data.age_group}
+                            school={data.country}
+                            date={data["date&time"]}
+                          />
+                        </TableFunction>
+                      }
+                    />
+                  }
                 )
               }
 

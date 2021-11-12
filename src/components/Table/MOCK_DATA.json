@@ -1,200 +1,3602 @@
-[{"english":68,"maths":24,"science":97,"physics":74,"chemistry":99,"first_name":"Kayla","last_name":"Meckiff","email":"kmeckiff0@discovery.com","score":70,"date&time":"9/21/2022","time":"1:53 AM","age_group":15,"phone":"7022871944","country":"Afghanistan"},
-{"english":81,"maths":53,"science":66,"physics":100,"chemistry":40,"first_name":"Husein","last_name":"Maudlen","email":"hmaudlen1@sciencedaily.com","score":55,"date&time":"3/11/2022","time":"10:52 PM","age_group":12,"phone":"4235989041","country":"Afghanistan"},
-{"english":28,"maths":35,"science":44,"physics":32,"chemistry":87,"first_name":"Chrissy","last_name":"Asher","email":"casher2@domainmarket.com","score":99,"date&time":"4/15/2023","time":"11:15 PM","age_group":13,"phone":"1801523482","country":"Afghanistan"},
-{"english":23,"maths":65,"science":35,"physics":94,"chemistry":39,"first_name":"Tristam","last_name":"Clappison","email":"tclappison3@google.pl","score":94,"date&time":"2/16/2022","time":"9:24 AM","age_group":18,"phone":"7115456254","country":"Afghanistan"},
-{"english":41,"maths":28,"science":64,"physics":73,"chemistry":89,"first_name":"Isidore","last_name":"Kellett","email":"ikellett4@theglobeandmail.com","score":46,"date&time":"4/11/2023","time":"5:40 PM","age_group":19,"phone":"8089223067","country":"Afghanistan"},
-{"english":80,"maths":75,"science":39,"physics":71,"chemistry":20,"first_name":"Sashenka","last_name":"Hurlestone","email":"shurlestone5@hc360.com","score":83,"date&time":"1/7/2023","time":"10:30 PM","age_group":19,"phone":"5208241852","country":"Afghanistan"},
-{"english":67,"maths":67,"science":34,"physics":73,"chemistry":54,"first_name":"Udall","last_name":"Rimmington","email":"urimmington6@yellowpages.com","score":45,"date&time":"8/7/2023","time":"9:37 AM","age_group":15,"phone":"6965161101","country":"Afghanistan"},
-{"english":53,"maths":62,"science":45,"physics":75,"chemistry":69,"first_name":"Gustie","last_name":"Domenici","email":"gdomenici7@bloglovin.com","score":97,"date&time":"8/5/2023","time":"4:00 AM","age_group":12,"phone":"9383260852","country":"Afghanistan"},
-{"english":89,"maths":44,"science":48,"physics":61,"chemistry":25,"first_name":"Geneva","last_name":"Rehn","email":"grehn8@sourceforge.net","score":96,"date&time":"6/23/2023","time":"1:50 PM","age_group":16,"phone":"8689290555","country":"Afghanistan"},
-{"english":99,"maths":27,"science":96,"physics":22,"chemistry":50,"first_name":"Marlene","last_name":"Elson","email":"melson9@ted.com","score":76,"date&time":"12/1/2022","time":"5:24 AM","age_group":18,"phone":"9818968954","country":"Afghanistan"},
-{"english":51,"maths":72,"science":23,"physics":75,"chemistry":47,"first_name":"Tiffy","last_name":"Upex","email":"tupexa@twitpic.com","score":25,"date&time":"12/1/2021","time":"12:12 AM","age_group":17,"phone":"6008187882","country":"Afghanistan"},
-{"english":34,"maths":34,"science":39,"physics":81,"chemistry":29,"first_name":"Nikolaus","last_name":"Moogan","email":"nmooganb@walmart.com","score":25,"date&time":"10/26/2022","time":"4:43 PM","age_group":17,"phone":"9577702898","country":"Afghanistan"},
-{"english":80,"maths":25,"science":95,"physics":71,"chemistry":48,"first_name":"Grissel","last_name":"Stopper","email":"gstopperc@wordpress.com","score":64,"date&time":"1/8/2023","time":"9:42 AM","age_group":19,"phone":"5319203237","country":"Afghanistan"},
-{"english":34,"maths":85,"science":84,"physics":53,"chemistry":67,"first_name":"Louisette","last_name":"Danzig","email":"ldanzigd@cocolog-nifty.com","score":30,"date&time":"11/12/2021","time":"8:06 PM","age_group":18,"phone":"9241599991","country":"Afghanistan"},
-{"english":33,"maths":70,"science":59,"physics":25,"chemistry":55,"first_name":"Paddie","last_name":"Merle","email":"pmerlee@theguardian.com","score":28,"date&time":"6/16/2022","time":"10:49 PM","age_group":14,"phone":"8891913553","country":"Afghanistan"},
-{"english":30,"maths":20,"science":84,"physics":82,"chemistry":56,"first_name":"Judith","last_name":"Gunda","email":"jgundaf@geocities.jp","score":96,"date&time":"1/26/2022","time":"1:10 PM","age_group":16,"phone":"6237684950","country":"Afghanistan"},
-{"english":80,"maths":43,"science":36,"physics":98,"chemistry":46,"first_name":"Neill","last_name":"Kreuzer","email":"nkreuzerg@blinklist.com","score":26,"date&time":"12/5/2021","time":"7:23 AM","age_group":17,"phone":"2008323826","country":"Afghanistan"},
-{"english":78,"maths":29,"science":92,"physics":82,"chemistry":49,"first_name":"Ardis","last_name":"Allnutt","email":"aallnutth@mayoclinic.com","score":56,"date&time":"8/30/2022","time":"11:06 PM","age_group":16,"phone":"7861917467","country":"Afghanistan"},
-{"english":71,"maths":69,"science":82,"physics":54,"chemistry":99,"first_name":"Tiphani","last_name":"Lanigan","email":"tlanigani@foxnews.com","score":91,"date&time":"10/3/2022","time":"4:28 AM","age_group":13,"phone":"8988402852","country":"Afghanistan"},
-{"english":93,"maths":61,"science":80,"physics":73,"chemistry":84,"first_name":"Shelagh","last_name":"Van Hove","email":"svanhovej@squarespace.com","score":59,"date&time":"4/5/2023","time":"11:24 PM","age_group":15,"phone":"8755434291","country":"Afghanistan"},
-{"english":37,"maths":46,"science":80,"physics":47,"chemistry":74,"first_name":"Alidia","last_name":"Saturley","email":"asaturleyk@tripod.com","score":55,"date&time":"8/14/2022","time":"5:38 AM","age_group":13,"phone":"6978720741","country":"Afghanistan"},
-{"english":80,"maths":45,"science":37,"physics":97,"chemistry":35,"first_name":"Ketty","last_name":"Basnett","email":"kbasnettl@mapquest.com","score":73,"date&time":"10/9/2023","time":"1:10 AM","age_group":17,"phone":"2147095176","country":"Afghanistan"},
-{"english":75,"maths":74,"science":27,"physics":77,"chemistry":88,"first_name":"Alard","last_name":"Geekie","email":"ageekiem@wiley.com","score":45,"date&time":"11/19/2021","time":"12:50 PM","age_group":19,"phone":"7743897876","country":"Afghanistan"},
-{"english":99,"maths":87,"science":52,"physics":99,"chemistry":79,"first_name":"Pia","last_name":"Brisseau","email":"pbrisseaun@newyorker.com","score":89,"date&time":"12/8/2022","time":"4:36 AM","age_group":17,"phone":"8006163869","country":"Afghanistan"},
-{"english":42,"maths":32,"science":23,"physics":35,"chemistry":32,"first_name":"Alexandra","last_name":"Shobbrook","email":"ashobbrooko@facebook.com","score":31,"date&time":"9/11/2023","time":"5:21 AM","age_group":19,"phone":"7493035745","country":"Afghanistan"},
-{"english":78,"maths":52,"science":42,"physics":89,"chemistry":87,"first_name":"Foster","last_name":"Deverall","email":"fdeverallp@smh.com.au","score":48,"date&time":"7/12/2022","time":"10:53 AM","age_group":20,"phone":"5951282973","country":"Afghanistan"},
-{"english":21,"maths":93,"science":66,"physics":53,"chemistry":65,"first_name":"Angeline","last_name":"Pheazey","email":"apheazeyq@java.com","score":84,"date&time":"6/28/2023","time":"1:59 PM","age_group":20,"phone":"5165395029","country":"Afghanistan"},
-{"english":65,"maths":25,"science":23,"physics":21,"chemistry":67,"first_name":"Cathi","last_name":"Ensley","email":"censleyr@sina.com.cn","score":89,"date&time":"4/18/2023","time":"1:17 AM","age_group":18,"phone":"7099504879","country":"Afghanistan"},
-{"english":38,"maths":92,"science":92,"physics":28,"chemistry":62,"first_name":"Rubina","last_name":"Nelson","email":"rnelsons@cnet.com","score":22,"date&time":"8/17/2023","time":"1:51 PM","age_group":16,"phone":"6019650941","country":"Afghanistan"},
-{"english":96,"maths":56,"science":43,"physics":22,"chemistry":60,"first_name":"Nessie","last_name":"Mahy","email":"nmahyt@123-reg.co.uk","score":84,"date&time":"2/15/2023","time":"2:23 PM","age_group":19,"phone":"7528408689","country":"Afghanistan"},
-{"english":36,"maths":26,"science":61,"physics":80,"chemistry":29,"first_name":"Clemente","last_name":"Soden","email":"csodenu@naver.com","score":84,"date&time":"2/7/2023","time":"6:04 PM","age_group":12,"phone":"5024214842","country":"Afghanistan"},
-{"english":49,"maths":64,"science":82,"physics":71,"chemistry":78,"first_name":"Fulton","last_name":"Firby","email":"ffirbyv@jimdo.com","score":28,"date&time":"10/22/2022","time":"11:16 AM","age_group":19,"phone":"6355905025","country":"Afghanistan"},
-{"english":59,"maths":78,"science":52,"physics":78,"chemistry":82,"first_name":"Camel","last_name":"Pakenham","email":"cpakenhamw@usnews.com","score":91,"date&time":"5/20/2023","time":"5:51 PM","age_group":17,"phone":"2861621633","country":"Afghanistan"},
-{"english":48,"maths":91,"science":71,"physics":30,"chemistry":37,"first_name":"Murielle","last_name":"Trouel","email":"mtrouelx@behance.net","score":49,"date&time":"5/29/2022","time":"7:09 AM","age_group":13,"phone":"9041763035","country":"Afghanistan"},
-{"english":62,"maths":94,"science":22,"physics":69,"chemistry":81,"first_name":"Benoite","last_name":"Figiovanni","email":"bfigiovanniy@yahoo.com","score":20,"date&time":"10/23/2022","time":"1:52 AM","age_group":20,"phone":"1246766443","country":"Afghanistan"},
-{"english":31,"maths":68,"science":97,"physics":27,"chemistry":70,"first_name":"Kizzie","last_name":"Denington","email":"kdeningtonz@privacy.gov.au","score":39,"date&time":"12/21/2021","time":"1:55 AM","age_group":17,"phone":"8494454107","country":"Afghanistan"},
-{"english":21,"maths":50,"science":93,"physics":91,"chemistry":83,"first_name":"Darb","last_name":"Boynton","email":"dboynton10@php.net","score":28,"date&time":"12/18/2022","time":"3:53 PM","age_group":14,"phone":"5258608414","country":"Afghanistan"},
-{"english":35,"maths":45,"science":84,"physics":45,"chemistry":91,"first_name":"Vin","last_name":"Soff","email":"vsoff11@ed.gov","score":60,"date&time":"8/20/2022","time":"8:11 AM","age_group":20,"phone":"9399714659","country":"Afghanistan"},
-{"english":30,"maths":51,"science":46,"physics":43,"chemistry":99,"first_name":"Elly","last_name":"Morgon","email":"emorgon12@flavors.me","score":35,"date&time":"5/13/2023","time":"1:20 PM","age_group":13,"phone":"2509083780","country":"Afghanistan"},
-{"english":32,"maths":79,"science":99,"physics":44,"chemistry":29,"first_name":"Noelyn","last_name":"Fitzmaurice","email":"nfitzmaurice13@parallels.com","score":50,"date&time":"5/24/2023","time":"1:35 PM","age_group":20,"phone":"7142777016","country":"Afghanistan"},
-{"english":41,"maths":34,"science":50,"physics":61,"chemistry":82,"first_name":"Brady","last_name":"Ewbanche","email":"bewbanche14@de.vu","score":96,"date&time":"6/18/2023","time":"11:06 PM","age_group":17,"phone":"9702213933","country":"Afghanistan"},
-{"english":52,"maths":49,"science":51,"physics":73,"chemistry":94,"first_name":"Arvie","last_name":"Marde","email":"amarde15@tamu.edu","score":72,"date&time":"8/9/2022","time":"8:51 PM","age_group":19,"phone":"2256005980","country":"Afghanistan"},
-{"english":29,"maths":39,"science":96,"physics":43,"chemistry":65,"first_name":"Marlene","last_name":"Kerne","email":"mkerne16@blog.com","score":47,"date&time":"1/6/2023","time":"10:36 AM","age_group":20,"phone":"5452762347","country":"Afghanistan"},
-{"english":26,"maths":65,"science":25,"physics":57,"chemistry":28,"first_name":"Natale","last_name":"Capineer","email":"ncapineer17@dyndns.org","score":89,"date&time":"10/15/2023","time":"9:30 AM","age_group":18,"phone":"6735929575","country":"Afghanistan"},
-{"english":67,"maths":24,"science":57,"physics":65,"chemistry":93,"first_name":"Tessi","last_name":"Ockleshaw","email":"tockleshaw18@cdc.gov","score":63,"date&time":"9/27/2022","time":"4:39 AM","age_group":16,"phone":"3306611279","country":"Afghanistan"},
-{"english":72,"maths":77,"science":40,"physics":100,"chemistry":37,"first_name":"Aline","last_name":"Carlow","email":"acarlow19@abc.net.au","score":52,"date&time":"9/20/2023","time":"5:08 PM","age_group":18,"phone":"3098475093","country":"Afghanistan"},
-{"english":96,"maths":62,"science":65,"physics":55,"chemistry":48,"first_name":"Danika","last_name":"Hackett","email":"dhackett1a@biblegateway.com","score":51,"date&time":"9/13/2022","time":"8:15 PM","age_group":14,"phone":"4262104313","country":"Afghanistan"},
-{"english":31,"maths":89,"science":73,"physics":72,"chemistry":32,"first_name":"Ignacius","last_name":"Popley","email":"ipopley1b@youtu.be","score":39,"date&time":"5/12/2022","time":"8:26 PM","age_group":20,"phone":"7897690531","country":"Afghanistan"},
-{"english":99,"maths":67,"science":48,"physics":66,"chemistry":56,"first_name":"Rana","last_name":"Cadalleder","email":"rcadalleder1c@technorati.com","score":99,"date&time":"5/9/2023","time":"2:10 PM","age_group":19,"phone":"3979169222","country":"Afghanistan"},
-{"english":54,"maths":83,"science":81,"physics":87,"chemistry":50,"first_name":"Vite","last_name":"Yitzhakof","email":"vyitzhakof1d@wordpress.org","score":22,"date&time":"1/25/2023","time":"4:06 PM","age_group":16,"phone":"3673785560","country":"Afghanistan"},
-{"english":85,"maths":68,"science":46,"physics":47,"chemistry":91,"first_name":"Mitzi","last_name":"Ffoulkes","email":"mffoulkes1e@economist.com","score":63,"date&time":"11/23/2021","time":"8:38 PM","age_group":19,"phone":"6295923926","country":"Afghanistan"},
-{"english":66,"maths":22,"science":22,"physics":58,"chemistry":25,"first_name":"Moselle","last_name":"Shank","email":"mshank1f@yelp.com","score":42,"date&time":"7/5/2022","time":"10:48 PM","age_group":12,"phone":"6088000605","country":"Afghanistan"},
-{"english":71,"maths":93,"science":35,"physics":53,"chemistry":100,"first_name":"Anastasie","last_name":"Brewett","email":"abrewett1g@stanford.edu","score":44,"date&time":"7/24/2022","time":"6:40 AM","age_group":17,"phone":"4529188054","country":"Afghanistan"},
-{"english":80,"maths":70,"science":88,"physics":97,"chemistry":30,"first_name":"Early","last_name":"Galletley","email":"egalletley1h@umn.edu","score":100,"date&time":"3/9/2022","time":"11:39 AM","age_group":17,"phone":"9118596248","country":"Afghanistan"},
-{"english":63,"maths":39,"science":40,"physics":20,"chemistry":62,"first_name":"Napoleon","last_name":"Barke","email":"nbarke1i@hp.com","score":68,"date&time":"6/21/2023","time":"8:17 PM","age_group":12,"phone":"8314364058","country":"Afghanistan"},
-{"english":33,"maths":53,"science":71,"physics":71,"chemistry":60,"first_name":"Anica","last_name":"Sidey","email":"asidey1j@etsy.com","score":71,"date&time":"8/11/2023","time":"4:46 AM","age_group":13,"phone":"1461287595","country":"Afghanistan"},
-{"english":84,"maths":32,"science":84,"physics":86,"chemistry":53,"first_name":"Marlo","last_name":"O'Drought","email":"modrought1k@marketwatch.com","score":26,"date&time":"2/16/2023","time":"11:09 AM","age_group":15,"phone":"4638538563","country":"Afghanistan"},
-{"english":98,"maths":79,"science":78,"physics":29,"chemistry":87,"first_name":"Menard","last_name":"Nono","email":"mnono1l@ustream.tv","score":21,"date&time":"12/6/2022","time":"7:17 AM","age_group":15,"phone":"6019447899","country":"Afghanistan"},
-{"english":29,"maths":30,"science":70,"physics":48,"chemistry":34,"first_name":"Dylan","last_name":"Conybear","email":"dconybear1m@va.gov","score":63,"date&time":"11/29/2021","time":"1:52 AM","age_group":16,"phone":"3761326849","country":"Afghanistan"},
-{"english":93,"maths":68,"science":54,"physics":85,"chemistry":98,"first_name":"Joye","last_name":"Zambon","email":"jzambon1n@msn.com","score":86,"date&time":"11/25/2022","time":"10:13 PM","age_group":19,"phone":"8739690436","country":"Afghanistan"},
-{"english":77,"maths":85,"science":27,"physics":91,"chemistry":75,"first_name":"Sarajane","last_name":"Kelshaw","email":"skelshaw1o@techcrunch.com","score":26,"date&time":"5/30/2023","time":"2:47 PM","age_group":12,"phone":"4253696800","country":"Afghanistan"},
-{"english":94,"maths":20,"science":37,"physics":35,"chemistry":59,"first_name":"Maud","last_name":"Bonass","email":"mbonass1p@de.vu","score":26,"date&time":"9/15/2022","time":"6:24 PM","age_group":18,"phone":"4515134152","country":"Afghanistan"},
-{"english":25,"maths":33,"science":84,"physics":96,"chemistry":21,"first_name":"Bernette","last_name":"Clacson","email":"bclacson1q@behance.net","score":43,"date&time":"5/5/2023","time":"11:29 AM","age_group":13,"phone":"8833826409","country":"Afghanistan"},
-{"english":36,"maths":65,"science":58,"physics":23,"chemistry":25,"first_name":"Laurent","last_name":"Kop","email":"lkop1r@msu.edu","score":20,"date&time":"6/18/2022","time":"1:18 AM","age_group":19,"phone":"9867706193","country":"Afghanistan"},
-{"english":75,"maths":50,"science":47,"physics":23,"chemistry":58,"first_name":"Donal","last_name":"Roller","email":"droller1s@wikia.com","score":52,"date&time":"11/19/2022","time":"3:06 AM","age_group":16,"phone":"4051479335","country":"Afghanistan"},
-{"english":60,"maths":71,"science":44,"physics":25,"chemistry":91,"first_name":"Deonne","last_name":"Baszkiewicz","email":"dbaszkiewicz1t@imgur.com","score":45,"date&time":"4/9/2022","time":"4:27 PM","age_group":19,"phone":"3216995329","country":"Afghanistan"},
-{"english":83,"maths":27,"science":47,"physics":98,"chemistry":78,"first_name":"Allene","last_name":"Romand","email":"aromand1u@prweb.com","score":51,"date&time":"9/7/2022","time":"9:38 AM","age_group":13,"phone":"6725425250","country":"Afghanistan"},
-{"english":51,"maths":41,"science":89,"physics":67,"chemistry":96,"first_name":"Etty","last_name":"Dubery","email":"edubery1v@github.io","score":67,"date&time":"3/28/2022","time":"4:36 PM","age_group":17,"phone":"9876326979","country":"Afghanistan"},
-{"english":54,"maths":95,"science":54,"physics":21,"chemistry":28,"first_name":"Billy","last_name":"Cheers","email":"bcheers1w@flickr.com","score":77,"date&time":"6/28/2023","time":"3:24 PM","age_group":15,"phone":"4285588052","country":"Afghanistan"},
-{"english":58,"maths":68,"science":79,"physics":86,"chemistry":93,"first_name":"Carol-jean","last_name":"Goosey","email":"cgoosey1x@goo.ne.jp","score":20,"date&time":"4/7/2023","time":"8:10 AM","age_group":16,"phone":"9207859729","country":"Afghanistan"},
-{"english":95,"maths":56,"science":24,"physics":27,"chemistry":53,"first_name":"Marchall","last_name":"Mathiot","email":"mmathiot1y@ebay.co.uk","score":82,"date&time":"10/7/2022","time":"11:51 AM","age_group":19,"phone":"6896043511","country":"Afghanistan"},
-{"english":93,"maths":56,"science":94,"physics":43,"chemistry":73,"first_name":"Rollin","last_name":"Wellman","email":"rwellman1z@blog.com","score":39,"date&time":"5/8/2022","time":"7:57 PM","age_group":18,"phone":"3062980914","country":"Afghanistan"},
-{"english":93,"maths":52,"science":85,"physics":31,"chemistry":58,"first_name":"Thatcher","last_name":"Antonchik","email":"tantonchik20@cafepress.com","score":53,"date&time":"9/27/2023","time":"7:37 PM","age_group":13,"phone":"2864068844","country":"Afghanistan"},
-{"english":65,"maths":52,"science":56,"physics":80,"chemistry":59,"first_name":"Dorena","last_name":"Morfett","email":"dmorfett21@ycombinator.com","score":64,"date&time":"4/4/2023","time":"10:10 PM","age_group":14,"phone":"4096891241","country":"Afghanistan"},
-{"english":26,"maths":21,"science":43,"physics":81,"chemistry":42,"first_name":"Wayne","last_name":"Nary","email":"wnary22@infoseek.co.jp","score":93,"date&time":"2/27/2022","time":"2:09 AM","age_group":17,"phone":"4016460060","country":"Afghanistan"},
-{"english":95,"maths":95,"science":31,"physics":99,"chemistry":81,"first_name":"Dougie","last_name":"Gardener","email":"dgardener23@indiatimes.com","score":64,"date&time":"9/3/2023","time":"10:09 PM","age_group":14,"phone":"5532420776","country":"Afghanistan"},
-{"english":80,"maths":74,"science":46,"physics":42,"chemistry":93,"first_name":"Grannie","last_name":"Inwood","email":"ginwood24@comsenz.com","score":74,"date&time":"4/14/2023","time":"8:34 AM","age_group":12,"phone":"2341424458","country":"Afghanistan"},
-{"english":29,"maths":39,"science":27,"physics":64,"chemistry":21,"first_name":"Micheal","last_name":"Athridge","email":"mathridge25@alexa.com","score":53,"date&time":"10/5/2022","time":"1:38 PM","age_group":20,"phone":"7242062407","country":"Afghanistan"},
-{"english":47,"maths":92,"science":64,"physics":52,"chemistry":58,"first_name":"Yvonne","last_name":"Frisdick","email":"yfrisdick26@homestead.com","score":47,"date&time":"3/6/2022","time":"11:29 PM","age_group":19,"phone":"8049452564","country":"Afghanistan"},
-{"english":50,"maths":82,"science":86,"physics":56,"chemistry":41,"first_name":"Em","last_name":"Jopp","email":"ejopp27@ihg.com","score":33,"date&time":"9/17/2023","time":"2:58 AM","age_group":15,"phone":"1955695236","country":"Afghanistan"},
-{"english":48,"maths":97,"science":56,"physics":92,"chemistry":83,"first_name":"Cordelia","last_name":"Husthwaite","email":"chusthwaite28@surveymonkey.com","score":80,"date&time":"8/11/2022","time":"11:32 PM","age_group":19,"phone":"4348266193","country":"Afghanistan"},
-{"english":89,"maths":33,"science":60,"physics":43,"chemistry":34,"first_name":"Jarrad","last_name":"Dibbs","email":"jdibbs29@jugem.jp","score":79,"date&time":"2/2/2022","time":"6:07 PM","age_group":19,"phone":"9766980979","country":"Afghanistan"},
-{"english":95,"maths":40,"science":58,"physics":51,"chemistry":34,"first_name":"Consolata","last_name":"Vidler","email":"cvidler2a@deliciousdays.com","score":75,"date&time":"10/21/2022","time":"11:19 AM","age_group":13,"phone":"2478883556","country":"Afghanistan"},
-{"english":59,"maths":41,"science":93,"physics":97,"chemistry":31,"first_name":"Malina","last_name":"Pile","email":"mpile2b@theglobeandmail.com","score":78,"date&time":"3/20/2023","time":"6:34 PM","age_group":20,"phone":"4494455251","country":"Afghanistan"},
-{"english":41,"maths":33,"science":65,"physics":35,"chemistry":52,"first_name":"Aldin","last_name":"Selwyn","email":"aselwyn2c@hexun.com","score":78,"date&time":"8/16/2022","time":"11:19 AM","age_group":18,"phone":"8532864654","country":"Afghanistan"},
-{"english":42,"maths":41,"science":88,"physics":82,"chemistry":34,"first_name":"Ethelyn","last_name":"McKitterick","email":"emckitterick2d@amazon.de","score":42,"date&time":"6/19/2022","time":"12:55 PM","age_group":12,"phone":"6219307904","country":"Afghanistan"},
-{"english":43,"maths":66,"science":71,"physics":50,"chemistry":21,"first_name":"Moll","last_name":"Nevill","email":"mnevill2e@hatena.ne.jp","score":95,"date&time":"6/5/2022","time":"9:56 AM","age_group":16,"phone":"2548043998","country":"Afghanistan"},
-{"english":80,"maths":41,"science":37,"physics":24,"chemistry":63,"first_name":"Vassili","last_name":"Sandham","email":"vsandham2f@scribd.com","score":76,"date&time":"10/18/2022","time":"11:28 PM","age_group":14,"phone":"8888450707","country":"Afghanistan"},
-{"english":83,"maths":82,"science":85,"physics":40,"chemistry":65,"first_name":"Rinaldo","last_name":"Dufer","email":"rdufer2g@yahoo.com","score":89,"date&time":"12/26/2021","time":"3:46 PM","age_group":17,"phone":"2595466596","country":"Afghanistan"},
-{"english":30,"maths":62,"science":61,"physics":43,"chemistry":35,"first_name":"Dallon","last_name":"Eich","email":"deich2h@example.com","score":20,"date&time":"8/20/2023","time":"9:37 AM","age_group":20,"phone":"1852183814","country":"Afghanistan"},
-{"english":69,"maths":54,"science":59,"physics":77,"chemistry":62,"first_name":"Edmon","last_name":"Carvil","email":"ecarvil2i@taobao.com","score":63,"date&time":"6/5/2022","time":"4:59 AM","age_group":12,"phone":"1392133620","country":"Afghanistan"},
-{"english":93,"maths":43,"science":87,"physics":36,"chemistry":75,"first_name":"Daune","last_name":"Rosenfeld","email":"drosenfeld2j@mayoclinic.com","score":87,"date&time":"5/3/2022","time":"6:06 AM","age_group":19,"phone":"8512226344","country":"Afghanistan"},
-{"english":97,"maths":26,"science":69,"physics":72,"chemistry":71,"first_name":"Blondie","last_name":"Aikett","email":"baikett2k@yellowpages.com","score":27,"date&time":"12/27/2022","time":"9:34 PM","age_group":14,"phone":"6391597143","country":"Afghanistan"},
-{"english":97,"maths":64,"science":78,"physics":97,"chemistry":51,"first_name":"Chaim","last_name":"Valencia","email":"cvalencia2l@topsy.com","score":27,"date&time":"4/19/2022","time":"5:24 PM","age_group":18,"phone":"2065275221","country":"Afghanistan"},
-{"english":63,"maths":59,"science":45,"physics":68,"chemistry":31,"first_name":"Torrence","last_name":"Burkett","email":"tburkett2m@cisco.com","score":57,"date&time":"4/19/2023","time":"12:42 AM","age_group":20,"phone":"9951453239","country":"Afghanistan"},
-{"english":51,"maths":59,"science":63,"physics":56,"chemistry":67,"first_name":"Toinette","last_name":"Lerwill","email":"tlerwill2n@tripod.com","score":74,"date&time":"10/6/2022","time":"8:51 AM","age_group":12,"phone":"7859404880","country":"Afghanistan"},
-{"english":45,"maths":92,"science":76,"physics":97,"chemistry":80,"first_name":"Cicely","last_name":"Morfey","email":"cmorfey2o@hhs.gov","score":88,"date&time":"1/13/2023","time":"4:08 AM","age_group":12,"phone":"3213660954","country":"Afghanistan"},
-{"english":75,"maths":100,"science":90,"physics":47,"chemistry":45,"first_name":"Zacharie","last_name":"Sikorsky","email":"zsikorsky2p@upenn.edu","score":86,"date&time":"8/25/2023","time":"11:07 AM","age_group":19,"phone":"6669281425","country":"Afghanistan"},
-{"english":58,"maths":20,"science":67,"physics":69,"chemistry":35,"first_name":"Asa","last_name":"Brognot","email":"abrognot2q@reuters.com","score":23,"date&time":"7/27/2023","time":"12:25 AM","age_group":13,"phone":"6879275486","country":"Afghanistan"},
-{"english":49,"maths":46,"science":89,"physics":21,"chemistry":74,"first_name":"Butch","last_name":"Trott","email":"btrott2r@cmu.edu","score":56,"date&time":"1/2/2023","time":"4:22 PM","age_group":20,"phone":"5937016442","country":"Afghanistan"},
-{"english":99,"maths":24,"science":45,"physics":93,"chemistry":90,"first_name":"Bride","last_name":"Scurrer","email":"bscurrer2s@4shared.com","score":64,"date&time":"11/9/2023","time":"8:14 PM","age_group":14,"phone":"7368724472","country":"Afghanistan"},
-{"english":21,"maths":83,"science":93,"physics":43,"chemistry":66,"first_name":"Andre","last_name":"Kytter","email":"akytter2t@devhub.com","score":83,"date&time":"4/6/2023","time":"3:29 PM","age_group":17,"phone":"6247923781","country":"Afghanistan"},
-{"english":33,"maths":45,"science":58,"physics":98,"chemistry":79,"first_name":"Lorraine","last_name":"Graeme","email":"lgraeme2u@trellian.com","score":72,"date&time":"11/8/2022","time":"6:49 AM","age_group":18,"phone":"2292681325","country":"Afghanistan"},
-{"english":38,"maths":58,"science":32,"physics":97,"chemistry":53,"first_name":"Alleyn","last_name":"Hoyer","email":"ahoyer2v@networkadvertising.org","score":31,"date&time":"5/19/2022","time":"5:52 AM","age_group":15,"phone":"5574338866","country":"Afghanistan"},
-{"english":39,"maths":82,"science":44,"physics":28,"chemistry":55,"first_name":"Antonetta","last_name":"Skill","email":"askill2w@feedburner.com","score":52,"date&time":"5/24/2023","time":"3:24 AM","age_group":16,"phone":"1557013031","country":"Afghanistan"},
-{"english":46,"maths":96,"science":24,"physics":70,"chemistry":69,"first_name":"Zechariah","last_name":"Gaffney","email":"zgaffney2x@latimes.com","score":30,"date&time":"2/16/2023","time":"2:49 AM","age_group":14,"phone":"3198362064","country":"Afghanistan"},
-{"english":61,"maths":21,"science":53,"physics":35,"chemistry":45,"first_name":"Delaney","last_name":"Le Friec","email":"dlefriec2y@cocolog-nifty.com","score":87,"date&time":"12/7/2021","time":"4:26 AM","age_group":18,"phone":"1193245071","country":"Afghanistan"},
-{"english":25,"maths":66,"science":66,"physics":98,"chemistry":85,"first_name":"Gwendolin","last_name":"Terese","email":"gterese2z@issuu.com","score":58,"date&time":"5/22/2022","time":"7:04 AM","age_group":19,"phone":"6202558037","country":"Afghanistan"},
-{"english":85,"maths":70,"science":79,"physics":80,"chemistry":49,"first_name":"Gideon","last_name":"Fuentez","email":"gfuentez30@goo.ne.jp","score":50,"date&time":"5/1/2022","time":"2:59 AM","age_group":13,"phone":"4925715570","country":"Afghanistan"},
-{"english":47,"maths":35,"science":99,"physics":96,"chemistry":61,"first_name":"Jayson","last_name":"Bilney","email":"jbilney31@jimdo.com","score":86,"date&time":"3/14/2023","time":"12:50 AM","age_group":18,"phone":"1018271261","country":"Afghanistan"},
-{"english":96,"maths":82,"science":88,"physics":83,"chemistry":65,"first_name":"Griswold","last_name":"McGlynn","email":"gmcglynn32@dailymotion.com","score":92,"date&time":"10/5/2023","time":"11:32 AM","age_group":20,"phone":"7168593424","country":"Afghanistan"},
-{"english":99,"maths":34,"science":22,"physics":43,"chemistry":93,"first_name":"Micheal","last_name":"Elmhirst","email":"melmhirst33@w3.org","score":73,"date&time":"7/9/2023","time":"3:46 AM","age_group":20,"phone":"5809415795","country":"Afghanistan"},
-{"english":68,"maths":61,"science":62,"physics":69,"chemistry":58,"first_name":"Dulciana","last_name":"Scarsbrick","email":"dscarsbrick34@infoseek.co.jp","score":54,"date&time":"2/27/2022","time":"8:52 PM","age_group":19,"phone":"5933365391","country":"Afghanistan"},
-{"english":90,"maths":24,"science":55,"physics":30,"chemistry":56,"first_name":"Tymon","last_name":"Soutar","email":"tsoutar35@ezinearticles.com","score":97,"date&time":"3/6/2022","time":"9:16 PM","age_group":17,"phone":"5502982628","country":"Afghanistan"},
-{"english":22,"maths":60,"science":39,"physics":98,"chemistry":47,"first_name":"Ailina","last_name":"Beinke","email":"abeinke36@time.com","score":43,"date&time":"8/8/2023","time":"2:30 PM","age_group":15,"phone":"9193817874","country":"Afghanistan"},
-{"english":28,"maths":38,"science":51,"physics":96,"chemistry":58,"first_name":"Erina","last_name":"Quince","email":"equince37@cpanel.net","score":88,"date&time":"11/16/2021","time":"5:24 AM","age_group":17,"phone":"8069031554","country":"Afghanistan"},
-{"english":81,"maths":82,"science":32,"physics":46,"chemistry":85,"first_name":"Tresa","last_name":"Denton","email":"tdenton38@usgs.gov","score":84,"date&time":"10/9/2022","time":"6:41 PM","age_group":18,"phone":"4564387830","country":"Afghanistan"},
-{"english":78,"maths":87,"science":58,"physics":58,"chemistry":81,"first_name":"Amata","last_name":"Traylen","email":"atraylen39@nps.gov","score":35,"date&time":"9/26/2022","time":"1:16 AM","age_group":18,"phone":"7656919204","country":"Afghanistan"},
-{"english":58,"maths":55,"science":24,"physics":94,"chemistry":92,"first_name":"Sonni","last_name":"Gahan","email":"sgahan3a@cpanel.net","score":60,"date&time":"8/25/2022","time":"2:08 PM","age_group":17,"phone":"6804392324","country":"Afghanistan"},
-{"english":57,"maths":75,"science":80,"physics":37,"chemistry":78,"first_name":"Jackelyn","last_name":"Kettridge","email":"jkettridge3b@theatlantic.com","score":28,"date&time":"4/8/2023","time":"9:10 PM","age_group":20,"phone":"2945213107","country":"Afghanistan"},
-{"english":67,"maths":75,"science":63,"physics":48,"chemistry":35,"first_name":"Jolyn","last_name":"Fellos","email":"jfellos3c@ucla.edu","score":58,"date&time":"4/2/2023","time":"8:22 PM","age_group":16,"phone":"5063604903","country":"Afghanistan"},
-{"english":78,"maths":97,"science":28,"physics":73,"chemistry":74,"first_name":"Rodolphe","last_name":"Mansuer","email":"rmansuer3d@mozilla.com","score":68,"date&time":"6/9/2022","time":"3:42 PM","age_group":17,"phone":"7577551358","country":"Afghanistan"},
-{"english":47,"maths":63,"science":53,"physics":57,"chemistry":93,"first_name":"Chery","last_name":"Strathearn","email":"cstrathearn3e@house.gov","score":87,"date&time":"4/12/2022","time":"9:31 PM","age_group":15,"phone":"7367947753","country":"Afghanistan"},
-{"english":67,"maths":93,"science":88,"physics":29,"chemistry":71,"first_name":"Ashton","last_name":"Sandells","email":"asandells3f@fotki.com","score":82,"date&time":"1/6/2022","time":"7:14 PM","age_group":20,"phone":"4218797385","country":"Afghanistan"},
-{"english":26,"maths":93,"science":77,"physics":50,"chemistry":72,"first_name":"Wendie","last_name":"Pratten","email":"wpratten3g@usda.gov","score":66,"date&time":"4/17/2022","time":"10:11 PM","age_group":17,"phone":"1577800650","country":"Afghanistan"},
-{"english":27,"maths":92,"science":24,"physics":43,"chemistry":100,"first_name":"Madison","last_name":"Pevsner","email":"mpevsner3h@exblog.jp","score":47,"date&time":"10/14/2023","time":"6:58 AM","age_group":20,"phone":"2386815818","country":"Afghanistan"},
-{"english":84,"maths":55,"science":66,"physics":99,"chemistry":84,"first_name":"Pavel","last_name":"Janz","email":"pjanz3i@yellowbook.com","score":54,"date&time":"11/7/2022","time":"1:56 PM","age_group":19,"phone":"9402419021","country":"Afghanistan"},
-{"english":86,"maths":31,"science":28,"physics":98,"chemistry":67,"first_name":"Brittney","last_name":"M'Quhan","email":"bmquhan3j@cmu.edu","score":74,"date&time":"5/25/2022","time":"11:49 AM","age_group":19,"phone":"5715408565","country":"Afghanistan"},
-{"english":92,"maths":88,"science":59,"physics":37,"chemistry":66,"first_name":"Loria","last_name":"Lawtie","email":"llawtie3k@dmoz.org","score":21,"date&time":"3/9/2023","time":"6:59 AM","age_group":20,"phone":"4542282650","country":"Afghanistan"},
-{"english":31,"maths":93,"science":44,"physics":72,"chemistry":85,"first_name":"Kimberlee","last_name":"Laurentino","email":"klaurentino3l@angelfire.com","score":43,"date&time":"10/15/2023","time":"5:51 PM","age_group":20,"phone":"2795520354","country":"Afghanistan"},
-{"english":63,"maths":37,"science":29,"physics":51,"chemistry":84,"first_name":"Janna","last_name":"Teligin","email":"jteligin3m@etsy.com","score":84,"date&time":"8/23/2023","time":"1:23 PM","age_group":18,"phone":"5842032969","country":"Afghanistan"},
-{"english":49,"maths":41,"science":92,"physics":38,"chemistry":47,"first_name":"Yulma","last_name":"Vittet","email":"yvittet3n@army.mil","score":73,"date&time":"8/4/2023","time":"6:09 AM","age_group":17,"phone":"7325531131","country":"Afghanistan"},
-{"english":22,"maths":76,"science":38,"physics":70,"chemistry":89,"first_name":"Mimi","last_name":"Olivier","email":"molivier3o@joomla.org","score":55,"date&time":"1/31/2023","time":"3:27 PM","age_group":18,"phone":"4211943628","country":"Afghanistan"},
-{"english":48,"maths":24,"science":22,"physics":49,"chemistry":94,"first_name":"Audrie","last_name":"Hammatt","email":"ahammatt3p@slate.com","score":73,"date&time":"6/14/2023","time":"8:26 AM","age_group":16,"phone":"9704396948","country":"Afghanistan"},
-{"english":93,"maths":85,"science":93,"physics":31,"chemistry":21,"first_name":"Giovanni","last_name":"Tulloch","email":"gtulloch3q@washingtonpost.com","score":48,"date&time":"11/2/2023","time":"7:36 AM","age_group":14,"phone":"9079965617","country":"Afghanistan"},
-{"english":57,"maths":24,"science":21,"physics":24,"chemistry":51,"first_name":"Lurleen","last_name":"Normington","email":"lnormington3r@webnode.com","score":50,"date&time":"9/7/2023","time":"9:52 PM","age_group":13,"phone":"1598091363","country":"Afghanistan"},
-{"english":48,"maths":86,"science":47,"physics":97,"chemistry":74,"first_name":"Mead","last_name":"Gilhouley","email":"mgilhouley3s@mayoclinic.com","score":74,"date&time":"12/31/2022","time":"4:51 AM","age_group":14,"phone":"1951394112","country":"Afghanistan"},
-{"english":43,"maths":67,"science":52,"physics":20,"chemistry":93,"first_name":"Ikey","last_name":"Carthew","email":"icarthew3t@google.ru","score":82,"date&time":"5/9/2023","time":"6:49 AM","age_group":20,"phone":"6146522472","country":"Afghanistan"},
-{"english":31,"maths":20,"science":97,"physics":86,"chemistry":85,"first_name":"Emili","last_name":"Champken","email":"echampken3u@ca.gov","score":87,"date&time":"9/17/2022","time":"8:12 AM","age_group":20,"phone":"5877483422","country":"Afghanistan"},
-{"english":82,"maths":68,"science":43,"physics":98,"chemistry":58,"first_name":"Obadias","last_name":"Ahrens","email":"oahrens3v@shutterfly.com","score":42,"date&time":"5/29/2022","time":"1:43 AM","age_group":15,"phone":"6018964182","country":"Afghanistan"},
-{"english":87,"maths":61,"science":59,"physics":28,"chemistry":31,"first_name":"Alysa","last_name":"Creus","email":"acreus3w@blinklist.com","score":71,"date&time":"12/30/2021","time":"1:52 PM","age_group":12,"phone":"6085487945","country":"Afghanistan"},
-{"english":46,"maths":86,"science":63,"physics":24,"chemistry":80,"first_name":"Aundrea","last_name":"MacColm","email":"amaccolm3x@ebay.com","score":80,"date&time":"1/30/2022","time":"5:38 PM","age_group":18,"phone":"1628665474","country":"Afghanistan"},
-{"english":40,"maths":38,"science":63,"physics":54,"chemistry":31,"first_name":"Atlante","last_name":"Pim","email":"apim3y@ucoz.ru","score":76,"date&time":"12/21/2021","time":"5:20 AM","age_group":13,"phone":"3496339429","country":"Afghanistan"},
-{"english":62,"maths":91,"science":20,"physics":84,"chemistry":57,"first_name":"Georgette","last_name":"Overal","email":"goveral3z@abc.net.au","score":65,"date&time":"5/25/2023","time":"3:02 AM","age_group":15,"phone":"8583023774","country":"Afghanistan"},
-{"english":61,"maths":80,"science":75,"physics":27,"chemistry":20,"first_name":"Isabelle","last_name":"Raigatt","email":"iraigatt40@miibeian.gov.cn","score":81,"date&time":"3/3/2022","time":"3:51 AM","age_group":18,"phone":"6876652838","country":"Afghanistan"},
-{"english":93,"maths":87,"science":83,"physics":85,"chemistry":47,"first_name":"Jon","last_name":"Swithenby","email":"jswithenby41@prnewswire.com","score":30,"date&time":"2/19/2023","time":"5:21 AM","age_group":12,"phone":"6861608890","country":"Afghanistan"},
-{"english":23,"maths":94,"science":68,"physics":91,"chemistry":48,"first_name":"Salomone","last_name":"Dubery","email":"sdubery42@eventbrite.com","score":43,"date&time":"7/13/2023","time":"1:49 PM","age_group":17,"phone":"5326576607","country":"Afghanistan"},
-{"english":59,"maths":100,"science":80,"physics":26,"chemistry":70,"first_name":"Cullen","last_name":"Folkard","email":"cfolkard43@nyu.edu","score":99,"date&time":"7/28/2022","time":"6:07 PM","age_group":15,"phone":"2772402841","country":"Afghanistan"},
-{"english":48,"maths":42,"science":70,"physics":51,"chemistry":83,"first_name":"Florette","last_name":"Filgate","email":"ffilgate44@berkeley.edu","score":65,"date&time":"3/25/2023","time":"10:15 PM","age_group":17,"phone":"9373751840","country":"Afghanistan"},
-{"english":85,"maths":24,"science":63,"physics":85,"chemistry":100,"first_name":"Charlotte","last_name":"Cheeseman","email":"ccheeseman45@google.it","score":77,"date&time":"1/29/2023","time":"9:12 PM","age_group":13,"phone":"1575831277","country":"Afghanistan"},
-{"english":21,"maths":63,"science":87,"physics":61,"chemistry":70,"first_name":"Henka","last_name":"Grinsdale","email":"hgrinsdale46@latimes.com","score":60,"date&time":"8/17/2022","time":"4:31 PM","age_group":20,"phone":"1118180815","country":"Afghanistan"},
-{"english":97,"maths":83,"science":68,"physics":43,"chemistry":26,"first_name":"Normy","last_name":"Wife","email":"nwife47@desdev.cn","score":79,"date&time":"2/14/2023","time":"1:19 AM","age_group":12,"phone":"5553021089","country":"Afghanistan"},
-{"english":76,"maths":42,"science":80,"physics":79,"chemistry":69,"first_name":"Juline","last_name":"Mation","email":"jmation48@spiegel.de","score":71,"date&time":"8/26/2023","time":"5:59 AM","age_group":16,"phone":"1992712522","country":"Afghanistan"},
-{"english":80,"maths":87,"science":29,"physics":85,"chemistry":62,"first_name":"Rozanna","last_name":"Curnnok","email":"rcurnnok49@hibu.com","score":38,"date&time":"11/13/2022","time":"1:13 AM","age_group":17,"phone":"2972660939","country":"Afghanistan"},
-{"english":62,"maths":61,"science":44,"physics":43,"chemistry":77,"first_name":"Hermia","last_name":"Nottle","email":"hnottle4a@google.fr","score":47,"date&time":"1/28/2023","time":"10:47 AM","age_group":20,"phone":"1242845691","country":"Afghanistan"},
-{"english":67,"maths":60,"science":84,"physics":67,"chemistry":63,"first_name":"Goldina","last_name":"McLaine","email":"gmclaine4b@reference.com","score":95,"date&time":"10/14/2023","time":"5:06 AM","age_group":17,"phone":"9241478290","country":"Afghanistan"},
-{"english":77,"maths":52,"science":79,"physics":38,"chemistry":21,"first_name":"Hilary","last_name":"Fryer","email":"hfryer4c@elegantthemes.com","score":56,"date&time":"11/9/2021","time":"10:11 AM","age_group":13,"phone":"9922997582","country":"Afghanistan"},
-{"english":49,"maths":40,"science":85,"physics":36,"chemistry":77,"first_name":"Terry","last_name":"Scutter","email":"tscutter4d@utexas.edu","score":34,"date&time":"11/6/2023","time":"8:29 PM","age_group":13,"phone":"5683027408","country":"Afghanistan"},
-{"english":74,"maths":79,"science":65,"physics":36,"chemistry":74,"first_name":"Finlay","last_name":"Grimster","email":"fgrimster4e@samsung.com","score":38,"date&time":"9/2/2022","time":"10:08 AM","age_group":18,"phone":"2077601009","country":"Afghanistan"},
-{"english":57,"maths":91,"science":61,"physics":82,"chemistry":88,"first_name":"Minette","last_name":"Maides","email":"mmaides4f@taobao.com","score":53,"date&time":"5/19/2022","time":"9:48 AM","age_group":19,"phone":"6184655426","country":"Afghanistan"},
-{"english":81,"maths":52,"science":85,"physics":82,"chemistry":28,"first_name":"Katalin","last_name":"McGoogan","email":"kmcgoogan4g@europa.eu","score":32,"date&time":"4/22/2022","time":"7:46 PM","age_group":12,"phone":"3604985847","country":"Afghanistan"},
-{"english":32,"maths":93,"science":79,"physics":39,"chemistry":48,"first_name":"Mahala","last_name":"Grieger","email":"mgrieger4h@indiegogo.com","score":82,"date&time":"8/3/2022","time":"1:21 PM","age_group":14,"phone":"1164724256","country":"Afghanistan"},
-{"english":27,"maths":53,"science":82,"physics":77,"chemistry":68,"first_name":"Lodovico","last_name":"Chessor","email":"lchessor4i@un.org","score":91,"date&time":"9/5/2022","time":"11:00 AM","age_group":20,"phone":"9806968329","country":"Afghanistan"},
-{"english":25,"maths":94,"science":62,"physics":71,"chemistry":91,"first_name":"Loree","last_name":"Ommanney","email":"lommanney4j@utexas.edu","score":73,"date&time":"4/19/2022","time":"9:16 PM","age_group":15,"phone":"7649007887","country":"Afghanistan"},
-{"english":63,"maths":94,"science":54,"physics":31,"chemistry":39,"first_name":"Tabatha","last_name":"Cappleman","email":"tcappleman4k@privacy.gov.au","score":44,"date&time":"7/7/2022","time":"9:10 AM","age_group":13,"phone":"9696483883","country":"Afghanistan"},
-{"english":56,"maths":81,"science":87,"physics":76,"chemistry":33,"first_name":"Mischa","last_name":"Benedek","email":"mbenedek4l@woothemes.com","score":72,"date&time":"8/4/2023","time":"2:36 AM","age_group":20,"phone":"2984168868","country":"Afghanistan"},
-{"english":20,"maths":95,"science":21,"physics":80,"chemistry":82,"first_name":"Issi","last_name":"Hillhouse","email":"ihillhouse4m@tumblr.com","score":35,"date&time":"5/9/2022","time":"1:00 AM","age_group":12,"phone":"9332217443","country":"Afghanistan"},
-{"english":45,"maths":90,"science":80,"physics":21,"chemistry":77,"first_name":"Lacee","last_name":"Franzonello","email":"lfranzonello4n@seesaa.net","score":64,"date&time":"12/30/2022","time":"5:15 PM","age_group":17,"phone":"1411470215","country":"Afghanistan"},
-{"english":25,"maths":44,"science":91,"physics":79,"chemistry":62,"first_name":"Heinrik","last_name":"Sweating","email":"hsweating4o@comcast.net","score":86,"date&time":"11/21/2023","time":"2:04 AM","age_group":13,"phone":"8127823461","country":"Afghanistan"},
-{"english":23,"maths":24,"science":34,"physics":75,"chemistry":97,"first_name":"Jacinda","last_name":"Letson","email":"jletson4p@people.com.cn","score":91,"date&time":"10/15/2023","time":"11:29 AM","age_group":16,"phone":"4934365861","country":"Afghanistan"},
-{"english":36,"maths":64,"science":48,"physics":86,"chemistry":76,"first_name":"Emelia","last_name":"Pitcaithly","email":"epitcaithly4q@t-online.de","score":90,"date&time":"10/5/2022","time":"7:26 PM","age_group":17,"phone":"7912995432","country":"Afghanistan"},
-{"english":87,"maths":62,"science":23,"physics":59,"chemistry":79,"first_name":"Rafaela","last_name":"O'Leahy","email":"roleahy4r@latimes.com","score":88,"date&time":"5/21/2022","time":"3:21 PM","age_group":15,"phone":"1988299560","country":"Afghanistan"},
-{"english":43,"maths":83,"science":39,"physics":44,"chemistry":28,"first_name":"Charlene","last_name":"Dee","email":"cdee4s@feedburner.com","score":76,"date&time":"7/6/2023","time":"4:41 AM","age_group":18,"phone":"7234981537","country":"Afghanistan"},
-{"english":41,"maths":41,"science":64,"physics":99,"chemistry":80,"first_name":"Anastassia","last_name":"McKirton","email":"amckirton4t@independent.co.uk","score":30,"date&time":"12/20/2022","time":"1:49 PM","age_group":13,"phone":"6076040359","country":"Afghanistan"},
-{"english":76,"maths":90,"science":94,"physics":36,"chemistry":93,"first_name":"Dreddy","last_name":"Danielkiewicz","email":"ddanielkiewicz4u@hexun.com","score":22,"date&time":"4/15/2022","time":"4:01 AM","age_group":13,"phone":"5088669172","country":"Afghanistan"},
-{"english":70,"maths":54,"science":26,"physics":33,"chemistry":85,"first_name":"Norene","last_name":"Matusovsky","email":"nmatusovsky4v@live.com","score":42,"date&time":"6/29/2023","time":"8:54 PM","age_group":19,"phone":"7246642438","country":"Afghanistan"},
-{"english":31,"maths":32,"science":57,"physics":68,"chemistry":92,"first_name":"Whitman","last_name":"Kores","email":"wkores4w@europa.eu","score":21,"date&time":"6/1/2022","time":"9:59 PM","age_group":12,"phone":"3613655954","country":"Afghanistan"},
-{"english":66,"maths":95,"science":74,"physics":56,"chemistry":79,"first_name":"Teena","last_name":"Vigars","email":"tvigars4x@naver.com","score":80,"date&time":"9/11/2023","time":"1:02 AM","age_group":17,"phone":"2278445720","country":"Afghanistan"},
-{"english":56,"maths":44,"science":92,"physics":90,"chemistry":46,"first_name":"Ketti","last_name":"Jex","email":"kjex4y@reddit.com","score":80,"date&time":"5/16/2022","time":"11:01 PM","age_group":17,"phone":"6922945666","country":"Afghanistan"},
-{"english":33,"maths":30,"science":94,"physics":76,"chemistry":68,"first_name":"Allyce","last_name":"Stowers","email":"astowers4z@seesaa.net","score":91,"date&time":"12/6/2021","time":"4:17 AM","age_group":14,"phone":"2242214125","country":"Afghanistan"},
-{"english":46,"maths":92,"science":84,"physics":54,"chemistry":68,"first_name":"Vincent","last_name":"Cluer","email":"vcluer50@cam.ac.uk","score":76,"date&time":"2/4/2023","time":"4:14 AM","age_group":13,"phone":"5473538155","country":"Afghanistan"},
-{"english":81,"maths":52,"science":27,"physics":30,"chemistry":42,"first_name":"Hadrian","last_name":"Aronovitz","email":"haronovitz51@scientificamerican.com","score":54,"date&time":"8/20/2023","time":"10:25 AM","age_group":18,"phone":"3845333594","country":"Afghanistan"},
-{"english":94,"maths":31,"science":20,"physics":87,"chemistry":45,"first_name":"Trix","last_name":"Maker","email":"tmaker52@engadget.com","score":43,"date&time":"6/3/2023","time":"8:35 AM","age_group":19,"phone":"2389580594","country":"Afghanistan"},
-{"english":44,"maths":20,"science":82,"physics":37,"chemistry":38,"first_name":"Zabrina","last_name":"Skouling","email":"zskouling53@flavors.me","score":75,"date&time":"1/3/2023","time":"5:21 PM","age_group":18,"phone":"8684079495","country":"Afghanistan"},
-{"english":82,"maths":81,"science":25,"physics":30,"chemistry":31,"first_name":"Weylin","last_name":"Marioneau","email":"wmarioneau54@elpais.com","score":64,"date&time":"8/24/2022","time":"11:50 AM","age_group":12,"phone":"1417515014","country":"Afghanistan"},
-{"english":80,"maths":32,"science":42,"physics":37,"chemistry":47,"first_name":"Murvyn","last_name":"Graalman","email":"mgraalman55@berkeley.edu","score":35,"date&time":"8/22/2022","time":"11:08 AM","age_group":17,"phone":"4845959151","country":"Afghanistan"},
-{"english":42,"maths":77,"science":69,"physics":67,"chemistry":98,"first_name":"Johnna","last_name":"Collibear","email":"jcollibear56@time.com","score":66,"date&time":"10/14/2022","time":"2:38 AM","age_group":13,"phone":"2206874097","country":"Afghanistan"},
-{"english":28,"maths":89,"science":39,"physics":35,"chemistry":98,"first_name":"Leonardo","last_name":"Gerardeaux","email":"lgerardeaux57@microsoft.com","score":96,"date&time":"4/5/2023","time":"5:46 AM","age_group":14,"phone":"7716344827","country":"Afghanistan"},
-{"english":43,"maths":76,"science":87,"physics":94,"chemistry":68,"first_name":"Nicolis","last_name":"Du Hamel","email":"nduhamel58@discovery.com","score":99,"date&time":"4/24/2022","time":"12:24 PM","age_group":17,"phone":"6821915812","country":"Afghanistan"},
-{"english":26,"maths":31,"science":81,"physics":69,"chemistry":84,"first_name":"Deny","last_name":"Steanson","email":"dsteanson59@sbwire.com","score":81,"date&time":"7/19/2022","time":"2:03 AM","age_group":18,"phone":"8029253116","country":"Afghanistan"},
-{"english":96,"maths":40,"science":87,"physics":47,"chemistry":57,"first_name":"Harwell","last_name":"Pearl","email":"hpearl5a@meetup.com","score":55,"date&time":"4/27/2023","time":"9:11 AM","age_group":12,"phone":"2804290661","country":"Afghanistan"},
-{"english":51,"maths":75,"science":28,"physics":100,"chemistry":71,"first_name":"Lu","last_name":"Uman","email":"luman5b@arizona.edu","score":64,"date&time":"12/6/2021","time":"8:48 AM","age_group":17,"phone":"8999428127","country":"Afghanistan"},
-{"english":97,"maths":87,"science":71,"physics":76,"chemistry":32,"first_name":"Carlene","last_name":"Pareman","email":"cpareman5c@seesaa.net","score":48,"date&time":"11/29/2022","time":"3:22 AM","age_group":14,"phone":"3118002956","country":"Afghanistan"},
-{"english":32,"maths":93,"science":40,"physics":77,"chemistry":46,"first_name":"Maiga","last_name":"Dalston","email":"mdalston5d@aboutads.info","score":100,"date&time":"9/9/2023","time":"5:23 AM","age_group":12,"phone":"3433468466","country":"Afghanistan"},
-{"english":68,"maths":97,"science":55,"physics":33,"chemistry":33,"first_name":"Jodi","last_name":"Bisson","email":"jbisson5e@techcrunch.com","score":43,"date&time":"8/29/2022","time":"8:50 PM","age_group":17,"phone":"5608810343","country":"Afghanistan"},
-{"english":29,"maths":36,"science":99,"physics":51,"chemistry":81,"first_name":"Cherey","last_name":"Verey","email":"cverey5f@tmall.com","score":99,"date&time":"1/18/2022","time":"6:05 AM","age_group":19,"phone":"8856987395","country":"Afghanistan"},
-{"english":70,"maths":34,"science":76,"physics":62,"chemistry":66,"first_name":"Tymon","last_name":"Heake","email":"theake5g@csmonitor.com","score":93,"date&time":"11/28/2021","time":"11:56 AM","age_group":15,"phone":"2124666674","country":"Afghanistan"},
-{"english":85,"maths":56,"science":42,"physics":48,"chemistry":28,"first_name":"Shell","last_name":"Braidon","email":"sbraidon5h@booking.com","score":68,"date&time":"6/12/2022","time":"3:44 AM","age_group":20,"phone":"2364794694","country":"Afghanistan"},
-{"english":48,"maths":78,"science":59,"physics":38,"chemistry":41,"first_name":"Scottie","last_name":"Whitmore","email":"swhitmore5i@1688.com","score":62,"date&time":"4/21/2023","time":"4:54 PM","age_group":15,"phone":"3001990174","country":"Afghanistan"},
-{"english":26,"maths":68,"science":97,"physics":33,"chemistry":22,"first_name":"Zora","last_name":"Pieterick","email":"zpieterick5j@issuu.com","score":69,"date&time":"4/3/2023","time":"2:32 PM","age_group":12,"phone":"7776061937","country":"Afghanistan"}]
+[
+    {
+        "subject":{
+            "english": 68,
+            "maths": 24,
+            "science": 97,
+            "physics": 74,
+            "chemistry": 99
+        },
+        "first_name": "Kayla",
+        "last_name": "Meckiff",
+        "email": "kmeckiff0@discovery.com",
+        "score": 70,
+        "date&time": "9/21/2022",
+        "time": "1:53 AM",
+        "age_group": 15,
+        "phone": "7022871944",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 81,
+            "maths": 53,
+            "science": 66,
+            "physics": 100,
+            "chemistry": 40
+        },
+        "first_name": "Husein",
+        "last_name": "Maudlen",
+        "email": "hmaudlen1@sciencedaily.com",
+        "score": 55,
+        "date&time": "3/11/2022",
+        "time": "10:52 PM",
+        "age_group": 12,
+        "phone": "4235989041",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 28,
+            "maths": 35,
+            "science": 44,
+            "physics": 32,
+            "chemistry": 87
+        },
+        "first_name": "Chrissy",
+        "last_name": "Asher",
+        "email": "casher2@domainmarket.com",
+        "score": 99,
+        "date&time": "4/15/2023",
+        "time": "11:15 PM",
+        "age_group": 13,
+        "phone": "1801523482",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 23,
+            "maths": 65,
+            "science": 35,
+            "physics": 94,
+            "chemistry": 39
+        },
+        "first_name": "Tristam",
+        "last_name": "Clappison",
+        "email": "tclappison3@google.pl",
+        "score": 94,
+        "date&time": "2/16/2022",
+        "time": "9:24 AM",
+        "age_group": 18,
+        "phone": "7115456254",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 41,
+            "maths": 28,
+            "science": 64,
+            "physics": 73,
+            "chemistry": 89
+        },
+        "first_name": "Isidore",
+        "last_name": "Kellett",
+        "email": "ikellett4@theglobeandmail.com",
+        "score": 46,
+        "date&time": "4/11/2023",
+        "time": "5:40 PM",
+        "age_group": 19,
+        "phone": "8089223067",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 80,
+            "maths": 75,
+            "science": 39,
+            "physics": 71,
+            "chemistry": 20
+        },
+        "first_name": "Sashenka",
+        "last_name": "Hurlestone",
+        "email": "shurlestone5@hc360.com",
+        "score": 83,
+        "date&time": "1/7/2023",
+        "time": "10:30 PM",
+        "age_group": 19,
+        "phone": "5208241852",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 67,
+            "maths": 67,
+            "science": 34,
+            "physics": 73,
+            "chemistry": 54
+        },
+        "first_name": "Udall",
+        "last_name": "Rimmington",
+        "email": "urimmington6@yellowpages.com",
+        "score": 45,
+        "date&time": "8/7/2023",
+        "time": "9:37 AM",
+        "age_group": 15,
+        "phone": "6965161101",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 53,
+            "maths": 62,
+            "science": 45,
+            "physics": 75,
+            "chemistry": 69
+        },
+        "first_name": "Gustie",
+        "last_name": "Domenici",
+        "email": "gdomenici7@bloglovin.com",
+        "score": 97,
+        "date&time": "8/5/2023",
+        "time": "4:00 AM",
+        "age_group": 12,
+        "phone": "9383260852",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 89,
+            "maths": 44,
+            "science": 48,
+            "physics": 61,
+            "chemistry": 25
+        },
+        "first_name": "Geneva",
+        "last_name": "Rehn",
+        "email": "grehn8@sourceforge.net",
+        "score": 96,
+        "date&time": "6/23/2023",
+        "time": "1:50 PM",
+        "age_group": 16,
+        "phone": "8689290555",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 99,
+            "maths": 27,
+            "science": 96,
+            "physics": 22,
+            "chemistry": 50
+        },
+        "first_name": "Marlene",
+        "last_name": "Elson",
+        "email": "melson9@ted.com",
+        "score": 76,
+        "date&time": "12/1/2022",
+        "time": "5:24 AM",
+        "age_group": 18,
+        "phone": "9818968954",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 51,
+            "maths": 72,
+            "science": 23,
+            "physics": 75,
+            "chemistry": 47
+        },
+        "first_name": "Tiffy",
+        "last_name": "Upex",
+        "email": "tupexa@twitpic.com",
+        "score": 25,
+        "date&time": "12/1/2021",
+        "time": "12:12 AM",
+        "age_group": 17,
+        "phone": "6008187882",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 34,
+            "maths": 34,
+            "science": 39,
+            "physics": 81,
+            "chemistry": 29
+        },
+        "first_name": "Nikolaus",
+        "last_name": "Moogan",
+        "email": "nmooganb@walmart.com",
+        "score": 25,
+        "date&time": "10/26/2022",
+        "time": "4:43 PM",
+        "age_group": 17,
+        "phone": "9577702898",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 80,
+            "maths": 25,
+            "science": 95,
+            "physics": 71,
+            "chemistry": 48
+        },
+        "first_name": "Grissel",
+        "last_name": "Stopper",
+        "email": "gstopperc@wordpress.com",
+        "score": 64,
+        "date&time": "1/8/2023",
+        "time": "9:42 AM",
+        "age_group": 19,
+        "phone": "5319203237",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 34,
+            "maths": 85,
+            "science": 84,
+            "physics": 53,
+            "chemistry": 67
+        },
+        "first_name": "Louisette",
+        "last_name": "Danzig",
+        "email": "ldanzigd@cocolog-nifty.com",
+        "score": 30,
+        "date&time": "11/12/2021",
+        "time": "8:06 PM",
+        "age_group": 18,
+        "phone": "9241599991",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 33,
+            "maths": 70,
+            "science": 59,
+            "physics": 25,
+            "chemistry": 55
+        },
+        "first_name": "Paddie",
+        "last_name": "Merle",
+        "email": "pmerlee@theguardian.com",
+        "score": 28,
+        "date&time": "6/16/2022",
+        "time": "10:49 PM",
+        "age_group": 14,
+        "phone": "8891913553",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 30,
+            "maths": 20,
+            "science": 84,
+            "physics": 82,
+            "chemistry": 56
+        },
+        "first_name": "Judith",
+        "last_name": "Gunda",
+        "email": "jgundaf@geocities.jp",
+        "score": 96,
+        "date&time": "1/26/2022",
+        "time": "1:10 PM",
+        "age_group": 16,
+        "phone": "6237684950",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 80,
+            "maths": 43,
+            "science": 36,
+            "physics": 98,
+            "chemistry": 46
+        },
+        "first_name": "Neill",
+        "last_name": "Kreuzer",
+        "email": "nkreuzerg@blinklist.com",
+        "score": 26,
+        "date&time": "12/5/2021",
+        "time": "7:23 AM",
+        "age_group": 17,
+        "phone": "2008323826",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 78,
+            "maths": 29,
+            "science": 92,
+            "physics": 82,
+            "chemistry": 49
+        },
+        "first_name": "Ardis",
+        "last_name": "Allnutt",
+        "email": "aallnutth@mayoclinic.com",
+        "score": 56,
+        "date&time": "8/30/2022",
+        "time": "11:06 PM",
+        "age_group": 16,
+        "phone": "7861917467",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 71,
+            "maths": 69,
+            "science": 82,
+            "physics": 54,
+            "chemistry": 99
+        },
+        "first_name": "Tiphani",
+        "last_name": "Lanigan",
+        "email": "tlanigani@foxnews.com",
+        "score": 91,
+        "date&time": "10/3/2022",
+        "time": "4:28 AM",
+        "age_group": 13,
+        "phone": "8988402852",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 93,
+            "maths": 61,
+            "science": 80,
+            "physics": 73,
+            "chemistry": 84
+        },
+        "first_name": "Shelagh",
+        "last_name": "Van Hove",
+        "email": "svanhovej@squarespace.com",
+        "score": 59,
+        "date&time": "4/5/2023",
+        "time": "11:24 PM",
+        "age_group": 15,
+        "phone": "8755434291",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 37,
+            "maths": 46,
+            "science": 80,
+            "physics": 47,
+            "chemistry": 74
+        },
+        "first_name": "Alidia",
+        "last_name": "Saturley",
+        "email": "asaturleyk@tripod.com",
+        "score": 55,
+        "date&time": "8/14/2022",
+        "time": "5:38 AM",
+        "age_group": 13,
+        "phone": "6978720741",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 80,
+            "maths": 45,
+            "science": 37,
+            "physics": 97,
+            "chemistry": 35
+        },
+        "first_name": "Ketty",
+        "last_name": "Basnett",
+        "email": "kbasnettl@mapquest.com",
+        "score": 73,
+        "date&time": "10/9/2023",
+        "time": "1:10 AM",
+        "age_group": 17,
+        "phone": "2147095176",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 75,
+            "maths": 74,
+            "science": 27,
+            "physics": 77,
+            "chemistry": 88
+        },
+        "first_name": "Alard",
+        "last_name": "Geekie",
+        "email": "ageekiem@wiley.com",
+        "score": 45,
+        "date&time": "11/19/2021",
+        "time": "12:50 PM",
+        "age_group": 19,
+        "phone": "7743897876",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 99,
+            "maths": 87,
+            "science": 52,
+            "physics": 99,
+            "chemistry": 79
+        },
+        "first_name": "Pia",
+        "last_name": "Brisseau",
+        "email": "pbrisseaun@newyorker.com",
+        "score": 89,
+        "date&time": "12/8/2022",
+        "time": "4:36 AM",
+        "age_group": 17,
+        "phone": "8006163869",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 42,
+            "maths": 32,
+            "science": 23,
+            "physics": 35,
+            "chemistry": 32
+        },
+        "first_name": "Alexandra",
+        "last_name": "Shobbrook",
+        "email": "ashobbrooko@facebook.com",
+        "score": 31,
+        "date&time": "9/11/2023",
+        "time": "5:21 AM",
+        "age_group": 19,
+        "phone": "7493035745",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 78,
+            "maths": 52,
+            "science": 42,
+            "physics": 89,
+            "chemistry": 87
+        },
+        "first_name": "Foster",
+        "last_name": "Deverall",
+        "email": "fdeverallp@smh.com.au",
+        "score": 48,
+        "date&time": "7/12/2022",
+        "time": "10:53 AM",
+        "age_group": 20,
+        "phone": "5951282973",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 21,
+            "maths": 93,
+            "science": 66,
+            "physics": 53,
+            "chemistry": 65
+        },
+        "first_name": "Angeline",
+        "last_name": "Pheazey",
+        "email": "apheazeyq@java.com",
+        "score": 84,
+        "date&time": "6/28/2023",
+        "time": "1:59 PM",
+        "age_group": 20,
+        "phone": "5165395029",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 65,
+            "maths": 25,
+            "science": 23,
+            "physics": 21,
+            "chemistry": 67
+        },
+        "first_name": "Cathi",
+        "last_name": "Ensley",
+        "email": "censleyr@sina.com.cn",
+        "score": 89,
+        "date&time": "4/18/2023",
+        "time": "1:17 AM",
+        "age_group": 18,
+        "phone": "7099504879",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 38,
+            "maths": 92,
+            "science": 92,
+            "physics": 28,
+            "chemistry": 62
+        },
+        "first_name": "Rubina",
+        "last_name": "Nelson",
+        "email": "rnelsons@cnet.com",
+        "score": 22,
+        "date&time": "8/17/2023",
+        "time": "1:51 PM",
+        "age_group": 16,
+        "phone": "6019650941",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 96,
+            "maths": 56,
+            "science": 43,
+            "physics": 22,
+            "chemistry": 60
+        },
+        "first_name": "Nessie",
+        "last_name": "Mahy",
+        "email": "nmahyt@123-reg.co.uk",
+        "score": 84,
+        "date&time": "2/15/2023",
+        "time": "2:23 PM",
+        "age_group": 19,
+        "phone": "7528408689",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 36,
+            "maths": 26,
+            "science": 61,
+            "physics": 80,
+            "chemistry": 29
+        },
+        "first_name": "Clemente",
+        "last_name": "Soden",
+        "email": "csodenu@naver.com",
+        "score": 84,
+        "date&time": "2/7/2023",
+        "time": "6:04 PM",
+        "age_group": 12,
+        "phone": "5024214842",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 49,
+            "maths": 64,
+            "science": 82,
+            "physics": 71,
+            "chemistry": 78
+        },
+        "first_name": "Fulton",
+        "last_name": "Firby",
+        "email": "ffirbyv@jimdo.com",
+        "score": 28,
+        "date&time": "10/22/2022",
+        "time": "11:16 AM",
+        "age_group": 19,
+        "phone": "6355905025",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 59,
+            "maths": 78,
+            "science": 52,
+            "physics": 78,
+            "chemistry": 82
+        },
+        "first_name": "Camel",
+        "last_name": "Pakenham",
+        "email": "cpakenhamw@usnews.com",
+        "score": 91,
+        "date&time": "5/20/2023",
+        "time": "5:51 PM",
+        "age_group": 17,
+        "phone": "2861621633",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 48,
+            "maths": 91,
+            "science": 71,
+            "physics": 30,
+            "chemistry": 37
+        },
+        "first_name": "Murielle",
+        "last_name": "Trouel",
+        "email": "mtrouelx@behance.net",
+        "score": 49,
+        "date&time": "5/29/2022",
+        "time": "7:09 AM",
+        "age_group": 13,
+        "phone": "9041763035",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 62,
+            "maths": 94,
+            "science": 22,
+            "physics": 69,
+            "chemistry": 81
+        },
+        "first_name": "Benoite",
+        "last_name": "Figiovanni",
+        "email": "bfigiovanniy@yahoo.com",
+        "score": 20,
+        "date&time": "10/23/2022",
+        "time": "1:52 AM",
+        "age_group": 20,
+        "phone": "1246766443",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 31,
+            "maths": 68,
+            "science": 97,
+            "physics": 27,
+            "chemistry": 70
+        },
+        "first_name": "Kizzie",
+        "last_name": "Denington",
+        "email": "kdeningtonz@privacy.gov.au",
+        "score": 39,
+        "date&time": "12/21/2021",
+        "time": "1:55 AM",
+        "age_group": 17,
+        "phone": "8494454107",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 21,
+            "maths": 50,
+            "science": 93,
+            "physics": 91,
+            "chemistry": 83
+        },
+        "first_name": "Darb",
+        "last_name": "Boynton",
+        "email": "dboynton10@php.net",
+        "score": 28,
+        "date&time": "12/18/2022",
+        "time": "3:53 PM",
+        "age_group": 14,
+        "phone": "5258608414",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 35,
+            "maths": 45,
+            "science": 84,
+            "physics": 45,
+            "chemistry": 91
+        },
+        "first_name": "Vin",
+        "last_name": "Soff",
+        "email": "vsoff11@ed.gov",
+        "score": 60,
+        "date&time": "8/20/2022",
+        "time": "8:11 AM",
+        "age_group": 20,
+        "phone": "9399714659",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 30,
+            "maths": 51,
+            "science": 46,
+            "physics": 43,
+            "chemistry": 99
+        },
+        "first_name": "Elly",
+        "last_name": "Morgon",
+        "email": "emorgon12@flavors.me",
+        "score": 35,
+        "date&time": "5/13/2023",
+        "time": "1:20 PM",
+        "age_group": 13,
+        "phone": "2509083780",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 32,
+            "maths": 79,
+            "science": 99,
+            "physics": 44,
+            "chemistry": 29
+        },
+        "first_name": "Noelyn",
+        "last_name": "Fitzmaurice",
+        "email": "nfitzmaurice13@parallels.com",
+        "score": 50,
+        "date&time": "5/24/2023",
+        "time": "1:35 PM",
+        "age_group": 20,
+        "phone": "7142777016",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 41,
+            "maths": 34,
+            "science": 50,
+            "physics": 61,
+            "chemistry": 82
+        },
+        "first_name": "Brady",
+        "last_name": "Ewbanche",
+        "email": "bewbanche14@de.vu",
+        "score": 96,
+        "date&time": "6/18/2023",
+        "time": "11:06 PM",
+        "age_group": 17,
+        "phone": "9702213933",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 52,
+            "maths": 49,
+            "science": 51,
+            "physics": 73,
+            "chemistry": 94
+        },
+        "first_name": "Arvie",
+        "last_name": "Marde",
+        "email": "amarde15@tamu.edu",
+        "score": 72,
+        "date&time": "8/9/2022",
+        "time": "8:51 PM",
+        "age_group": 19,
+        "phone": "2256005980",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 29,
+            "maths": 39,
+            "science": 96,
+            "physics": 43,
+            "chemistry": 65
+        },
+        "first_name": "Marlene",
+        "last_name": "Kerne",
+        "email": "mkerne16@blog.com",
+        "score": 47,
+        "date&time": "1/6/2023",
+        "time": "10:36 AM",
+        "age_group": 20,
+        "phone": "5452762347",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 26,
+            "maths": 65,
+            "science": 25,
+            "physics": 57,
+            "chemistry": 28
+        },
+        "first_name": "Natale",
+        "last_name": "Capineer",
+        "email": "ncapineer17@dyndns.org",
+        "score": 89,
+        "date&time": "10/15/2023",
+        "time": "9:30 AM",
+        "age_group": 18,
+        "phone": "6735929575",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 67,
+            "maths": 24,
+            "science": 57,
+            "physics": 65,
+            "chemistry": 93
+        },
+        "first_name": "Tessi",
+        "last_name": "Ockleshaw",
+        "email": "tockleshaw18@cdc.gov",
+        "score": 63,
+        "date&time": "9/27/2022",
+        "time": "4:39 AM",
+        "age_group": 16,
+        "phone": "3306611279",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 72,
+            "maths": 77,
+            "science": 40,
+            "physics": 100,
+            "chemistry": 37
+        },
+        "first_name": "Aline",
+        "last_name": "Carlow",
+        "email": "acarlow19@abc.net.au",
+        "score": 52,
+        "date&time": "9/20/2023",
+        "time": "5:08 PM",
+        "age_group": 18,
+        "phone": "3098475093",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 96,
+            "maths": 62,
+            "science": 65,
+            "physics": 55,
+            "chemistry": 48
+        },
+        "first_name": "Danika",
+        "last_name": "Hackett",
+        "email": "dhackett1a@biblegateway.com",
+        "score": 51,
+        "date&time": "9/13/2022",
+        "time": "8:15 PM",
+        "age_group": 14,
+        "phone": "4262104313",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 31,
+            "maths": 89,
+            "science": 73,
+            "physics": 72,
+            "chemistry": 32
+        },
+        "first_name": "Ignacius",
+        "last_name": "Popley",
+        "email": "ipopley1b@youtu.be",
+        "score": 39,
+        "date&time": "5/12/2022",
+        "time": "8:26 PM",
+        "age_group": 20,
+        "phone": "7897690531",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 99,
+            "maths": 67,
+            "science": 48,
+            "physics": 66,
+            "chemistry": 56
+        },
+        "first_name": "Rana",
+        "last_name": "Cadalleder",
+        "email": "rcadalleder1c@technorati.com",
+        "score": 99,
+        "date&time": "5/9/2023",
+        "time": "2:10 PM",
+        "age_group": 19,
+        "phone": "3979169222",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 54,
+            "maths": 83,
+            "science": 81,
+            "physics": 87,
+            "chemistry": 50
+        },
+        "first_name": "Vite",
+        "last_name": "Yitzhakof",
+        "email": "vyitzhakof1d@wordpress.org",
+        "score": 22,
+        "date&time": "1/25/2023",
+        "time": "4:06 PM",
+        "age_group": 16,
+        "phone": "3673785560",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 85,
+            "maths": 68,
+            "science": 46,
+            "physics": 47,
+            "chemistry": 91
+        },
+        "first_name": "Mitzi",
+        "last_name": "Ffoulkes",
+        "email": "mffoulkes1e@economist.com",
+        "score": 63,
+        "date&time": "11/23/2021",
+        "time": "8:38 PM",
+        "age_group": 19,
+        "phone": "6295923926",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 66,
+            "maths": 22,
+            "science": 22,
+            "physics": 58,
+            "chemistry": 25
+        },
+        "first_name": "Moselle",
+        "last_name": "Shank",
+        "email": "mshank1f@yelp.com",
+        "score": 42,
+        "date&time": "7/5/2022",
+        "time": "10:48 PM",
+        "age_group": 12,
+        "phone": "6088000605",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 71,
+            "maths": 93,
+            "science": 35,
+            "physics": 53,
+            "chemistry": 100
+        },
+        "first_name": "Anastasie",
+        "last_name": "Brewett",
+        "email": "abrewett1g@stanford.edu",
+        "score": 44,
+        "date&time": "7/24/2022",
+        "time": "6:40 AM",
+        "age_group": 17,
+        "phone": "4529188054",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 80,
+            "maths": 70,
+            "science": 88,
+            "physics": 97,
+            "chemistry": 30
+        },
+        "first_name": "Early",
+        "last_name": "Galletley",
+        "email": "egalletley1h@umn.edu",
+        "score": 100,
+        "date&time": "3/9/2022",
+        "time": "11:39 AM",
+        "age_group": 17,
+        "phone": "9118596248",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 63,
+            "maths": 39,
+            "science": 40,
+            "physics": 20,
+            "chemistry": 62
+        },
+        "first_name": "Napoleon",
+        "last_name": "Barke",
+        "email": "nbarke1i@hp.com",
+        "score": 68,
+        "date&time": "6/21/2023",
+        "time": "8:17 PM",
+        "age_group": 12,
+        "phone": "8314364058",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 33,
+            "maths": 53,
+            "science": 71,
+            "physics": 71,
+            "chemistry": 60
+        },
+        "first_name": "Anica",
+        "last_name": "Sidey",
+        "email": "asidey1j@etsy.com",
+        "score": 71,
+        "date&time": "8/11/2023",
+        "time": "4:46 AM",
+        "age_group": 13,
+        "phone": "1461287595",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 84,
+            "maths": 32,
+            "science": 84,
+            "physics": 86,
+            "chemistry": 53
+        },
+        "first_name": "Marlo",
+        "last_name": "O'Drought",
+        "email": "modrought1k@marketwatch.com",
+        "score": 26,
+        "date&time": "2/16/2023",
+        "time": "11:09 AM",
+        "age_group": 15,
+        "phone": "4638538563",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 98,
+            "maths": 79,
+            "science": 78,
+            "physics": 29,
+            "chemistry": 87
+        },
+        "first_name": "Menard",
+        "last_name": "Nono",
+        "email": "mnono1l@ustream.tv",
+        "score": 21,
+        "date&time": "12/6/2022",
+        "time": "7:17 AM",
+        "age_group": 15,
+        "phone": "6019447899",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 29,
+            "maths": 30,
+            "science": 70,
+            "physics": 48,
+            "chemistry": 34
+        },
+        "first_name": "Dylan",
+        "last_name": "Conybear",
+        "email": "dconybear1m@va.gov",
+        "score": 63,
+        "date&time": "11/29/2021",
+        "time": "1:52 AM",
+        "age_group": 16,
+        "phone": "3761326849",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 93,
+            "maths": 68,
+            "science": 54,
+            "physics": 85,
+            "chemistry": 98
+        },
+        "first_name": "Joye",
+        "last_name": "Zambon",
+        "email": "jzambon1n@msn.com",
+        "score": 86,
+        "date&time": "11/25/2022",
+        "time": "10:13 PM",
+        "age_group": 19,
+        "phone": "8739690436",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 77,
+            "maths": 85,
+            "science": 27,
+            "physics": 91,
+            "chemistry": 75
+        },
+        "first_name": "Sarajane",
+        "last_name": "Kelshaw",
+        "email": "skelshaw1o@techcrunch.com",
+        "score": 26,
+        "date&time": "5/30/2023",
+        "time": "2:47 PM",
+        "age_group": 12,
+        "phone": "4253696800",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 94,
+            "maths": 20,
+            "science": 37,
+            "physics": 35,
+            "chemistry": 59
+        },
+        "first_name": "Maud",
+        "last_name": "Bonass",
+        "email": "mbonass1p@de.vu",
+        "score": 26,
+        "date&time": "9/15/2022",
+        "time": "6:24 PM",
+        "age_group": 18,
+        "phone": "4515134152",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 25,
+            "maths": 33,
+            "science": 84,
+            "physics": 96,
+            "chemistry": 21
+        },
+        "first_name": "Bernette",
+        "last_name": "Clacson",
+        "email": "bclacson1q@behance.net",
+        "score": 43,
+        "date&time": "5/5/2023",
+        "time": "11:29 AM",
+        "age_group": 13,
+        "phone": "8833826409",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 36,
+            "maths": 65,
+            "science": 58,
+            "physics": 23,
+            "chemistry": 25
+        },
+        "first_name": "Laurent",
+        "last_name": "Kop",
+        "email": "lkop1r@msu.edu",
+        "score": 20,
+        "date&time": "6/18/2022",
+        "time": "1:18 AM",
+        "age_group": 19,
+        "phone": "9867706193",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 75,
+            "maths": 50,
+            "science": 47,
+            "physics": 23,
+            "chemistry": 58
+        },
+        "first_name": "Donal",
+        "last_name": "Roller",
+        "email": "droller1s@wikia.com",
+        "score": 52,
+        "date&time": "11/19/2022",
+        "time": "3:06 AM",
+        "age_group": 16,
+        "phone": "4051479335",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 60,
+            "maths": 71,
+            "science": 44,
+            "physics": 25,
+            "chemistry": 91
+        },
+        "first_name": "Deonne",
+        "last_name": "Baszkiewicz",
+        "email": "dbaszkiewicz1t@imgur.com",
+        "score": 45,
+        "date&time": "4/9/2022",
+        "time": "4:27 PM",
+        "age_group": 19,
+        "phone": "3216995329",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 83,
+            "maths": 27,
+            "science": 47,
+            "physics": 98,
+            "chemistry": 78
+        },
+        "first_name": "Allene",
+        "last_name": "Romand",
+        "email": "aromand1u@prweb.com",
+        "score": 51,
+        "date&time": "9/7/2022",
+        "time": "9:38 AM",
+        "age_group": 13,
+        "phone": "6725425250",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 51,
+            "maths": 41,
+            "science": 89,
+            "physics": 67,
+            "chemistry": 96
+        },
+        "first_name": "Etty",
+        "last_name": "Dubery",
+        "email": "edubery1v@github.io",
+        "score": 67,
+        "date&time": "3/28/2022",
+        "time": "4:36 PM",
+        "age_group": 17,
+        "phone": "9876326979",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 54,
+            "maths": 95,
+            "science": 54,
+            "physics": 21,
+            "chemistry": 28
+        },
+        "first_name": "Billy",
+        "last_name": "Cheers",
+        "email": "bcheers1w@flickr.com",
+        "score": 77,
+        "date&time": "6/28/2023",
+        "time": "3:24 PM",
+        "age_group": 15,
+        "phone": "4285588052",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 58,
+            "maths": 68,
+            "science": 79,
+            "physics": 86,
+            "chemistry": 93
+        },
+        "first_name": "Carol-jean",
+        "last_name": "Goosey",
+        "email": "cgoosey1x@goo.ne.jp",
+        "score": 20,
+        "date&time": "4/7/2023",
+        "time": "8:10 AM",
+        "age_group": 16,
+        "phone": "9207859729",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 95,
+            "maths": 56,
+            "science": 24,
+            "physics": 27,
+            "chemistry": 53
+        },
+        "first_name": "Marchall",
+        "last_name": "Mathiot",
+        "email": "mmathiot1y@ebay.co.uk",
+        "score": 82,
+        "date&time": "10/7/2022",
+        "time": "11:51 AM",
+        "age_group": 19,
+        "phone": "6896043511",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 93,
+            "maths": 56,
+            "science": 94,
+            "physics": 43,
+            "chemistry": 73
+        },
+        "first_name": "Rollin",
+        "last_name": "Wellman",
+        "email": "rwellman1z@blog.com",
+        "score": 39,
+        "date&time": "5/8/2022",
+        "time": "7:57 PM",
+        "age_group": 18,
+        "phone": "3062980914",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 93,
+            "maths": 52,
+            "science": 85,
+            "physics": 31,
+            "chemistry": 58
+        },
+        "first_name": "Thatcher",
+        "last_name": "Antonchik",
+        "email": "tantonchik20@cafepress.com",
+        "score": 53,
+        "date&time": "9/27/2023",
+        "time": "7:37 PM",
+        "age_group": 13,
+        "phone": "2864068844",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 65,
+            "maths": 52,
+            "science": 56,
+            "physics": 80,
+            "chemistry": 59
+        },
+        "first_name": "Dorena",
+        "last_name": "Morfett",
+        "email": "dmorfett21@ycombinator.com",
+        "score": 64,
+        "date&time": "4/4/2023",
+        "time": "10:10 PM",
+        "age_group": 14,
+        "phone": "4096891241",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 26,
+            "maths": 21,
+            "science": 43,
+            "physics": 81,
+            "chemistry": 42
+        },
+        "first_name": "Wayne",
+        "last_name": "Nary",
+        "email": "wnary22@infoseek.co.jp",
+        "score": 93,
+        "date&time": "2/27/2022",
+        "time": "2:09 AM",
+        "age_group": 17,
+        "phone": "4016460060",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 95,
+            "maths": 95,
+            "science": 31,
+            "physics": 99,
+            "chemistry": 81
+        },
+        "first_name": "Dougie",
+        "last_name": "Gardener",
+        "email": "dgardener23@indiatimes.com",
+        "score": 64,
+        "date&time": "9/3/2023",
+        "time": "10:09 PM",
+        "age_group": 14,
+        "phone": "5532420776",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 80,
+            "maths": 74,
+            "science": 46,
+            "physics": 42,
+            "chemistry": 93
+        },
+        "first_name": "Grannie",
+        "last_name": "Inwood",
+        "email": "ginwood24@comsenz.com",
+        "score": 74,
+        "date&time": "4/14/2023",
+        "time": "8:34 AM",
+        "age_group": 12,
+        "phone": "2341424458",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 29,
+            "maths": 39,
+            "science": 27,
+            "physics": 64,
+            "chemistry": 21
+        },
+        "first_name": "Micheal",
+        "last_name": "Athridge",
+        "email": "mathridge25@alexa.com",
+        "score": 53,
+        "date&time": "10/5/2022",
+        "time": "1:38 PM",
+        "age_group": 20,
+        "phone": "7242062407",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 47,
+            "maths": 92,
+            "science": 64,
+            "physics": 52,
+            "chemistry": 58
+        },
+        "first_name": "Yvonne",
+        "last_name": "Frisdick",
+        "email": "yfrisdick26@homestead.com",
+        "score": 47,
+        "date&time": "3/6/2022",
+        "time": "11:29 PM",
+        "age_group": 19,
+        "phone": "8049452564",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 50,
+            "maths": 82,
+            "science": 86,
+            "physics": 56,
+            "chemistry": 41
+        },
+        "first_name": "Em",
+        "last_name": "Jopp",
+        "email": "ejopp27@ihg.com",
+        "score": 33,
+        "date&time": "9/17/2023",
+        "time": "2:58 AM",
+        "age_group": 15,
+        "phone": "1955695236",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 48,
+            "maths": 97,
+            "science": 56,
+            "physics": 92,
+            "chemistry": 83
+        },
+        "first_name": "Cordelia",
+        "last_name": "Husthwaite",
+        "email": "chusthwaite28@surveymonkey.com",
+        "score": 80,
+        "date&time": "8/11/2022",
+        "time": "11:32 PM",
+        "age_group": 19,
+        "phone": "4348266193",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 89,
+            "maths": 33,
+            "science": 60,
+            "physics": 43,
+            "chemistry": 34
+        },
+        "first_name": "Jarrad",
+        "last_name": "Dibbs",
+        "email": "jdibbs29@jugem.jp",
+        "score": 79,
+        "date&time": "2/2/2022",
+        "time": "6:07 PM",
+        "age_group": 19,
+        "phone": "9766980979",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 95,
+            "maths": 40,
+            "science": 58,
+            "physics": 51,
+            "chemistry": 34
+        },
+        "first_name": "Consolata",
+        "last_name": "Vidler",
+        "email": "cvidler2a@deliciousdays.com",
+        "score": 75,
+        "date&time": "10/21/2022",
+        "time": "11:19 AM",
+        "age_group": 13,
+        "phone": "2478883556",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 59,
+            "maths": 41,
+            "science": 93,
+            "physics": 97,
+            "chemistry": 31
+        },
+        "first_name": "Malina",
+        "last_name": "Pile",
+        "email": "mpile2b@theglobeandmail.com",
+        "score": 78,
+        "date&time": "3/20/2023",
+        "time": "6:34 PM",
+        "age_group": 20,
+        "phone": "4494455251",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 41,
+            "maths": 33,
+            "science": 65,
+            "physics": 35,
+            "chemistry": 52
+        },
+        "first_name": "Aldin",
+        "last_name": "Selwyn",
+        "email": "aselwyn2c@hexun.com",
+        "score": 78,
+        "date&time": "8/16/2022",
+        "time": "11:19 AM",
+        "age_group": 18,
+        "phone": "8532864654",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 42,
+            "maths": 41,
+            "science": 88,
+            "physics": 82,
+            "chemistry": 34
+        },
+        "first_name": "Ethelyn",
+        "last_name": "McKitterick",
+        "email": "emckitterick2d@amazon.de",
+        "score": 42,
+        "date&time": "6/19/2022",
+        "time": "12:55 PM",
+        "age_group": 12,
+        "phone": "6219307904",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 43,
+            "maths": 66,
+            "science": 71,
+            "physics": 50,
+            "chemistry": 21
+        },
+        "first_name": "Moll",
+        "last_name": "Nevill",
+        "email": "mnevill2e@hatena.ne.jp",
+        "score": 95,
+        "date&time": "6/5/2022",
+        "time": "9:56 AM",
+        "age_group": 16,
+        "phone": "2548043998",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 80,
+            "maths": 41,
+            "science": 37,
+            "physics": 24,
+            "chemistry": 63
+        },
+        "first_name": "Vassili",
+        "last_name": "Sandham",
+        "email": "vsandham2f@scribd.com",
+        "score": 76,
+        "date&time": "10/18/2022",
+        "time": "11:28 PM",
+        "age_group": 14,
+        "phone": "8888450707",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 83,
+            "maths": 82,
+            "science": 85,
+            "physics": 40,
+            "chemistry": 65
+        },
+        "first_name": "Rinaldo",
+        "last_name": "Dufer",
+        "email": "rdufer2g@yahoo.com",
+        "score": 89,
+        "date&time": "12/26/2021",
+        "time": "3:46 PM",
+        "age_group": 17,
+        "phone": "2595466596",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 30,
+            "maths": 62,
+            "science": 61,
+            "physics": 43,
+            "chemistry": 35
+        },
+        "first_name": "Dallon",
+        "last_name": "Eich",
+        "email": "deich2h@example.com",
+        "score": 20,
+        "date&time": "8/20/2023",
+        "time": "9:37 AM",
+        "age_group": 20,
+        "phone": "1852183814",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 69,
+            "maths": 54,
+            "science": 59,
+            "physics": 77,
+            "chemistry": 62
+        },
+        "first_name": "Edmon",
+        "last_name": "Carvil",
+        "email": "ecarvil2i@taobao.com",
+        "score": 63,
+        "date&time": "6/5/2022",
+        "time": "4:59 AM",
+        "age_group": 12,
+        "phone": "1392133620",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 93,
+            "maths": 43,
+            "science": 87,
+            "physics": 36,
+            "chemistry": 75
+        },
+        "first_name": "Daune",
+        "last_name": "Rosenfeld",
+        "email": "drosenfeld2j@mayoclinic.com",
+        "score": 87,
+        "date&time": "5/3/2022",
+        "time": "6:06 AM",
+        "age_group": 19,
+        "phone": "8512226344",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 97,
+            "maths": 26,
+            "science": 69,
+            "physics": 72,
+            "chemistry": 71
+        },
+        "first_name": "Blondie",
+        "last_name": "Aikett",
+        "email": "baikett2k@yellowpages.com",
+        "score": 27,
+        "date&time": "12/27/2022",
+        "time": "9:34 PM",
+        "age_group": 14,
+        "phone": "6391597143",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 97,
+            "maths": 64,
+            "science": 78,
+            "physics": 97,
+            "chemistry": 51
+        },
+        "first_name": "Chaim",
+        "last_name": "Valencia",
+        "email": "cvalencia2l@topsy.com",
+        "score": 27,
+        "date&time": "4/19/2022",
+        "time": "5:24 PM",
+        "age_group": 18,
+        "phone": "2065275221",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 63,
+            "maths": 59,
+            "science": 45,
+            "physics": 68,
+            "chemistry": 31
+        },
+        "first_name": "Torrence",
+        "last_name": "Burkett",
+        "email": "tburkett2m@cisco.com",
+        "score": 57,
+        "date&time": "4/19/2023",
+        "time": "12:42 AM",
+        "age_group": 20,
+        "phone": "9951453239",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 51,
+            "maths": 59,
+            "science": 63,
+            "physics": 56,
+            "chemistry": 67
+        },
+        "first_name": "Toinette",
+        "last_name": "Lerwill",
+        "email": "tlerwill2n@tripod.com",
+        "score": 74,
+        "date&time": "10/6/2022",
+        "time": "8:51 AM",
+        "age_group": 12,
+        "phone": "7859404880",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 45,
+            "maths": 92,
+            "science": 76,
+            "physics": 97,
+            "chemistry": 80
+        },
+        "first_name": "Cicely",
+        "last_name": "Morfey",
+        "email": "cmorfey2o@hhs.gov",
+        "score": 88,
+        "date&time": "1/13/2023",
+        "time": "4:08 AM",
+        "age_group": 12,
+        "phone": "3213660954",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 75,
+            "maths": 100,
+            "science": 90,
+            "physics": 47,
+            "chemistry": 45
+        },
+        "first_name": "Zacharie",
+        "last_name": "Sikorsky",
+        "email": "zsikorsky2p@upenn.edu",
+        "score": 86,
+        "date&time": "8/25/2023",
+        "time": "11:07 AM",
+        "age_group": 19,
+        "phone": "6669281425",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 58,
+            "maths": 20,
+            "science": 67,
+            "physics": 69,
+            "chemistry": 35
+        },
+        "first_name": "Asa",
+        "last_name": "Brognot",
+        "email": "abrognot2q@reuters.com",
+        "score": 23,
+        "date&time": "7/27/2023",
+        "time": "12:25 AM",
+        "age_group": 13,
+        "phone": "6879275486",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 49,
+            "maths": 46,
+            "science": 89,
+            "physics": 21,
+            "chemistry": 74
+        },
+        "first_name": "Butch",
+        "last_name": "Trott",
+        "email": "btrott2r@cmu.edu",
+        "score": 56,
+        "date&time": "1/2/2023",
+        "time": "4:22 PM",
+        "age_group": 20,
+        "phone": "5937016442",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 99,
+            "maths": 24,
+            "science": 45,
+            "physics": 93,
+            "chemistry": 90
+        },
+        "first_name": "Bride",
+        "last_name": "Scurrer",
+        "email": "bscurrer2s@4shared.com",
+        "score": 64,
+        "date&time": "11/9/2023",
+        "time": "8:14 PM",
+        "age_group": 14,
+        "phone": "7368724472",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 21,
+            "maths": 83,
+            "science": 93,
+            "physics": 43,
+            "chemistry": 66
+        },
+        "first_name": "Andre",
+        "last_name": "Kytter",
+        "email": "akytter2t@devhub.com",
+        "score": 83,
+        "date&time": "4/6/2023",
+        "time": "3:29 PM",
+        "age_group": 17,
+        "phone": "6247923781",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 33,
+            "maths": 45,
+            "science": 58,
+            "physics": 98,
+            "chemistry": 79
+        },
+        "first_name": "Lorraine",
+        "last_name": "Graeme",
+        "email": "lgraeme2u@trellian.com",
+        "score": 72,
+        "date&time": "11/8/2022",
+        "time": "6:49 AM",
+        "age_group": 18,
+        "phone": "2292681325",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 38,
+            "maths": 58,
+            "science": 32,
+            "physics": 97,
+            "chemistry": 53
+        },
+        "first_name": "Alleyn",
+        "last_name": "Hoyer",
+        "email": "ahoyer2v@networkadvertising.org",
+        "score": 31,
+        "date&time": "5/19/2022",
+        "time": "5:52 AM",
+        "age_group": 15,
+        "phone": "5574338866",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 39,
+            "maths": 82,
+            "science": 44,
+            "physics": 28,
+            "chemistry": 55
+        },
+        "first_name": "Antonetta",
+        "last_name": "Skill",
+        "email": "askill2w@feedburner.com",
+        "score": 52,
+        "date&time": "5/24/2023",
+        "time": "3:24 AM",
+        "age_group": 16,
+        "phone": "1557013031",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 46,
+            "maths": 96,
+            "science": 24,
+            "physics": 70,
+            "chemistry": 69
+        },
+        "first_name": "Zechariah",
+        "last_name": "Gaffney",
+        "email": "zgaffney2x@latimes.com",
+        "score": 30,
+        "date&time": "2/16/2023",
+        "time": "2:49 AM",
+        "age_group": 14,
+        "phone": "3198362064",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 61,
+            "maths": 21,
+            "science": 53,
+            "physics": 35,
+            "chemistry": 45
+        },
+        "first_name": "Delaney",
+        "last_name": "Le Friec",
+        "email": "dlefriec2y@cocolog-nifty.com",
+        "score": 87,
+        "date&time": "12/7/2021",
+        "time": "4:26 AM",
+        "age_group": 18,
+        "phone": "1193245071",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 25,
+            "maths": 66,
+            "science": 66,
+            "physics": 98,
+            "chemistry": 85
+        },
+        "first_name": "Gwendolin",
+        "last_name": "Terese",
+        "email": "gterese2z@issuu.com",
+        "score": 58,
+        "date&time": "5/22/2022",
+        "time": "7:04 AM",
+        "age_group": 19,
+        "phone": "6202558037",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 85,
+            "maths": 70,
+            "science": 79,
+            "physics": 80,
+            "chemistry": 49
+        },
+        "first_name": "Gideon",
+        "last_name": "Fuentez",
+        "email": "gfuentez30@goo.ne.jp",
+        "score": 50,
+        "date&time": "5/1/2022",
+        "time": "2:59 AM",
+        "age_group": 13,
+        "phone": "4925715570",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 47,
+            "maths": 35,
+            "science": 99,
+            "physics": 96,
+            "chemistry": 61
+        },
+        "first_name": "Jayson",
+        "last_name": "Bilney",
+        "email": "jbilney31@jimdo.com",
+        "score": 86,
+        "date&time": "3/14/2023",
+        "time": "12:50 AM",
+        "age_group": 18,
+        "phone": "1018271261",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 96,
+            "maths": 82,
+            "science": 88,
+            "physics": 83,
+            "chemistry": 65
+        },
+        "first_name": "Griswold",
+        "last_name": "McGlynn",
+        "email": "gmcglynn32@dailymotion.com",
+        "score": 92,
+        "date&time": "10/5/2023",
+        "time": "11:32 AM",
+        "age_group": 20,
+        "phone": "7168593424",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 99,
+            "maths": 34,
+            "science": 22,
+            "physics": 43,
+            "chemistry": 93
+        },
+        "first_name": "Micheal",
+        "last_name": "Elmhirst",
+        "email": "melmhirst33@w3.org",
+        "score": 73,
+        "date&time": "7/9/2023",
+        "time": "3:46 AM",
+        "age_group": 20,
+        "phone": "5809415795",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 68,
+            "maths": 61,
+            "science": 62,
+            "physics": 69,
+            "chemistry": 58
+        },
+        "first_name": "Dulciana",
+        "last_name": "Scarsbrick",
+        "email": "dscarsbrick34@infoseek.co.jp",
+        "score": 54,
+        "date&time": "2/27/2022",
+        "time": "8:52 PM",
+        "age_group": 19,
+        "phone": "5933365391",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 90,
+            "maths": 24,
+            "science": 55,
+            "physics": 30,
+            "chemistry": 56
+        },
+        "first_name": "Tymon",
+        "last_name": "Soutar",
+        "email": "tsoutar35@ezinearticles.com",
+        "score": 97,
+        "date&time": "3/6/2022",
+        "time": "9:16 PM",
+        "age_group": 17,
+        "phone": "5502982628",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 22,
+            "maths": 60,
+            "science": 39,
+            "physics": 98,
+            "chemistry": 47
+        },
+        "first_name": "Ailina",
+        "last_name": "Beinke",
+        "email": "abeinke36@time.com",
+        "score": 43,
+        "date&time": "8/8/2023",
+        "time": "2:30 PM",
+        "age_group": 15,
+        "phone": "9193817874",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 28,
+            "maths": 38,
+            "science": 51,
+            "physics": 96,
+            "chemistry": 58
+        },
+        "first_name": "Erina",
+        "last_name": "Quince",
+        "email": "equince37@cpanel.net",
+        "score": 88,
+        "date&time": "11/16/2021",
+        "time": "5:24 AM",
+        "age_group": 17,
+        "phone": "8069031554",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 81,
+            "maths": 82,
+            "science": 32,
+            "physics": 46,
+            "chemistry": 85
+        },
+        "first_name": "Tresa",
+        "last_name": "Denton",
+        "email": "tdenton38@usgs.gov",
+        "score": 84,
+        "date&time": "10/9/2022",
+        "time": "6:41 PM",
+        "age_group": 18,
+        "phone": "4564387830",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 78,
+            "maths": 87,
+            "science": 58,
+            "physics": 58,
+            "chemistry": 81
+        },
+        "first_name": "Amata",
+        "last_name": "Traylen",
+        "email": "atraylen39@nps.gov",
+        "score": 35,
+        "date&time": "9/26/2022",
+        "time": "1:16 AM",
+        "age_group": 18,
+        "phone": "7656919204",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 58,
+            "maths": 55,
+            "science": 24,
+            "physics": 94,
+            "chemistry": 92
+        },
+        "first_name": "Sonni",
+        "last_name": "Gahan",
+        "email": "sgahan3a@cpanel.net",
+        "score": 60,
+        "date&time": "8/25/2022",
+        "time": "2:08 PM",
+        "age_group": 17,
+        "phone": "6804392324",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 57,
+            "maths": 75,
+            "science": 80,
+            "physics": 37,
+            "chemistry": 78
+        },
+        "first_name": "Jackelyn",
+        "last_name": "Kettridge",
+        "email": "jkettridge3b@theatlantic.com",
+        "score": 28,
+        "date&time": "4/8/2023",
+        "time": "9:10 PM",
+        "age_group": 20,
+        "phone": "2945213107",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 67,
+            "maths": 75,
+            "science": 63,
+            "physics": 48,
+            "chemistry": 35
+        },
+        "first_name": "Jolyn",
+        "last_name": "Fellos",
+        "email": "jfellos3c@ucla.edu",
+        "score": 58,
+        "date&time": "4/2/2023",
+        "time": "8:22 PM",
+        "age_group": 16,
+        "phone": "5063604903",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 78,
+            "maths": 97,
+            "science": 28,
+            "physics": 73,
+            "chemistry": 74
+        },
+        "first_name": "Rodolphe",
+        "last_name": "Mansuer",
+        "email": "rmansuer3d@mozilla.com",
+        "score": 68,
+        "date&time": "6/9/2022",
+        "time": "3:42 PM",
+        "age_group": 17,
+        "phone": "7577551358",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 47,
+            "maths": 63,
+            "science": 53,
+            "physics": 57,
+            "chemistry": 93
+        },
+        "first_name": "Chery",
+        "last_name": "Strathearn",
+        "email": "cstrathearn3e@house.gov",
+        "score": 87,
+        "date&time": "4/12/2022",
+        "time": "9:31 PM",
+        "age_group": 15,
+        "phone": "7367947753",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 67,
+            "maths": 93,
+            "science": 88,
+            "physics": 29,
+            "chemistry": 71
+        },
+        "first_name": "Ashton",
+        "last_name": "Sandells",
+        "email": "asandells3f@fotki.com",
+        "score": 82,
+        "date&time": "1/6/2022",
+        "time": "7:14 PM",
+        "age_group": 20,
+        "phone": "4218797385",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 26,
+            "maths": 93,
+            "science": 77,
+            "physics": 50,
+            "chemistry": 72
+        },
+        "first_name": "Wendie",
+        "last_name": "Pratten",
+        "email": "wpratten3g@usda.gov",
+        "score": 66,
+        "date&time": "4/17/2022",
+        "time": "10:11 PM",
+        "age_group": 17,
+        "phone": "1577800650",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 27,
+            "maths": 92,
+            "science": 24,
+            "physics": 43,
+            "chemistry": 100
+        },
+        "first_name": "Madison",
+        "last_name": "Pevsner",
+        "email": "mpevsner3h@exblog.jp",
+        "score": 47,
+        "date&time": "10/14/2023",
+        "time": "6:58 AM",
+        "age_group": 20,
+        "phone": "2386815818",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 84,
+            "maths": 55,
+            "science": 66,
+            "physics": 99,
+            "chemistry": 84
+        },
+        "first_name": "Pavel",
+        "last_name": "Janz",
+        "email": "pjanz3i@yellowbook.com",
+        "score": 54,
+        "date&time": "11/7/2022",
+        "time": "1:56 PM",
+        "age_group": 19,
+        "phone": "9402419021",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 86,
+            "maths": 31,
+            "science": 28,
+            "physics": 98,
+            "chemistry": 67
+        },
+        "first_name": "Brittney",
+        "last_name": "M'Quhan",
+        "email": "bmquhan3j@cmu.edu",
+        "score": 74,
+        "date&time": "5/25/2022",
+        "time": "11:49 AM",
+        "age_group": 19,
+        "phone": "5715408565",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 92,
+            "maths": 88,
+            "science": 59,
+            "physics": 37,
+            "chemistry": 66
+        },
+        "first_name": "Loria",
+        "last_name": "Lawtie",
+        "email": "llawtie3k@dmoz.org",
+        "score": 21,
+        "date&time": "3/9/2023",
+        "time": "6:59 AM",
+        "age_group": 20,
+        "phone": "4542282650",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 31,
+            "maths": 93,
+            "science": 44,
+            "physics": 72,
+            "chemistry": 85
+        },
+        "first_name": "Kimberlee",
+        "last_name": "Laurentino",
+        "email": "klaurentino3l@angelfire.com",
+        "score": 43,
+        "date&time": "10/15/2023",
+        "time": "5:51 PM",
+        "age_group": 20,
+        "phone": "2795520354",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 63,
+            "maths": 37,
+            "science": 29,
+            "physics": 51,
+            "chemistry": 84
+        },
+        "first_name": "Janna",
+        "last_name": "Teligin",
+        "email": "jteligin3m@etsy.com",
+        "score": 84,
+        "date&time": "8/23/2023",
+        "time": "1:23 PM",
+        "age_group": 18,
+        "phone": "5842032969",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 49,
+            "maths": 41,
+            "science": 92,
+            "physics": 38,
+            "chemistry": 47
+        },
+        "first_name": "Yulma",
+        "last_name": "Vittet",
+        "email": "yvittet3n@army.mil",
+        "score": 73,
+        "date&time": "8/4/2023",
+        "time": "6:09 AM",
+        "age_group": 17,
+        "phone": "7325531131",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 22,
+            "maths": 76,
+            "science": 38,
+            "physics": 70,
+            "chemistry": 89
+        },
+        "first_name": "Mimi",
+        "last_name": "Olivier",
+        "email": "molivier3o@joomla.org",
+        "score": 55,
+        "date&time": "1/31/2023",
+        "time": "3:27 PM",
+        "age_group": 18,
+        "phone": "4211943628",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 48,
+            "maths": 24,
+            "science": 22,
+            "physics": 49,
+            "chemistry": 94
+        },
+        "first_name": "Audrie",
+        "last_name": "Hammatt",
+        "email": "ahammatt3p@slate.com",
+        "score": 73,
+        "date&time": "6/14/2023",
+        "time": "8:26 AM",
+        "age_group": 16,
+        "phone": "9704396948",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 93,
+            "maths": 85,
+            "science": 93,
+            "physics": 31,
+            "chemistry": 21
+        },
+        "first_name": "Giovanni",
+        "last_name": "Tulloch",
+        "email": "gtulloch3q@washingtonpost.com",
+        "score": 48,
+        "date&time": "11/2/2023",
+        "time": "7:36 AM",
+        "age_group": 14,
+        "phone": "9079965617",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 57,
+            "maths": 24,
+            "science": 21,
+            "physics": 24,
+            "chemistry": 51
+        },
+        "first_name": "Lurleen",
+        "last_name": "Normington",
+        "email": "lnormington3r@webnode.com",
+        "score": 50,
+        "date&time": "9/7/2023",
+        "time": "9:52 PM",
+        "age_group": 13,
+        "phone": "1598091363",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 48,
+            "maths": 86,
+            "science": 47,
+            "physics": 97,
+            "chemistry": 74
+        },
+        "first_name": "Mead",
+        "last_name": "Gilhouley",
+        "email": "mgilhouley3s@mayoclinic.com",
+        "score": 74,
+        "date&time": "12/31/2022",
+        "time": "4:51 AM",
+        "age_group": 14,
+        "phone": "1951394112",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 43,
+            "maths": 67,
+            "science": 52,
+            "physics": 20,
+            "chemistry": 93
+        },
+        "first_name": "Ikey",
+        "last_name": "Carthew",
+        "email": "icarthew3t@google.ru",
+        "score": 82,
+        "date&time": "5/9/2023",
+        "time": "6:49 AM",
+        "age_group": 20,
+        "phone": "6146522472",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 31,
+            "maths": 20,
+            "science": 97,
+            "physics": 86,
+            "chemistry": 85
+        },
+        "first_name": "Emili",
+        "last_name": "Champken",
+        "email": "echampken3u@ca.gov",
+        "score": 87,
+        "date&time": "9/17/2022",
+        "time": "8:12 AM",
+        "age_group": 20,
+        "phone": "5877483422",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 82,
+            "maths": 68,
+            "science": 43,
+            "physics": 98,
+            "chemistry": 58
+        },
+        "first_name": "Obadias",
+        "last_name": "Ahrens",
+        "email": "oahrens3v@shutterfly.com",
+        "score": 42,
+        "date&time": "5/29/2022",
+        "time": "1:43 AM",
+        "age_group": 15,
+        "phone": "6018964182",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 87,
+            "maths": 61,
+            "science": 59,
+            "physics": 28,
+            "chemistry": 31
+        },
+        "first_name": "Alysa",
+        "last_name": "Creus",
+        "email": "acreus3w@blinklist.com",
+        "score": 71,
+        "date&time": "12/30/2021",
+        "time": "1:52 PM",
+        "age_group": 12,
+        "phone": "6085487945",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 46,
+            "maths": 86,
+            "science": 63,
+            "physics": 24,
+            "chemistry": 80
+        },
+        "first_name": "Aundrea",
+        "last_name": "MacColm",
+        "email": "amaccolm3x@ebay.com",
+        "score": 80,
+        "date&time": "1/30/2022",
+        "time": "5:38 PM",
+        "age_group": 18,
+        "phone": "1628665474",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 40,
+            "maths": 38,
+            "science": 63,
+            "physics": 54,
+            "chemistry": 31
+        },
+        "first_name": "Atlante",
+        "last_name": "Pim",
+        "email": "apim3y@ucoz.ru",
+        "score": 76,
+        "date&time": "12/21/2021",
+        "time": "5:20 AM",
+        "age_group": 13,
+        "phone": "3496339429",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 62,
+            "maths": 91,
+            "science": 20,
+            "physics": 84,
+            "chemistry": 57
+        },
+        "first_name": "Georgette",
+        "last_name": "Overal",
+        "email": "goveral3z@abc.net.au",
+        "score": 65,
+        "date&time": "5/25/2023",
+        "time": "3:02 AM",
+        "age_group": 15,
+        "phone": "8583023774",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 61,
+            "maths": 80,
+            "science": 75,
+            "physics": 27,
+            "chemistry": 20
+        },
+        "first_name": "Isabelle",
+        "last_name": "Raigatt",
+        "email": "iraigatt40@miibeian.gov.cn",
+        "score": 81,
+        "date&time": "3/3/2022",
+        "time": "3:51 AM",
+        "age_group": 18,
+        "phone": "6876652838",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 93,
+            "maths": 87,
+            "science": 83,
+            "physics": 85,
+            "chemistry": 47
+        },
+        "first_name": "Jon",
+        "last_name": "Swithenby",
+        "email": "jswithenby41@prnewswire.com",
+        "score": 30,
+        "date&time": "2/19/2023",
+        "time": "5:21 AM",
+        "age_group": 12,
+        "phone": "6861608890",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 23,
+            "maths": 94,
+            "science": 68,
+            "physics": 91,
+            "chemistry": 48
+        },
+        "first_name": "Salomone",
+        "last_name": "Dubery",
+        "email": "sdubery42@eventbrite.com",
+        "score": 43,
+        "date&time": "7/13/2023",
+        "time": "1:49 PM",
+        "age_group": 17,
+        "phone": "5326576607",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 59,
+            "maths": 100,
+            "science": 80,
+            "physics": 26,
+            "chemistry": 70
+        },
+        "first_name": "Cullen",
+        "last_name": "Folkard",
+        "email": "cfolkard43@nyu.edu",
+        "score": 99,
+        "date&time": "7/28/2022",
+        "time": "6:07 PM",
+        "age_group": 15,
+        "phone": "2772402841",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 48,
+            "maths": 42,
+            "science": 70,
+            "physics": 51,
+            "chemistry": 83
+        },
+        "first_name": "Florette",
+        "last_name": "Filgate",
+        "email": "ffilgate44@berkeley.edu",
+        "score": 65,
+        "date&time": "3/25/2023",
+        "time": "10:15 PM",
+        "age_group": 17,
+        "phone": "9373751840",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 85,
+            "maths": 24,
+            "science": 63,
+            "physics": 85,
+            "chemistry": 100
+        },
+        "first_name": "Charlotte",
+        "last_name": "Cheeseman",
+        "email": "ccheeseman45@google.it",
+        "score": 77,
+        "date&time": "1/29/2023",
+        "time": "9:12 PM",
+        "age_group": 13,
+        "phone": "1575831277",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 21,
+            "maths": 63,
+            "science": 87,
+            "physics": 61,
+            "chemistry": 70
+        },
+        "first_name": "Henka",
+        "last_name": "Grinsdale",
+        "email": "hgrinsdale46@latimes.com",
+        "score": 60,
+        "date&time": "8/17/2022",
+        "time": "4:31 PM",
+        "age_group": 20,
+        "phone": "1118180815",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 97,
+            "maths": 83,
+            "science": 68,
+            "physics": 43,
+            "chemistry": 26
+        },
+        "first_name": "Normy",
+        "last_name": "Wife",
+        "email": "nwife47@desdev.cn",
+        "score": 79,
+        "date&time": "2/14/2023",
+        "time": "1:19 AM",
+        "age_group": 12,
+        "phone": "5553021089",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 76,
+            "maths": 42,
+            "science": 80,
+            "physics": 79,
+            "chemistry": 69
+        },
+        "first_name": "Juline",
+        "last_name": "Mation",
+        "email": "jmation48@spiegel.de",
+        "score": 71,
+        "date&time": "8/26/2023",
+        "time": "5:59 AM",
+        "age_group": 16,
+        "phone": "1992712522",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 80,
+            "maths": 87,
+            "science": 29,
+            "physics": 85,
+            "chemistry": 62
+        },
+        "first_name": "Rozanna",
+        "last_name": "Curnnok",
+        "email": "rcurnnok49@hibu.com",
+        "score": 38,
+        "date&time": "11/13/2022",
+        "time": "1:13 AM",
+        "age_group": 17,
+        "phone": "2972660939",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 62,
+            "maths": 61,
+            "science": 44,
+            "physics": 43,
+            "chemistry": 77
+        },
+        "first_name": "Hermia",
+        "last_name": "Nottle",
+        "email": "hnottle4a@google.fr",
+        "score": 47,
+        "date&time": "1/28/2023",
+        "time": "10:47 AM",
+        "age_group": 20,
+        "phone": "1242845691",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 67,
+            "maths": 60,
+            "science": 84,
+            "physics": 67,
+            "chemistry": 63
+        },
+        "first_name": "Goldina",
+        "last_name": "McLaine",
+        "email": "gmclaine4b@reference.com",
+        "score": 95,
+        "date&time": "10/14/2023",
+        "time": "5:06 AM",
+        "age_group": 17,
+        "phone": "9241478290",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 77,
+            "maths": 52,
+            "science": 79,
+            "physics": 38,
+            "chemistry": 21
+        },
+        "first_name": "Hilary",
+        "last_name": "Fryer",
+        "email": "hfryer4c@elegantthemes.com",
+        "score": 56,
+        "date&time": "11/9/2021",
+        "time": "10:11 AM",
+        "age_group": 13,
+        "phone": "9922997582",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 49,
+            "maths": 40,
+            "science": 85,
+            "physics": 36,
+            "chemistry": 77
+        },
+        "first_name": "Terry",
+        "last_name": "Scutter",
+        "email": "tscutter4d@utexas.edu",
+        "score": 34,
+        "date&time": "11/6/2023",
+        "time": "8:29 PM",
+        "age_group": 13,
+        "phone": "5683027408",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 74,
+            "maths": 79,
+            "science": 65,
+            "physics": 36,
+            "chemistry": 74
+        },
+        "first_name": "Finlay",
+        "last_name": "Grimster",
+        "email": "fgrimster4e@samsung.com",
+        "score": 38,
+        "date&time": "9/2/2022",
+        "time": "10:08 AM",
+        "age_group": 18,
+        "phone": "2077601009",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 57,
+            "maths": 91,
+            "science": 61,
+            "physics": 82,
+            "chemistry": 88
+        },
+        "first_name": "Minette",
+        "last_name": "Maides",
+        "email": "mmaides4f@taobao.com",
+        "score": 53,
+        "date&time": "5/19/2022",
+        "time": "9:48 AM",
+        "age_group": 19,
+        "phone": "6184655426",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 81,
+            "maths": 52,
+            "science": 85,
+            "physics": 82,
+            "chemistry": 28
+        },
+        "first_name": "Katalin",
+        "last_name": "McGoogan",
+        "email": "kmcgoogan4g@europa.eu",
+        "score": 32,
+        "date&time": "4/22/2022",
+        "time": "7:46 PM",
+        "age_group": 12,
+        "phone": "3604985847",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 32,
+            "maths": 93,
+            "science": 79,
+            "physics": 39,
+            "chemistry": 48
+        },
+        "first_name": "Mahala",
+        "last_name": "Grieger",
+        "email": "mgrieger4h@indiegogo.com",
+        "score": 82,
+        "date&time": "8/3/2022",
+        "time": "1:21 PM",
+        "age_group": 14,
+        "phone": "1164724256",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 27,
+            "maths": 53,
+            "science": 82,
+            "physics": 77,
+            "chemistry": 68
+        },
+        "first_name": "Lodovico",
+        "last_name": "Chessor",
+        "email": "lchessor4i@un.org",
+        "score": 91,
+        "date&time": "9/5/2022",
+        "time": "11:00 AM",
+        "age_group": 20,
+        "phone": "9806968329",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 25,
+            "maths": 94,
+            "science": 62,
+            "physics": 71,
+            "chemistry": 91
+        },
+        "first_name": "Loree",
+        "last_name": "Ommanney",
+        "email": "lommanney4j@utexas.edu",
+        "score": 73,
+        "date&time": "4/19/2022",
+        "time": "9:16 PM",
+        "age_group": 15,
+        "phone": "7649007887",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 63,
+            "maths": 94,
+            "science": 54,
+            "physics": 31,
+            "chemistry": 39
+        },
+        "first_name": "Tabatha",
+        "last_name": "Cappleman",
+        "email": "tcappleman4k@privacy.gov.au",
+        "score": 44,
+        "date&time": "7/7/2022",
+        "time": "9:10 AM",
+        "age_group": 13,
+        "phone": "9696483883",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 56,
+            "maths": 81,
+            "science": 87,
+            "physics": 76,
+            "chemistry": 33
+        },
+        "first_name": "Mischa",
+        "last_name": "Benedek",
+        "email": "mbenedek4l@woothemes.com",
+        "score": 72,
+        "date&time": "8/4/2023",
+        "time": "2:36 AM",
+        "age_group": 20,
+        "phone": "2984168868",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 20,
+            "maths": 95,
+            "science": 21,
+            "physics": 80,
+            "chemistry": 82
+        },
+        "first_name": "Issi",
+        "last_name": "Hillhouse",
+        "email": "ihillhouse4m@tumblr.com",
+        "score": 35,
+        "date&time": "5/9/2022",
+        "time": "1:00 AM",
+        "age_group": 12,
+        "phone": "9332217443",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 45,
+            "maths": 90,
+            "science": 80,
+            "physics": 21,
+            "chemistry": 77
+        },
+        "first_name": "Lacee",
+        "last_name": "Franzonello",
+        "email": "lfranzonello4n@seesaa.net",
+        "score": 64,
+        "date&time": "12/30/2022",
+        "time": "5:15 PM",
+        "age_group": 17,
+        "phone": "1411470215",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 25,
+            "maths": 44,
+            "science": 91,
+            "physics": 79,
+            "chemistry": 62
+        },
+        "first_name": "Heinrik",
+        "last_name": "Sweating",
+        "email": "hsweating4o@comcast.net",
+        "score": 86,
+        "date&time": "11/21/2023",
+        "time": "2:04 AM",
+        "age_group": 13,
+        "phone": "8127823461",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 23,
+            "maths": 24,
+            "science": 34,
+            "physics": 75,
+            "chemistry": 97
+        },
+        "first_name": "Jacinda",
+        "last_name": "Letson",
+        "email": "jletson4p@people.com.cn",
+        "score": 91,
+        "date&time": "10/15/2023",
+        "time": "11:29 AM",
+        "age_group": 16,
+        "phone": "4934365861",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 36,
+            "maths": 64,
+            "science": 48,
+            "physics": 86,
+            "chemistry": 76
+        },
+        "first_name": "Emelia",
+        "last_name": "Pitcaithly",
+        "email": "epitcaithly4q@t-online.de",
+        "score": 90,
+        "date&time": "10/5/2022",
+        "time": "7:26 PM",
+        "age_group": 17,
+        "phone": "7912995432",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 87,
+            "maths": 62,
+            "science": 23,
+            "physics": 59,
+            "chemistry": 79
+        },
+        "first_name": "Rafaela",
+        "last_name": "O'Leahy",
+        "email": "roleahy4r@latimes.com",
+        "score": 88,
+        "date&time": "5/21/2022",
+        "time": "3:21 PM",
+        "age_group": 15,
+        "phone": "1988299560",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 43,
+            "maths": 83,
+            "science": 39,
+            "physics": 44,
+            "chemistry": 28
+        },
+        "first_name": "Charlene",
+        "last_name": "Dee",
+        "email": "cdee4s@feedburner.com",
+        "score": 76,
+        "date&time": "7/6/2023",
+        "time": "4:41 AM",
+        "age_group": 18,
+        "phone": "7234981537",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 41,
+            "maths": 41,
+            "science": 64,
+            "physics": 99,
+            "chemistry": 80
+        },
+        "first_name": "Anastassia",
+        "last_name": "McKirton",
+        "email": "amckirton4t@independent.co.uk",
+        "score": 30,
+        "date&time": "12/20/2022",
+        "time": "1:49 PM",
+        "age_group": 13,
+        "phone": "6076040359",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 76,
+            "maths": 90,
+            "science": 94,
+            "physics": 36,
+            "chemistry": 93
+        },
+        "first_name": "Dreddy",
+        "last_name": "Danielkiewicz",
+        "email": "ddanielkiewicz4u@hexun.com",
+        "score": 22,
+        "date&time": "4/15/2022",
+        "time": "4:01 AM",
+        "age_group": 13,
+        "phone": "5088669172",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 70,
+            "maths": 54,
+            "science": 26,
+            "physics": 33,
+            "chemistry": 85
+        },
+        "first_name": "Norene",
+        "last_name": "Matusovsky",
+        "email": "nmatusovsky4v@live.com",
+        "score": 42,
+        "date&time": "6/29/2023",
+        "time": "8:54 PM",
+        "age_group": 19,
+        "phone": "7246642438",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 31,
+            "maths": 32,
+            "science": 57,
+            "physics": 68,
+            "chemistry": 92
+        },
+        "first_name": "Whitman",
+        "last_name": "Kores",
+        "email": "wkores4w@europa.eu",
+        "score": 21,
+        "date&time": "6/1/2022",
+        "time": "9:59 PM",
+        "age_group": 12,
+        "phone": "3613655954",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 66,
+            "maths": 95,
+            "science": 74,
+            "physics": 56,
+            "chemistry": 79
+        },
+        "first_name": "Teena",
+        "last_name": "Vigars",
+        "email": "tvigars4x@naver.com",
+        "score": 80,
+        "date&time": "9/11/2023",
+        "time": "1:02 AM",
+        "age_group": 17,
+        "phone": "2278445720",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 56,
+            "maths": 44,
+            "science": 92,
+            "physics": 90,
+            "chemistry": 46
+        },
+        "first_name": "Ketti",
+        "last_name": "Jex",
+        "email": "kjex4y@reddit.com",
+        "score": 80,
+        "date&time": "5/16/2022",
+        "time": "11:01 PM",
+        "age_group": 17,
+        "phone": "6922945666",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 33,
+            "maths": 30,
+            "science": 94,
+            "physics": 76,
+            "chemistry": 68
+        },
+        "first_name": "Allyce",
+        "last_name": "Stowers",
+        "email": "astowers4z@seesaa.net",
+        "score": 91,
+        "date&time": "12/6/2021",
+        "time": "4:17 AM",
+        "age_group": 14,
+        "phone": "2242214125",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 46,
+            "maths": 92,
+            "science": 84,
+            "physics": 54,
+            "chemistry": 68
+        },
+        "first_name": "Vincent",
+        "last_name": "Cluer",
+        "email": "vcluer50@cam.ac.uk",
+        "score": 76,
+        "date&time": "2/4/2023",
+        "time": "4:14 AM",
+        "age_group": 13,
+        "phone": "5473538155",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 81,
+            "maths": 52,
+            "science": 27,
+            "physics": 30,
+            "chemistry": 42
+        },
+        "first_name": "Hadrian",
+        "last_name": "Aronovitz",
+        "email": "haronovitz51@scientificamerican.com",
+        "score": 54,
+        "date&time": "8/20/2023",
+        "time": "10:25 AM",
+        "age_group": 18,
+        "phone": "3845333594",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 94,
+            "maths": 31,
+            "science": 20,
+            "physics": 87,
+            "chemistry": 45
+        },
+        "first_name": "Trix",
+        "last_name": "Maker",
+        "email": "tmaker52@engadget.com",
+        "score": 43,
+        "date&time": "6/3/2023",
+        "time": "8:35 AM",
+        "age_group": 19,
+        "phone": "2389580594",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 44,
+            "maths": 20,
+            "science": 82,
+            "physics": 37,
+            "chemistry": 38
+        },
+        "first_name": "Zabrina",
+        "last_name": "Skouling",
+        "email": "zskouling53@flavors.me",
+        "score": 75,
+        "date&time": "1/3/2023",
+        "time": "5:21 PM",
+        "age_group": 18,
+        "phone": "8684079495",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 82,
+            "maths": 81,
+            "science": 25,
+            "physics": 30,
+            "chemistry": 31
+        },
+        "first_name": "Weylin",
+        "last_name": "Marioneau",
+        "email": "wmarioneau54@elpais.com",
+        "score": 64,
+        "date&time": "8/24/2022",
+        "time": "11:50 AM",
+        "age_group": 12,
+        "phone": "1417515014",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 80,
+            "maths": 32,
+            "science": 42,
+            "physics": 37,
+            "chemistry": 47
+        },
+        "first_name": "Murvyn",
+        "last_name": "Graalman",
+        "email": "mgraalman55@berkeley.edu",
+        "score": 35,
+        "date&time": "8/22/2022",
+        "time": "11:08 AM",
+        "age_group": 17,
+        "phone": "4845959151",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 42,
+            "maths": 77,
+            "science": 69,
+            "physics": 67,
+            "chemistry": 98
+        },
+        "first_name": "Johnna",
+        "last_name": "Collibear",
+        "email": "jcollibear56@time.com",
+        "score": 66,
+        "date&time": "10/14/2022",
+        "time": "2:38 AM",
+        "age_group": 13,
+        "phone": "2206874097",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 28,
+            "maths": 89,
+            "science": 39,
+            "physics": 35,
+            "chemistry": 98
+        },
+        "first_name": "Leonardo",
+        "last_name": "Gerardeaux",
+        "email": "lgerardeaux57@microsoft.com",
+        "score": 96,
+        "date&time": "4/5/2023",
+        "time": "5:46 AM",
+        "age_group": 14,
+        "phone": "7716344827",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 43,
+            "maths": 76,
+            "science": 87,
+            "physics": 94,
+            "chemistry": 68
+        },
+        "first_name": "Nicolis",
+        "last_name": "Du Hamel",
+        "email": "nduhamel58@discovery.com",
+        "score": 99,
+        "date&time": "4/24/2022",
+        "time": "12:24 PM",
+        "age_group": 17,
+        "phone": "6821915812",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 26,
+            "maths": 31,
+            "science": 81,
+            "physics": 69,
+            "chemistry": 84
+        },
+        "first_name": "Deny",
+        "last_name": "Steanson",
+        "email": "dsteanson59@sbwire.com",
+        "score": 81,
+        "date&time": "7/19/2022",
+        "time": "2:03 AM",
+        "age_group": 18,
+        "phone": "8029253116",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 96,
+            "maths": 40,
+            "science": 87,
+            "physics": 47,
+            "chemistry": 57
+        },
+        "first_name": "Harwell",
+        "last_name": "Pearl",
+        "email": "hpearl5a@meetup.com",
+        "score": 55,
+        "date&time": "4/27/2023",
+        "time": "9:11 AM",
+        "age_group": 12,
+        "phone": "2804290661",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 51,
+            "maths": 75,
+            "science": 28,
+            "physics": 100,
+            "chemistry": 71
+        },
+        "first_name": "Lu",
+        "last_name": "Uman",
+        "email": "luman5b@arizona.edu",
+        "score": 64,
+        "date&time": "12/6/2021",
+        "time": "8:48 AM",
+        "age_group": 17,
+        "phone": "8999428127",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 97,
+            "maths": 87,
+            "science": 71,
+            "physics": 76,
+            "chemistry": 32
+        },
+        "first_name": "Carlene",
+        "last_name": "Pareman",
+        "email": "cpareman5c@seesaa.net",
+        "score": 48,
+        "date&time": "11/29/2022",
+        "time": "3:22 AM",
+        "age_group": 14,
+        "phone": "3118002956",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 32,
+            "maths": 93,
+            "science": 40,
+            "physics": 77,
+            "chemistry": 46
+        },
+        "first_name": "Maiga",
+        "last_name": "Dalston",
+        "email": "mdalston5d@aboutads.info",
+        "score": 100,
+        "date&time": "9/9/2023",
+        "time": "5:23 AM",
+        "age_group": 12,
+        "phone": "3433468466",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 68,
+            "maths": 97,
+            "science": 55,
+            "physics": 33,
+            "chemistry": 33
+        },
+        "first_name": "Jodi",
+        "last_name": "Bisson",
+        "email": "jbisson5e@techcrunch.com",
+        "score": 43,
+        "date&time": "8/29/2022",
+        "time": "8:50 PM",
+        "age_group": 17,
+        "phone": "5608810343",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 29,
+            "maths": 36,
+            "science": 99,
+            "physics": 51,
+            "chemistry": 81
+        },
+        "first_name": "Cherey",
+        "last_name": "Verey",
+        "email": "cverey5f@tmall.com",
+        "score": 99,
+        "date&time": "1/18/2022",
+        "time": "6:05 AM",
+        "age_group": 19,
+        "phone": "8856987395",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 70,
+            "maths": 34,
+            "science": 76,
+            "physics": 62,
+            "chemistry": 66
+        },
+        "first_name": "Tymon",
+        "last_name": "Heake",
+        "email": "theake5g@csmonitor.com",
+        "score": 93,
+        "date&time": "11/28/2021",
+        "time": "11:56 AM",
+        "age_group": 15,
+        "phone": "2124666674",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 85,
+            "maths": 56,
+            "science": 42,
+            "physics": 48,
+            "chemistry": 28
+        },
+        "first_name": "Shell",
+        "last_name": "Braidon",
+        "email": "sbraidon5h@booking.com",
+        "score": 68,
+        "date&time": "6/12/2022",
+        "time": "3:44 AM",
+        "age_group": 20,
+        "phone": "2364794694",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 48,
+            "maths": 78,
+            "science": 59,
+            "physics": 38,
+            "chemistry": 41
+        },
+        "first_name": "Scottie",
+        "last_name": "Whitmore",
+        "email": "swhitmore5i@1688.com",
+        "score": 62,
+        "date&time": "4/21/2023",
+        "time": "4:54 PM",
+        "age_group": 15,
+        "phone": "3001990174",
+        "country": "Afghanistan"
+    },
+    {
+        "subject":{
+            "english": 26,
+            "maths": 68,
+            "science": 97,
+            "physics": 33,
+            "chemistry": 22
+        },
+        "first_name": "Zora",
+        "last_name": "Pieterick",
+        "email": "zpieterick5j@issuu.com",
+        "score": 69,
+        "date&time": "4/3/2023",
+        "time": "2:32 PM",
+        "age_group": 12,
+        "phone": "7776061937",
+        "country": "Afghanistan"
+    }
+]
