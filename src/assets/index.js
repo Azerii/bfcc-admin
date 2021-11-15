@@ -1,4 +1,5 @@
 import chat_pie from "./images/chart-pie.svg";
+import download from "./icons/download.svg"
 import age from "./images/age.svg";
 import report from "./images/report.svg";
 import question from "./images/question.svg";
@@ -35,4 +36,5 @@ export {
   arrow_right_blue,
   arrow_right_grey,
   age_group,
+  download,
 };

@@ -39,7 +39,7 @@ const TableWrapper = styled.table`
     border: 1px solid #efefef;
     border-left: none;
     border-right: none;
-    padding: 1.8rem 1rem;
+    padding: 38.5px 1rem;
     color: var(--text);
     font-size: 16px;
     line-height: 18px;
@@ -47,6 +47,13 @@ const TableWrapper = styled.table`
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+
+     &:nth-child(2){
+      width: 150px;
+       white-space: unset;
+    text-overflow: unset;
+    
+    }
 
     a{
       display:block;
@@ -82,8 +89,57 @@ const TableWrapper = styled.table`
     font-weight: 700;
     line-height: 18px;
     white-space: nowrap;
+
+    &:nth-child(2){
+      margin-right:173px;
+    }
+    &:nth-child(3){
+      width: 250px;
+    }
+
   }
 `;
+
+const Grid = styled.div`
+display: flex;
+flex-direction:column;
+justify-content:center;
+position: relative;
+margin:auto 0;
+
+.title{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.grid{
+
+  position:absolute;
+  display:flex;
+  justify-content:space-between;
+  transform:translateY(4rem);
+  width:100%;
+
+  span{
+    color:var(--grey_1);
+    font-size:12px;
+  }
+}
+`
+const grid =
+  <Grid >
+    <div className="title">
+      Performance
+    </div>
+      <div className="grid">
+        <span>0%</span>
+        <span>20%</span>
+        <span>40%</span>
+        <span>60%</span>
+        <span>80%</span>
+        <span>100%</span>
+      </div>
+  </Grid>
 
 const PaginationWrapper = styled.div`
   margin-top: 2.4rem;
@@ -128,11 +184,12 @@ const PaginationWrapper = styled.div`
       color: white;
     }
   }
+
 `;
 
 const TableFunction = ({
   COLUMNS,
-  DATA ,
+  DATA,
   children,
   title,
 }) => {
@@ -178,7 +235,7 @@ const TableFunction = ({
 
   return (
     <Wrapper>
-        {children}
+      {children}
       <div className="flexRow alignCenter wh justifySpaceBetween header">
         <h4 className="title">{title}</h4>
         {/* <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter} /> */}
@@ -200,8 +257,8 @@ const TableFunction = ({
                 <th width="24"></th>
                 {headerGroup.headers.map((column) => (
                   <th {...column.getHeaderProps(column.getSortByToggleProps())}>
-                    {column.render("Header")}
-                    
+                    {column.Header === 'Performance' ? grid : column.render("Header")}
+
                   </th>
                 ))}
               </tr>
@@ -211,26 +268,26 @@ const TableFunction = ({
           <tbody {...getTableBodyProps()}>
             {page.map((row) => {
               prepareRow(row);
-              {console.log(row)}
+              { console.log(row) }
               return (
                 <tr {...row.getRowProps()}>
-                    <td width="24">
-                    </td>
+                  <td width="24">
+                  </td>
                   {row.cells.map((cell, index) => (
                     <td {...cell.getCellProps()}>
-                        {cell.render("Cell")}
-                        {/* {console.log(cell)} */}
-                      </td>
+                      {cell.render("Cell")}
+                      {/* {console.log(cell)} */}
+                    </td>
                   ))}
                 </tr>
-              
+
               );
             })}
           </tbody>
         </TableWrapper>
 
-        
-        
+
+
       </div>
     </Wrapper>
   );

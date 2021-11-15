@@ -14,7 +14,7 @@ const Wrapper = styled.div`
   font-weight: 700;
   border-radius: 2.26px;
   width: ${(props) => props.num}%;
-  margin-bottom: 1.2rem;
+  // margin-bottom: 1.2rem;
 `;
 
 const BarRep = ({ text, num, color, textColor, bar }) => {
@@ -38,7 +38,6 @@ export const REPORT_COLUMNS = [
     Header: "Performance",
     accessor: "",
     Cell:({row})=> <BarRep color="var(--primary)" num={row.values.score}/>,
-    Column:({column})=> <BarRep color="var(--primary)" num="56"/>
   },
   {
     Header: "Score",
@@ -52,7 +51,13 @@ export const REPORT_COLUMNS = [
   {
     Header: "Grade",
     accessor: "",
-    Cell: () => { return "A" }
+    Cell: ({ row }) => {
+      if (row.values.score >= 70) return "A";
+      if (row.values.score >= 60 && row.values.score <= 69) return "B";
+      if (row.values.score >= 50 && row.values.score <= 59) return "C";
+      if (row.values.score >= 45 && row.values.score <= 49) return "D";
+      return "F"
+    }
   },
 ];
 

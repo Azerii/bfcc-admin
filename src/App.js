@@ -10,8 +10,10 @@ import { REPORT_COLUMNS } from "./components/Table/reportColumns";
 import Context from "./components/Context/Context";
 import TableFunction from "./components/Table/TableFunction";
 import styled from "styled-components";
+import { download } from "./assets";
 
-const Wrapper = styled.div` 
+const Wrapper = styled.div`
+position: relative;
 background:white;
 padding: 48px;
 h4, * + p{
@@ -22,9 +24,35 @@ h4, * + p{
     width:184px;
     color:var(--grey_1);
   }
+  
 }
+
+  button{
+    height:48px;
+    border-radius:8px;
+    width:174px;
+    color:white;
+    background:var(--primary);
+    font-size:16px;
+    position: absolute;
+    right:48px;
+    top:48px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    img{
+      width:14.1px;
+      height:16px;
+      margin-left: 7.05px;
+    }
+  }
+  
 `
 const Details = ({ first_name, last_name, mail, school, overal, age_group, date }) => <Wrapper>
+  <button>Download Report
+    <img src={download} alt="download" />
+  </button>
   <h4>{first_name} {last_name}</h4>
   <p><span>Age group: </span>  <span>Year {age_group}</span></p>
   <p><span>Email address:</span> <span>{mail}</span></p>
@@ -56,8 +84,8 @@ function App() {
                     let arrayOfObjects = Object.entries(MOCK_DATA[index].subject).map(a => {
                       return {
                         subject: a[0][0].toLocaleUpperCase() + a[0].substring(1),
-                         score: [a[1]],
-                         total: [a[1]],
+                        score: [a[1]],
+                        total: [a[1]],
                       }
                     })
                     return <Route
