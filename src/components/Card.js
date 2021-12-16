@@ -2,10 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
+position: relative;
   width: 100%;
   border-radius: 16px;
   background-color: white;
   padding: 24px;
+  min-height:228px;
 
   .title {
     color: var(--primary);
@@ -14,10 +16,11 @@ const Wrapper = styled.div`
   }
 
   .value {
+    position:absolute;
     font-size: 36px;
     line-height: 48px;
     font-weight: 700;
-    margin-top: 1.2rem;
+    bottom:0;
   }
 `;
 

@@ -17,7 +17,7 @@ const Wrapper = styled.div`
         align-items:center;
 
         img{
-            width:auto:
+            width:auto;
         }
     }
 
@@ -30,7 +30,8 @@ const Wrapper = styled.div`
         display:flex;
         align-items:center;
 
-        img{
+       .active img{
+         display:none;
             height:14px;
             width:14px;
         }

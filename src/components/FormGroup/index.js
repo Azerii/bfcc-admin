@@ -10,7 +10,7 @@ import chevronDown from "../../assets/icons/chevronDown.svg";
 
 const handleToggleShow = (e, id) => {
   const toggler = e.target;
-  const field = document.querySelector(`#${id}`);
+  const field = document.querySelector(`#${id}`).children[0];
 
   if (field.type === "password") {
     field.type = "text";

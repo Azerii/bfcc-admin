@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Navbar from "../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
-import Form from "../components/Form/Form";
 import Button from "../components/Button/Button"
+import Form from "../components/FormGroup"
 
 const Wrapper = styled.div`
   .container {
-    margin-top: 1px;
+     margin-top: 1px;
     height: calc(100vh - 73px);
     & > * {
       text-align: center;
@@ -35,7 +35,7 @@ const Wrapper = styled.div`
     a {
       color: var(--primary);
     }
-  }
+  } 
 `
 const Login = () => {
   const [userName, setUserName] = useState("");
@@ -48,17 +48,20 @@ const Login = () => {
         <p>Enter email address and password to sign in.</p>
         <form action="/">
           <Form
-            name="My form"
+            name="mail"
             placeholder="Email address"
             type="text"
+            inputType="mail"
             fieldStyle="shortText"
+            className="mail"
           />
           <Form
-            name="Password"
+            name="password"
             placeholder="Password"
             type="password"
             inputType='password'
-            fieldStyle="password"
+            fieldStyle="shortText"
+            className="password"
           />
         <Link to='/'>
           <Button text='Login' width='100%' height='48px' />

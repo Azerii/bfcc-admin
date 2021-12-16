@@ -4,7 +4,7 @@ import styled from "styled-components";
 const handleColorType = bar => {
   switch (bar) {
     case "bar2":
-      return "40px";
+      return "28px";
     case "bar3":
       return "8px";
     default:
@@ -16,7 +16,7 @@ const Wrapper = styled.div`
   background-color: ${(props) => props.color || "white"};
   color: ${(props) => props.textColor || "white"};
   padding: 0 14px;
-  font-size: 16px;
+  font-size: 12px;
   height: ${(props) =>handleColorType(props.bar) };
   display: flex;
   align-items: center;

@@ -41,40 +41,37 @@ const Wrapper = styled.div`
 
   .data {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-gap: 1.2rem;
+    grid-auto-columns: auto;
+    grid-auto-flow: column;
+    grid-gap: 0.5rem;
     width: 100%;
     height: 30rem;
     align-items: bottom;
 
-    .bar {
-      align-self: end;
-    }
+   
   }
 `;
 
 const Bar = styled.div`
   position: relative;
+      align-self: end;
   background-color: var(--primary);
   color: #ffffff;
-  padding: 1.2rem 0.6rem;
+  padding: 0 0 0.5rem  0;
   font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  
   font-weight: 700;
   border-radius: 2.26px;
   height: ${(props) => props.num + 25}%;
+  /* overflow:hidden; */
 
   .label {
-    &.ageGroup {
-      margin-top: 1.2rem;
-    }
-
-    &.score {
-      font-size: 1em;
-    }
+    position:absolute;
+    transform: rotate(-90deg) ;
+bottom: 0;
+    margin: 0 auto;
+    width:8rem;
+ 
   }
 `;
 
@@ -89,8 +86,7 @@ const Card4 = (props) => (
           color={year.color}
           num={year.score >= 25 ? year.score - 25 : year.score}
         >
-          <span className="label score">{`${year.score}%`}</span>
-          <span className="label ageGroup">{`${year.year}`}</span>
+            <p className="label">{`YEAR ${year.year} ${year.score}%`}</p>
         </Bar>
       ))}
     </div>

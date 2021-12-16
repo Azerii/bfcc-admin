@@ -8,27 +8,39 @@ import BarRep from "../components/BarRep";
 import Card4 from "../components/Card4";
 
 const Wrapper = styled.div`
-  .slide {
     display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-gap:24px;
+  /* .slide {
     grid-template-columns: 1fr 1fr;
     grid-gap: 24px;
     margin-top: 2.4rem;
     margin-bottom: 2.4rem;
-  }
+  } */
 
-  .otherData {
-    display: grid;x
-    grid-template-columns: 1fr 1fr 1fr;
+  /* .otherData {
+    display: grid;
     grid-gap: 24px;
-  }
-
-  .performancePerSubject {
-    grid-column: 1/4;
-  }
-
-  .performancePerLevel {
-    grid-column: 2/4;
-  }
+  } */
+&>:nth-child(1){
+  grid-column:1/-1;
+  padding-bottom:20px;
+}
+&>:nth-child(2){
+  grid-column:1/4;
+}
+&>:nth-child(3){
+  grid-column:4/7;
+}
+&>:nth-child(4){
+  grid-column:1/3;
+}
+&>:nth-child(5){
+  grid-column:3/5;
+}
+&>:nth-child(6){
+  grid-column:5/7;
+}
 `;
 
 const arr = [
@@ -56,24 +68,21 @@ const Overview = ({ empty = false }) => {
   return (
     <Wrapper>
       <h4>Overview</h4>
-      <div className="slide">
-        <Card title="Total number of tests taken" />
-        <Card title="Tests per subject taken" />
-      </div>
-      <div className="otherData">
+        <Card  title="Total number of tests taken" />
+        <Card  title="Tests per subject taken" />
         <Card2 array={arr} />
         {empty && (
           <Card3 title="Performance per Age">
             <h4>No performance recorded.</h4>
             <p>
-              Create test to view test permformance by class. Click{" "}
+              Create test to view test performance by class. Click{" "}
               <Link to="/">here</Link>
             </p>
           </Card3>
         )}
         {!empty && (
           <Card4
-            className="performancePerLevel"
+            
             title="Performance per age group"
             width="auto"
             arr={years}
@@ -81,7 +90,6 @@ const Overview = ({ empty = false }) => {
         )}
 
         <Card3
-          className="performancePerSubject"
           title="Performance per subject"
           width="auto"
         >
@@ -89,7 +97,7 @@ const Overview = ({ empty = false }) => {
             <>
               <h4>No performance recorded.</h4>
               <p>
-                Create test to view test permformance by class. Click{" "}
+                Create test to view test performance by class. Click{" "}
                 <Link to="/">here</Link>
               </p>
             </>
@@ -107,7 +115,7 @@ const Overview = ({ empty = false }) => {
             </>
           )}
         </Card3>
-      </div>
+      {/* </div> */}
     </Wrapper>
   );
 };

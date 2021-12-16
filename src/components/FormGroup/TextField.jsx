@@ -71,7 +71,7 @@ const TextField = styled.div`
   &.password {
     input,
     textarea {
-      width: 80%;
+      width: 100%;
     }
 
     .toggleShowText {
