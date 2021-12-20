@@ -5,6 +5,10 @@ import NothingAdded from "../../components/Modal/NothingAdded";
 import { Route } from "react-router";
 import AddQuestion from "./AddQuestion";
 import { formDataToJSON } from "../../utils";
+import PaginationTable from "../../components/Table/PaginationTable";
+import DATA from "../../assets/json/question.json";
+import {COLUMNS} from "./columns"
+
 
 const Wrapper = styled.div`
   position: relative;
@@ -16,7 +20,7 @@ const Wrapper = styled.div`
 
 const Question = () => {
   const [loading, setLoading] = useState(false);
-  const [questions, setQuestions] = useState([]);
+  const [questions, setQuestions] = useState([1,34,5]);
 
   const createQuestion = (e) => {
     e.preventDefault();
@@ -31,7 +35,7 @@ const Question = () => {
   return (
     <Wrapper>
       {loading && <Loader />}
-      <h4>Questions</h4>
+      {/* <h4>Questions</h4> */}
       {!questions.length && (
         <NothingAdded text="question" link="/questions/add-question" />
       )}
@@ -39,6 +43,7 @@ const Question = () => {
       <Route exact path="/questions/add-question">
         <AddQuestion handleSubmit={createQuestion} />
       </Route>
+       <PaginationTable DATA={DATA} COLUMNS={COLUMNS} title="Questions" />
     </Wrapper>
   );
 };

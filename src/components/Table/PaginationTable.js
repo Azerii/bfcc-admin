@@ -14,8 +14,8 @@ import {
   arrow_left_grey,
   arrow_right_blue,
   arrow_right_grey,
+  remove as remove_icon
 } from "../../assets";
-import MOCK_DATA from "./MOCK_DATA.json";
 import { MOCK_COLUMNS } from "./columns";
 // import GlobalFilter from "./GlobalFilter";
 import styled from "styled-components";
@@ -55,8 +55,8 @@ const TableWrapper = styled.table`
     a{
       display:block;
       margin:0;
-      height:100%
-      width:100%
+      height:100%;
+      width:100%;
     }
 
   }
@@ -74,7 +74,7 @@ const TableWrapper = styled.table`
     cursor: default;
   }
 
-  tr.header: hover {
+  tr.header:hover {
     background-color: transparent;
   }
 
@@ -136,7 +136,7 @@ const PaginationWrapper = styled.div`
 
 const PaginationTable = ({
   COLUMNS = MOCK_COLUMNS,
-  DATA = MOCK_DATA,
+  DATA ,
   title,
 }) => {
   const columns = useMemo(() => COLUMNS, []);
@@ -178,6 +178,14 @@ const PaginationTable = ({
   const { pageIndex } = state;
 
   // const [searchValue, setSearchValue] = useState(pageIndex + 1);
+  let remove=''
+    if(title === "Questions") {
+      remove = <td style={{display:'flex', alignItems:'center',justifyContent:'center'}}>
+        <img src={remove_icon} alt="remove" />
+        <span>remove</span>
+      </td>
+    } 
+
 
   return (
     <Wrapper>
@@ -202,20 +210,7 @@ const PaginationTable = ({
                 {headerGroup.headers.map((column) => (
                   <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                     {column.render("Header")}
-                    {/* <span>
-                      {column.isSorted ? (
-                        column.isSortedDesc ? (
-                          <img src={arrow_left_blue} alt={arrow_left_blue} />
-                        ) : (
-                          <img src={arrow_right_blue} alt={arrow_right_blue} />
-                        )
-                      ) : (
-                        ""
-                      )}
-                    </span>
-                    <div>
-                      {column.canFilter ? column.render("Filter") : null}
-                    </div> */}
+                  
                   </th>
                 ))}
               </tr>
@@ -238,48 +233,17 @@ const PaginationTable = ({
                         {cell.render("Cell")}
                       </Link>
                     </td>
-                  ))}
+                  )) }
+
+                  {remove}
+                  
                 </tr>
-                // <tr {...row.getRowProps()}>
-                //   {row.cells.map((cell, index) => {
-                //     if (index > 1) {
-                //       return null;
-                //     } else if (index === 1) {
-                //       return (
-                //         <td
-                //           style={{
-                //             marginLeft: "auto",
-                //             width: "144px",
-                //             padding: "0",
-                //           }}
-                //           {...cell.getCellProps()}
-                //         >
-                //           <Context.Consumer>
-                //             {(context) => (
-                //               <Button
-                //                 text="Remove"
-                //                 color="#FBFBFB"
-                //                 borderColor="transparent"
-                //                 textColor="#404040"
-                //                 onClick={() =>
-                //                   context.setToggleModal(!context.willModalShow)
-                //                 }
-                //               />
-                //             )}
-                //           </Context.Consumer>
-                //         </td>
-                //       );
-                //     } else {
-                //       return (
-                //         <td {...cell.getCellProps()}>{cell.render("Cell")}</td>
-                //       );
-                //     }
-                //   })}
-                // </tr>
+               
               );
             })}
           </tbody>
         </TableWrapper>
+
         <PaginationWrapper className="flexRow alignCenter justifySpaceBetween">
           <ul className="pagination">
             <li className="pagination-item wh-bg " onClick={() => gotoPage(0)}>
@@ -339,16 +303,7 @@ const PaginationTable = ({
             </li>
           </ul>
           <div className="findPage">
-            {/* <Form
-              name=""
-              inputType="number"
-              fieldStyle="shortText"
-              value={searchValue}
-              changeFunc={(e) => {
-                setSearchValue(e);
-                gotoPage(e);
-              }}
-            /> */}
+            
             <p>
               Displaying {(pageIndex + 1) * 10} of {pageCount * 10} records
             </p>

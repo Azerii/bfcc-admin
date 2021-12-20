@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import MOCK_DATA from "./MOCK_DATA.json";
+import MOCK_DATA from "../../assets/json/MOCK_DATA.json";
 
 
 const Wrapper = styled.div`

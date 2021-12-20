@@ -5,7 +5,7 @@ import Overview from "./pages/Overview";
 import Question from "./pages/Question/Question";
 import Reports from "./pages/Reports";
 import Login from "./pages/Login";
-import MOCK_DATA from "./components/Table/MOCK_DATA.json";
+import MOCK_DATA from "./assets/json/MOCK_DATA.json";
 import { REPORT_COLUMNS } from "./components/Table/reportColumns";
 import Context from "./components/Context/Context";
 import TableFunction from "./components/Table/TableFunction";
