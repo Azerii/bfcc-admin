@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo } from "react";
 import { Link } from "react-router-dom";
 import {
   useTable,
@@ -14,7 +14,7 @@ import {
   arrow_left_grey,
   arrow_right_blue,
   arrow_right_grey,
-  remove as remove_icon
+  remove as remove_icon,
 } from "../../assets";
 import { MOCK_COLUMNS } from "./columns";
 // import GlobalFilter from "./GlobalFilter";
@@ -36,8 +36,7 @@ const TableWrapper = styled.table`
   background-color: #ffffff;
   border-radius: 0.25rem;
 
-  a{
-
+  a {
   }
   td {
     border: 1px solid #efefef;
@@ -52,13 +51,12 @@ const TableWrapper = styled.table`
     text-overflow: ellipsis;
     overflow: hidden;
 
-    a{
-      display:block;
-      margin:0;
-      height:100%;
-      width:100%;
+    a {
+      display: block;
+      margin: 0;
+      height: 100%;
+      width: 100%;
     }
-
   }
 
   tr {
@@ -134,13 +132,11 @@ const PaginationWrapper = styled.div`
   }
 `;
 
-const PaginationTable = ({
-  COLUMNS = MOCK_COLUMNS,
-  DATA ,
-  title,
-}) => {
+const PaginationTable = ({ COLUMNS = MOCK_COLUMNS, DATA, title }) => {
   const columns = useMemo(() => COLUMNS, []);
   const data = useMemo(() => DATA, []);
+
+  const clickFunc = () => {};
 
   const defaultColumn = useMemo(() => {
     return {
@@ -178,14 +174,37 @@ const PaginationTable = ({
   const { pageIndex } = state;
 
   // const [searchValue, setSearchValue] = useState(pageIndex + 1);
-  let remove=''
-    if(title === "Questions") {
-      remove = <td style={{display:'flex', alignItems:'center',justifyContent:'center'}}>
-        <img src={remove_icon} alt="remove" />
-        <span>remove</span>
-      </td>
-    } 
-
+  const removeHandler = (id) => {
+    if (title === "Questions") {
+      return (
+        <td
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            borderBottom: "0",
+          }}
+          onClick={() => clickFunc(id)}
+        >
+          <img
+            src={remove_icon}
+            alt="remove"
+            style={{ height: "16px", marginRight: "15px" }}
+          />
+          <p
+            style={{
+              display: "flex",
+              alignItems: "center",
+              fontSize: "16px",
+              margin: "8px 0  0",
+            }}
+          >
+            Remove
+          </p>
+        </td>
+      );
+    } else return "hello";
+  };
 
   return (
     <Wrapper>
@@ -204,13 +223,16 @@ const PaginationTable = ({
       <div className="screen">
         <TableWrapper {...getTableProps()}>
           <thead>
-            {headerGroups.map((headerGroup) => (
-              <tr {...headerGroup.getHeaderGroupProps()} className="header">
+            {headerGroups.map((headerGroup, index) => (
+              <tr
+                key={index}
+                {...headerGroup.getHeaderGroupProps()}
+                className="header"
+              >
                 <th width="24"></th>
                 {headerGroup.headers.map((column) => (
                   <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                     {column.render("Header")}
-                  
                   </th>
                 ))}
               </tr>
@@ -218,14 +240,14 @@ const PaginationTable = ({
           </thead>
 
           <tbody {...getTableBodyProps()}>
-            {page.map((row) => {
+            {page.map((row, index) => {
               prepareRow(row);
               return (
                 <tr {...row.getRowProps()}>
-                  {console.log(row.cells[0].value)}
                   <td width="24">
-                    <Link to={`/${row.cells[0].value}_${row.cells[1].value}`}>
-                    </Link>
+                    <Link
+                      to={`/${row.cells[0].value}_${row.cells[1].value}`}
+                    ></Link>
                   </td>
                   {row.cells.map((cell, index) => (
                     <td {...cell.getCellProps()}>
@@ -233,12 +255,11 @@ const PaginationTable = ({
                         {cell.render("Cell")}
                       </Link>
                     </td>
-                  )) }
+                  ))}
 
-                  {remove}
-                  
+                  {/* {console.log(row.original.id)} */}
+                  {removeHandler(row.original.id)}
                 </tr>
-               
               );
             })}
           </tbody>
@@ -303,7 +324,6 @@ const PaginationTable = ({
             </li>
           </ul>
           <div className="findPage">
-            
             <p>
               Displaying {(pageIndex + 1) * 10} of {pageCount * 10} records
             </p>

@@ -7,8 +7,7 @@ import AddQuestion from "./AddQuestion";
 import { formDataToJSON } from "../../utils";
 import PaginationTable from "../../components/Table/PaginationTable";
 import DATA from "../../assets/json/question.json";
-import {COLUMNS} from "./columns"
-
+import { COLUMNS } from "./columns";
 
 const Wrapper = styled.div`
   position: relative;
@@ -20,7 +19,11 @@ const Wrapper = styled.div`
 
 const Question = () => {
   const [loading, setLoading] = useState(false);
-  const [questions, setQuestions] = useState([1,34,5]);
+  const [questions, setQuestions] = useState(DATA);
+  const removeHandler = (id) => {
+    console.log('button was clicked')
+    setQuestions(questions.filter((data) => !data.id.includes(1)));
+  };
 
   const createQuestion = (e) => {
     e.preventDefault();
@@ -43,7 +46,12 @@ const Question = () => {
       <Route exact path="/questions/add-question">
         <AddQuestion handleSubmit={createQuestion} />
       </Route>
-       <PaginationTable DATA={DATA} COLUMNS={COLUMNS} title="Questions" />
+      <PaginationTable
+        DATA={questions}
+        COLUMNS={COLUMNS}
+        clickFunc={()=>removeHandler(1)}
+        title="Questions"
+      />
     </Wrapper>
   );
 };
