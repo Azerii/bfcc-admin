@@ -17,8 +17,8 @@ const Wrapper = styled.button`
 `;
 
 const Button = (props) => {
-  const { text, width, color, textColor, borderColor } = props;
-  return <Wrapper {...props}>{text}</Wrapper>;
+  const { className,text, width, color, textColor, borderColor } = props;
+  return <Wrapper className={className} {...props}>{text}</Wrapper>;
 };
 
 export default Button;

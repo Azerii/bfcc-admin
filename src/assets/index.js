@@ -18,6 +18,7 @@ import arrow_left_grey from "./images/arrow_left_grey.svg";
 import age_group from "./images/age_group.svg";
 import arrow_down from "./images/arrow_down.svg";
 import remove from "./icons/remove.svg"
+import filter from "./icons/filter.svg"
 export {
   chat_pie,
   age,
@@ -38,5 +39,6 @@ export {
   arrow_right_grey,
   age_group,
   download,
-  remove
+  remove,
+  filter
 };

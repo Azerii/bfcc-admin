@@ -20,9 +20,9 @@ const Wrapper = styled.div`
 const Question = () => {
   const [loading, setLoading] = useState(false);
   const [questions, setQuestions] = useState(DATA);
-  const removeHandler = (id) => {
-    console.log('button was clicked')
-    setQuestions(questions.filter((data) => !data.id.includes(1)));
+  const removeHandler = (Id) => {
+    setQuestions(questions.filter((data) => data.id !== Id));
+
   };
 
   const createQuestion = (e) => {
@@ -32,13 +32,16 @@ const Question = () => {
     const formData = new FormData(formEl);
     const data = formDataToJSON(formData);
 
+    const updateQuestions = [...questions].push(data)
+    setQuestions(updateQuestions);
     console.log(data);
+    console.log(questions);
   };
 
   return (
     <Wrapper>
       {loading && <Loader />}
-      {/* <h4>Questions</h4> */}
+      {!questions.length && <h4>Questions</h4>}
       {!questions.length && (
         <NothingAdded text="question" link="/questions/add-question" />
       )}
@@ -46,12 +49,14 @@ const Question = () => {
       <Route exact path="/questions/add-question">
         <AddQuestion handleSubmit={createQuestion} />
       </Route>
-      <PaginationTable
-        DATA={questions}
-        COLUMNS={COLUMNS}
-        clickFunc={()=>removeHandler(1)}
-        title="Questions"
-      />
+      {questions.length > 0 && (
+        <PaginationTable
+          DATA={questions}
+          COLUMNS={COLUMNS}
+          clickFunc={removeHandler}
+          title="Questions"
+        />
+      )}
     </Wrapper>
   );
 };

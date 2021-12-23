@@ -7,8 +7,6 @@ import {
   useFilters,
   usePagination,
 } from "react-table";
-// import Button from "../Button/Button";
-// import Form from "../Form/Form";
 import {
   arrow_left_blue,
   arrow_left_grey,
@@ -17,16 +15,20 @@ import {
   remove as remove_icon,
 } from "../../assets";
 import { MOCK_COLUMNS } from "./columns";
-// import GlobalFilter from "./GlobalFilter";
 import styled from "styled-components";
-// import Pagination from "../Pagination/Pagination";
 import ColumnFilter from "./ColumnFilter";
-// import Context from "../../components/Context/Context";
 import FormGroup from "../FormGroup";
+import Button from "../Button/Button";
 
 const Wrapper = styled.div`
   .header {
     margin-bottom: 3.6rem;
+  }
+  .btn {
+    margin-left: auto;
+    margin-right: 1.5rem;
+    display: block;
+    width: fit-content;
   }
 `;
 
@@ -132,11 +134,16 @@ const PaginationWrapper = styled.div`
   }
 `;
 
-const PaginationTable = ({ COLUMNS = MOCK_COLUMNS, DATA, title }) => {
-  const columns = useMemo(() => COLUMNS, []);
-  const data = useMemo(() => DATA, []);
+const PaginationTable = ({
+  COLUMNS = MOCK_COLUMNS,
+  DATA,
+  title,
+  clickFunc,
+}) => {
+  const columns = COLUMNS;
+  const data = DATA;
 
-  const clickFunc = () => {};
+  // const clickFunc = () => {};
 
   const defaultColumn = useMemo(() => {
     return {
@@ -173,7 +180,6 @@ const PaginationTable = ({ COLUMNS = MOCK_COLUMNS, DATA, title }) => {
   );
   const { pageIndex } = state;
 
-  // const [searchValue, setSearchValue] = useState(pageIndex + 1);
   const removeHandler = (id) => {
     if (title === "Questions") {
       return (
@@ -211,10 +217,15 @@ const PaginationTable = ({ COLUMNS = MOCK_COLUMNS, DATA, title }) => {
       <div className="flexRow alignCenter justifySpaceBetween header">
         <h4 className="title">{title}</h4>
         {/* <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter} /> */}
+        
+        {title === "Questions" && <Link className="btn" to="/questions/add-question">
+          <Button text={"Add question"} />
+        </Link>}
+
         <FormGroup
-          fieldStyle="shortText"
-          name="search"
-          placeholder="Search"
+          fieldStyle="search"
+          name="filter"
+          placeholder="Filter by"
           setValue={setGlobalFilter}
           outline={false}
           labelBg="var(--background)"
@@ -225,7 +236,7 @@ const PaginationTable = ({ COLUMNS = MOCK_COLUMNS, DATA, title }) => {
           <thead>
             {headerGroups.map((headerGroup, index) => (
               <tr
-                key={index}
+                key={index + headerGroup}
                 {...headerGroup.getHeaderGroupProps()}
                 className="header"
               >
@@ -243,14 +254,14 @@ const PaginationTable = ({ COLUMNS = MOCK_COLUMNS, DATA, title }) => {
             {page.map((row, index) => {
               prepareRow(row);
               return (
-                <tr {...row.getRowProps()}>
+                <tr key={row + index} {...row.getRowProps()}>
                   <td width="24">
                     <Link
                       to={`/${row.cells[0].value}_${row.cells[1].value}`}
                     ></Link>
                   </td>
                   {row.cells.map((cell, index) => (
-                    <td {...cell.getCellProps()}>
+                    <td key={cell + index} {...cell.getCellProps()}>
                       <Link to={`/${row.cells[0].value}_${row.cells[1].value}`}>
                         {cell.render("Cell")}
                       </Link>

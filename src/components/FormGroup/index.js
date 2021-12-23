@@ -7,6 +7,7 @@ import Dropdown from "./Dropdown";
 import searchIcon from "../../assets/icons/searchGrey.svg";
 import cancelIcon from "../../assets/icons/cancel.svg";
 import chevronDown from "../../assets/icons/chevronDown.svg";
+import { filter } from "../../assets";
 
 const handleToggleShow = (e, id) => {
   const toggler = e.target;
@@ -153,7 +154,7 @@ const FormGroup = ({
           labelBg={labelBg}
         >
           <div className="header">
-            <img src={searchIcon} alt="icon" className="icon left" />
+            <img src={name === "filter" ? filter : searchIcon} alt="icon" className="icon left" />
             <input
               type="text"
               id={name}

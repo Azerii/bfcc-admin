@@ -37,7 +37,7 @@ function NothingAdded({ text, onClick, link }) {
       <img src={age_group} alt={age_group} />
       <p>There’s nothing here.</p>
       <p>
-        You haven't added any {text} <br /> at the monent.
+        You haven't added any {text} <br /> at the moment.
       </p>
       <Link to={link}>
         <Button text="Add question" width="144px" onClick={onClick} />
