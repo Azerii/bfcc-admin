@@ -7,6 +7,7 @@ import Overview from "./pages/Overview";
 import Question from "./pages/Question/Question";
 import Reports from "./pages/Reports";
 import Login from "./pages/Login";
+import Test from "./pages/Test/Test"
 import MOCK_DATA from "./assets/json/MOCK_DATA.json";
 import { REPORT_COLUMNS } from "./components/Table/reportColumns";
 import Context from "./components/Context/Context";
@@ -86,7 +87,7 @@ const Details = ({
 
 function App() {
   const [willModalShow, setToggleModal] = useState(false);
-
+console.log(window.location.pathname)
   return (
     <Context.Provider value={{ willModalShow, setToggleModal }}>
       <Router>
@@ -97,6 +98,7 @@ function App() {
               <Route exact path="/" component={Overview} />
               <Route exact path="/reports" component={Reports} />
               <Route path="/questions" component={Question} />
+              <Route path="/test" component={Test} />
 
               {MOCK_DATA.map((data, index) => {
                 // setInterval(() => console.log([{}]), 51000)
@@ -125,7 +127,6 @@ function App() {
                           last_name={data.last_name}
                           age_group={data.age_group}
                           mail={data.email}
-                          date={data["date of birth"]}
                           overall={data.age_group}
                           school={data.country}
                           date={data["date&time"]}

@@ -19,6 +19,23 @@ const Wrapper = styled.div`
         img{
             width:auto;
         }
+       
+    }
+    .activeImage{
+      animation: glow 0.3s ease-in  forwards;
+    }
+    @keyframes glow{
+      0%{
+        border-radius:50%;
+        box-shadow: 0 0 1px 1px var(--primary);
+      }
+      99%{
+        border-radius:1%;
+        box-shadow: 0 0 8px 2px var(--primary);
+      }
+      100%{
+        border: 0px;
+      }
     }
 
     p {
@@ -41,7 +58,8 @@ const Wrapper = styled.div`
 const SidebarItem = (props) => (
   <Wrapper {...props}>
     <div>
-      <img src={props.image} alt={props.image} />
+      {!props.showActiveImage &&<img src={props.image} alt={props.image} />}
+      {props.showActiveImage && <img  className="activeImage" src={props.activeImage} alt={props.activeImage} />}
     </div>
     <p>{props.text}</p>
     {props.hasPlus && (

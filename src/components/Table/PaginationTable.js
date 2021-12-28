@@ -30,6 +30,10 @@ const Wrapper = styled.div`
     display: block;
     width: fit-content;
   }
+  .align{
+    margin-left:auto;
+    width:fit-content;
+  }
 `;
 
 const TableWrapper = styled.table`
@@ -209,12 +213,12 @@ const PaginationTable = ({
           </p>
         </td>
       );
-    } else return "hello";
+    } else return "";
   };
 
   return (
     <Wrapper>
-      <div className="flexRow alignCenter justifySpaceBetween header">
+      <div className="flexRow alignCenter  header">
         <h4 className="title">{title}</h4>
         {/* <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter} /> */}
         
@@ -228,7 +232,8 @@ const PaginationTable = ({
           placeholder="Filter by"
           setValue={setGlobalFilter}
           outline={false}
-          labelBg="var(--background)"
+          labelBg="var(--background)" 
+          className='align'
         />
       </div>
       <div className="screen">

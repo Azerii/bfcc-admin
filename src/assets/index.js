@@ -1,11 +1,15 @@
-import chat_pie from "./images/chart-pie.svg";
+import overview from "./icons/overview.svg";
+import overview_active from "./icons/overview_active.svg";
 import download from "./icons/download.svg"
 import age from "./images/age.svg";
-import report from "./images/report.svg";
-import question from "./images/question.svg";
+import report from "./icons/report.svg";
+import report_active from "./icons/report_active.svg";
+import question from "./icons/question.svg";
+import question_active from "./icons/question_active.svg";
 import subject from "./images/subject.svg";
 import plus from "./images/plus.svg";
-import test from "./images/test.svg";
+import test from "./icons/test.svg";
+import test_active from "./icons/test_active.svg";
 import logo from "./images/logo.png";
 import notification from "./images/notification.svg";
 import avatar from "./images/avatar.svg";
@@ -20,13 +24,17 @@ import arrow_down from "./images/arrow_down.svg";
 import remove from "./icons/remove.svg"
 import filter from "./icons/filter.svg"
 export {
-  chat_pie,
+  overview,
+  overview_active,
   age,
   plus,
   question,
+  question_active,
   report,
+  report_active,
   subject,
   test,
+  test_active,
   logo,
   notification,
   avatar,

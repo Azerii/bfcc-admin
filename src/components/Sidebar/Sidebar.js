@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import SidebarItem from "./SidebarItem";
-import { chat_pie, question, report } from "../../assets";
+import { overview, overview_active, question, question_active, report,report_active,test,test_active } from "../../assets";
 import SidebarSection from "./SidebarSection";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -32,15 +32,16 @@ const Wrapper = styled.div`
 
 const Sidebar = () => {
   const [items, setItems] = useState(true);
+  const isActive = url=> window.location.pathname === url
 
   return (
     <Wrapper>
       <SidebarSection>
         <NavLink exact activeClassName="active" to="/">
-          <SidebarItem text="Overview" active image={chat_pie} />
+          <SidebarItem text="Overview" showActiveImage={isActive("/")} image={overview} activeImage={overview_active} />
         </NavLink>
         <NavLink exact activeClassName="active" to="/reports">
-          <SidebarItem text="Reports" image={report} />
+          <SidebarItem text="Reports" showActiveImage={isActive('/reports')} image={report} activeImage={report_active} />
         </NavLink>
       </SidebarSection>
       {/* <SidebarSection>
@@ -65,11 +66,11 @@ const Sidebar = () => {
       </SidebarSection> */}
       <SidebarSection>
         <NavLink exact activeClassName="active" to="/questions">
-          <SidebarItem text="Questions" image={question} />
+          <SidebarItem text="Questions" showActiveImage={isActive('/questions')} activeImage={question_active} image={question} />
         </NavLink>
-        {/* <NavLink activeClassName="active" to="/test">
-          <SidebarItem text="Test" image={test} />
-        </NavLink> */}
+        <NavLink activeClassName="active" to="/test">
+          <SidebarItem showActiveImage={isActive("/test")} text="Test"activeImage={test_active} image={test} />
+        </NavLink>
       </SidebarSection>
     </Wrapper>
   );
