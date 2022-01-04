@@ -59,23 +59,35 @@ const Bar = styled.div`
   color: #ffffff;
   padding: 0 0 0.5rem  0;
   font-size: 16px;
-  
   font-weight: 700;
   border-radius: 2.26px;
-  height: ${(props) => props.num + 25}%;
-  /* overflow:hidden; */
+  height: ${(props) => props.num + 28}%;
+  display:flex;
+  flex-direction:column;
 
   .label {
-    position:absolute;
-    transform: rotate(-90deg) ;
-bottom: 0;
-    margin: 0 auto;
-    width:8rem;
+    margin: auto auto 0 auto ;
+    width:fit-content;
+    display:flex;
+    align-items:center;
+    flex-direction:column-reverse;
+    span{
+      transform: rotate(-90deg) ;
+      width:fit-content;
+      height:fit-content;
+      line-height:0.7;
+    }
+    .space{
+      margin-bottom: 0.5rem;
+    }
  
   }
 `;
 
-const Card4 = (props) => (
+const Card4 = (props) => {
+  const rotatedText = (year)=>`YEAR${year.year}(${year.score}%)`.split('').map((elem,index) =>
+    elem === "(" || index === 4 ? <span className="space">{elem}</span> : <span>{elem}</span>)
+  return(
   <Wrapper {...props}>
     <h4 className={props.isEmpty ? "" : "small"}>{props.title}</h4>
     <div className="data">
@@ -86,11 +98,11 @@ const Card4 = (props) => (
           color={year.color}
           num={year.score >= 25 ? year.score - 25 : year.score}
         >
-            <p className="label">{`YEAR ${year.year} ${year.score}%`}</p>
+            <p className="label">{rotatedText(year)}</p>
         </Bar>
       ))}
     </div>
   </Wrapper>
-);
+)};
 
 export default Card4;

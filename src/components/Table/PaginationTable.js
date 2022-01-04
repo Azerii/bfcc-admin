@@ -29,7 +29,16 @@ const Wrapper = styled.div`
     margin-right: 1.5rem;
     display: block;
     width: fit-content;
+    flex:1;
+    /* justify-self:right; */
+    button{
+      margin: auto 0 auto auto;
+    }
   }
+  #filter .header{
+    margin-bottom:0;
+  }
+
   .align{
     margin-left:auto;
     width:fit-content;

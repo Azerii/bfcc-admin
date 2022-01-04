@@ -151,3 +151,4 @@ const Search = styled.div`
 `;
 
 export default Search;
+ 
