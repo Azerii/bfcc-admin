@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import { Route } from "react-router";
 import styled from 'styled-components';
 import Card from '../../components/Card';
-import AddQuestion from "./AddQuestion";
+import AddTest from "./AddTest";
 import PaginationTable from "../../components/Table/PaginationTable";
 import NothingAdded from "../../components/Modal/NothingAdded";
 import DATA from "../../assets/json/question.json";
@@ -23,7 +23,7 @@ const Wrapper = styled.div`
 `
 const Test = ()=> {
         const [loading, setLoading] = useState(false);
-        const [questions, setQuestions] = useState(DATA);
+        const [questions, setQuestions] = useState([]);
         const removeHandler = (Id) => {
           setQuestions(questions.filter((data) => data.id !== Id));
       
@@ -45,11 +45,11 @@ const Test = ()=> {
         {/* {loading && <Loader />} */}
         {!questions.length && <h4>Test</h4>}
         {!questions.length && (
-          <NothingAdded text="test" link="/test/add-test" />
+          <NothingAdded text="Create Test" link="/test/add-test" />
         )}
   
         <Route exact path="/test/add-test">
-          <AddQuestion handleSubmit={createQuestion} />
+          <AddTest handleSubmit={createQuestion} />
         </Route>
         {questions.length > 0 && (
           <PaginationTable

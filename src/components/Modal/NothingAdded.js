@@ -40,7 +40,7 @@ function NothingAdded({ text, onClick, link }) {
         You haven't added any {text} <br /> at the moment.
       </p>
       <Link to={link}>
-        <Button text="Add question" width="144px" onClick={onClick} />
+        <Button text={text || "Add question"} width="144px" onClick={onClick} />
       </Link>
     </Wrapper>
   );

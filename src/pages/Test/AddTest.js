@@ -41,7 +41,7 @@ const FormWrapper = styled.form`
 
   .grid2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     grid-gap: 2.4rem;
   }
 
@@ -173,7 +173,7 @@ const ageGroups = [
   "Year 10",
 ];
 
-const AddQuestion = ({ handleSubmit }) => {
+const AddTest = ({ handleSubmit }) => {
   const router = useHistory();
   const [answerKey, setAnswerKey] = useState(null);
   const [fileDetails, setFileDetails] = useState(null);
@@ -203,173 +203,84 @@ const AddQuestion = ({ handleSubmit }) => {
         <button
           type="button"
           className="cancel"
-          onClick={() => router.push("/questions")}
+          onClick={() => router.push("/test")}
         >
           <img src={cancel} alt="Close" className="icon" />
         </button>
-        <h3 className="textCenter">Add question</h3>
+        <h3 className="textCenter">Add test</h3>
         <Spacer y={0.6} />
         <p className="textCenter">
-          To create a question enter question details, select question type and
+          To create a test enter test details, select question type and
           select the answer key.
         </p>
         <Spacer y={4.8} />
         <div className="grid2">
+        <FormGroup
+          fieldStyle="shortText"
+          name="name"
+          placeholder="Test name"
+          required
+        />
+            <FormGroup
+              fieldStyle="dropdown"
+              name="ageGroup"
+              placeholder="Age group"
+              list={ageGroups}
+              required
+            />
           <FormGroup
             fieldStyle="dropdown"
             name="subject"
-            placeholder="Subject"
+            placeholder="Select Subject"
             list={subjects}
             setValue={setSubject}
             required
           />
-          <FormGroup
+           <FormGroup
             fieldStyle="dropdown"
-            name="ageGroup"
-            placeholder="Class"
-            list={ageGroups}
+            name="subject"
+            placeholder="Test duration"
+            list={subjects}
+            setValue={setSubject}
             required
           />
         </div>
-        <Spacer y={2.4} />
-        {subject === subjects[0] && (
-          <FormGroup
-            fieldStyle="multiline"
-            name="comprehension"
-            placeholder="Comprehension"
-          />
-        )}
+      
         <Spacer y={1.2} />
         <FormGroup
           fieldStyle="shortText"
           name="question"
-          placeholder="Question"
+          placeholder="Number of questions per subject"
           required
         />
-        <Spacer y={2.4} />
-        <Options>
-          <FormGroup
-            className={`option${answerKey === "1" ? " selected" : ""}`}
-            fieldStyle="shortText"
-            name="option1"
-            placeholder="Option 1"
-            outline={false}
-            required
-          />
-          <Spacer y={1.2} />
-          <FormGroup
-            className={`option${answerKey === "2" ? " selected" : ""}`}
-            fieldStyle="shortText"
-            name="option2"
-            placeholder="Option 2"
-            outline={false}
-            required
-          />
-          <Spacer y={1.2} />
-          <FormGroup
-            className={`option${answerKey === "3" ? " selected" : ""}`}
-            fieldStyle="shortText"
-            name="option3"
-            placeholder="Option 3"
-            outline={false}
-            required
-          />
-          <Spacer y={1.2} />
-          <FormGroup
-            className={`option${answerKey === "4" ? " selected" : ""}`}
-            fieldStyle="shortText"
-            name="option4"
-            placeholder="Option 4"
-            outline={false}
-            required
-          />
-        </Options>
+        
         <Spacer y={2.4} />
 
         {/* Attach file */}
-        <AttachFile>
-          <input
-            type="file"
-            accept="image/*,audio/*"
-            id="fileInput"
-            onChange={(e) => loadFile(e)}
+        <FormGroup
+            fieldStyle="dropdown"
+            name="subject"
+            placeholder="Total Score"
+            list={subjects}
+            setValue={setSubject}
+            required
           />
-          {!fileDetails && (
-            <button
-              type="button"
-              className="browse"
-              onClick={() => document.querySelector("#fileInput").click()}
-            >
-              Attach file
-            </button>
-          )}
-          {fileDetails && (
-            <div className="attachment">
-              <div className="imgWrapper">
-                <img
-                  src={URL.createObjectURL(fileDetails)}
-                  alt="File preview"
-                  id="photoOutput"
-                />
-              </div>
-              <div className="imgDetails">
-                <h5 className="text">{fileDetails.name}</h5>
-                <Spacer y={1.2} />
-                <p className="small">{getFileSize(fileDetails.size)}</p>
-              </div>
-              <div className="change">
-                <button
-                  type="button"
-                  className="underline prompt changeBtn"
-                  onClick={() => document.querySelector("#fileInput").click()}
-                >
-                  Change
-                </button>
-                <Spacer y={1.2} />
-                <button
-                  type="button"
-                  className="underline prompt removeBtn"
-                  onClick={() => setFileDetails(null)}
-                >
-                  Remove
-                </button>
-              </div>
-            </div>
-          )}
-        </AttachFile>
 
         <Spacer y={2.4} />
+
+        <FormGroup
+            fieldStyle="multiline"
+            name="comprehension"
+            placeholder="Test instruction"
+          />
         <div className="divider"></div>
         <Spacer y={1.2} />
-        <Answer className="flexRow justifySpaceBetween alignCenter">
-          <div className="flexRow alignCenter">
-            <img src={checkBadge} alt="Check badge" className="checkBadge" />
-            <Spacer x={1.2} />
-            <span className="label">Answer</span>
-          </div>
-          <div className="flexRow alignCenter">
-            <div>
-              <RadioButton name="answerKey" value={1} setValue={setAnswerKey} />
-            </div>
-            <Spacer x={1.2} />
-            <div>
-              <RadioButton name="answerKey" value={2} setValue={setAnswerKey} />
-            </div>
-            <Spacer x={1.2} />
-            <div>
-              <RadioButton name="answerKey" value={3} setValue={setAnswerKey} />
-            </div>
-            <Spacer x={1.2} />
-            <div>
-              <RadioButton name="answerKey" value={4} setValue={setAnswerKey} />
-            </div>
-          </div>
-        </Answer>
+     
         <Spacer y={4.8} />
-        <Button text="Upload" width="100%" />
+        <Button text="Create test" width="100%" />
       </FormWrapper>
     </Wrapper>
   );
 };
 
-export default AddQuestion;
+export default AddTest;
